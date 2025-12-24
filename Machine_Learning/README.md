@@ -1,5 +1,3 @@
-# ECE 461: Machine Learning for Data Science and Analysis
-
 ## Course Overview
 This course provides a comprehensive foundation in machine learning, covering the transition from classical statistical methods to state-of-the-art deep learning architectures. The curriculum balances theoretical understanding with practical application through rigorous laboratory exercises and a data-driven final project.
 

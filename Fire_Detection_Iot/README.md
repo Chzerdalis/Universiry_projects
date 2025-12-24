@@ -1,4 +1,4 @@
-# IoT Fire & Human Detection System (Team 8)
+# IoT Fire & Human Detection System
 
 This project is a distributed IoT application designed to monitor physical spaces for human presence and fire hazards. It leverages **Raspberry Pi 4** hardware, **MQTT** for real-time communication, and **YOLOv8** computer vision models for intelligent detection and alerting.
 

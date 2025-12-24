@@ -1,5 +1,3 @@
-# ECE 340: Embedded Systems Laboratory Overview
-
 ## Lab 1: Hardware Design of a Floating Point Unit (FPU)
 
 **Objective:** To design, simulate, and implement a single-precision Floating Point (FP) Adder in Verilog targeting the Xilinx Zedboard.

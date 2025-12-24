@@ -1,32 +1,32 @@
 # Graph Connectivity and CPL Analysis Project
 
-[cite_start]This project focuses on analyzing the behavior of a graph's **Characteristic Path Length (CPL)** and its **connectivity** as edges are iteratively removed based on their usage frequency[cite: 2, 3].
+This project focuses on analyzing the behavior of a graph's **Characteristic Path Length (CPL)** and its **connectivity** as edges are iteratively removed based on their usage frequency.
 
 ---
 
 ## 🛠 Project Logic & Methodology
 
-[cite_start]The program calculates the shortest paths between all pairs of nodes and identifies the most frequently utilized edge[cite: 3]. [cite_start]This edge is then removed, and the process repeats recursively[cite: 12, 16].
+The program calculates the shortest paths between all pairs of nodes and identifies the most frequently utilized edge. This edge is then removed, and the process repeats recursively.
 
 ### Core Algorithm Steps:
-* [cite_start]**Shortest Path Calculation**: Uses the Dijkstra algorithm for every node in the graph[cite: 9, 35].
-* [cite_start]**Edge Tracking**: Maintains a two-dimensional array to count the usage frequency of every edge during the Dijkstra calculations[cite: 29, 59].
-* [cite_start]**Edge Removal**: Sorts edges by frequency and removes the most used one[cite: 11, 12].
+* **Shortest Path Calculation**: Uses the Dijkstra algorithm for every node in the graph.
+* **Edge Tracking**: Maintains a two-dimensional array to count the usage frequency of every edge during the Dijkstra calculations.
+* **Edge Removal**: Sorts edges by frequency and removes the most used one.
 * **Connectivity Check**:
-    * [cite_start]If the graph remains **connected**, the process continues on the modified graph[cite: 13, 16].
-    * [cite_start]If the graph **splits**, the program recursively analyzes the resulting sub-graphs until the node limit is reached[cite: 17, 24].
+    * If the graph remains **connected**, the process continues on the modified graph.
+    * If the graph **splits**, the program recursively analyzes the resulting sub-graphs until the node limit is reached.
 
 ---
 
 ## 📈 Experimental Findings
 
-[cite_start]The study analyzed three distinct tests[cite: 85]. Key observations include:
+The study analyzed three distinct tests. Key observations include:
 
 | Metric | Observation |
 | :--- | :--- |
-| **CPL by Level** | [cite_start]The average CPL decreases steadily as the graph is divided into smaller sub-graphs[cite: 115, 163]. |
-| **CPL by Edge Removal** | [cite_start]CPL increases while edges are removed without a split, followed by a sudden drop when the graph disconnects[cite: 127, 128]. |
-| **Sub-graph Evolution** | [cite_start]In Test 3, sub-graphs often split unequally, leading to temporary CPL spikes in the larger sub-graph immediately after a division[cite: 230, 231]. |
+| **CPL by Level** | The average CPL decreases steadily as the graph is divided into smaller sub-graphs. |
+| **CPL by Edge Removal** | CPL increases while edges are removed without a split, followed by a sudden drop when the graph disconnects. |
+| **Sub-graph Evolution** | In Test 3, sub-graphs often split unequally, leading to temporary CPL spikes in the larger sub-graph immediately after a division. |
 
 
 

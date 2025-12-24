@@ -1,4 +1,4 @@
-# Systems Programming Lab: Concurrency, Pipes, and Parallel Sorting
+# Lab: Concurrency, Pipes, and Parallel Sorting
 
 This lab consists of three exercises focused on multithreading, inter-thread communication, and parallel algorithm design using the C programming language and the POSIX Threads (`pthread`) library.
 
