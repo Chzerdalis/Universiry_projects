@@ -1,0 +1,10 @@
+lsal
+lsal_diag
+lsal_diag_simd
+lsal_naive
+lsal_striped
+lsal_diag_pad
+valgrind-out.txt
+venv
+out
+*.png

@@ -1,0 +1,24 @@
+# started on Wed Feb  9 10:50:05 2022
+
+
+ Performance counter stats for './lsal_naive_sw_arm 256 300000 0 6':
+
+          18167.80 msec task-clock                #    1.000 CPUs utilized          
+                63      context-switches          #    0.003 K/sec                  
+                 2      cpu-migrations            #    0.000 K/sec                  
+            113087      page-faults               #    0.006 M/sec                  
+       12111247000      cycles                    #    0.667 GHz                    
+       14237329032      instructions              #    1.18  insn per cycle         
+         720452554      branches                  #   39.655 M/sec                  
+          56105761      branch-misses             #    7.79% of all branches        
+        1273450758      L1-dcache-loads           #   70.094 M/sec                  
+          16453934      L1-dcache-load-misses     #    1.29% of all L1-dcache hits  
+   <not supported>      LLC-loads                                                   
+   <not supported>      LLC-load-misses                                             
+
+      18.173926357 seconds time elapsed
+
+      17.110937000 seconds user
+       1.060058000 seconds sys
+
+

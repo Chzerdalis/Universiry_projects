@@ -1,0 +1,41 @@
+CPU: Dual-Core ARM Cortex_A9 MPCore
+CLOCK SPEED: 866MHZ
+CACHE: 32KB instruction 32KB L1 512KB L2
+MEMORY: 512MB DDR3
+intOPS per cycle: 2
+
+Peak intOP/s=Number of cores×Clock frequency (Hz)×intOP per cycl
+Peak intOP/s = 0.667 Ghz * 2(INT OPERATION PER CYCLE)
+
+DRAM bandwidth: 
+Memory Type: DDR3
+Interface Width: 32 bits (4 bytes)
+Clock Rate: 533 MHz (effective data rate is 1066 MT/s due to DDR)
+Memory Size: 512 MB DDR3 on-board
+
+Bandwidth=Data Rate×Bus Width = 1066×10^6  ×  4 bytes/sec=4.264 GB/s
+
+L2 cache:
+Size	512 KB
+Bus Width	64 bits (8 bytes) AXI
+Clock Frequency	Up to 1 GHz (usually same as CPU, ~866 MHz)
+Line Size	32 bytes
+Read Latency	~7 cycles (typical)
+Associativity	8-way
+
+Bandwidth= 32 bytes/ 7 cycle × 667×10^6 cycles/sec
+real world some aat 3
+
+32 ana cycle x 667
+L1 = 13.86GB/s
+---------------------------------------------------------------------------------
+inops/byte = INTOPS/Byte= 94,572,161 / 86,729,688 ≈ 1.09
+​Gintops = 94572161 / 0.13169 * 10^9 ≈ 0.718
+R
+Peak intOP/s = 0.667 Ghz * 8 = 1.334
+RAM Bandwidth = Data Rate×Bus Width = 1066×10^6  ×  4 bytes/sec = 4.264 GB/s
+L2 Bandwidth = 8 bytes/cycle × 667×10^6 cycles/sec = 5.336 GB/s
+L1 Bandwidth = 13.86 GB/s
+
+
+

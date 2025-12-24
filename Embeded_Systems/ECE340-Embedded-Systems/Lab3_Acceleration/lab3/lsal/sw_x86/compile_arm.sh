@@ -1,0 +1,1 @@
+/opt/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-g++ -o ./lsal_sw_arm ./lsal.c -Wall -O3 -g -std=c++11 -fmessage-length=0

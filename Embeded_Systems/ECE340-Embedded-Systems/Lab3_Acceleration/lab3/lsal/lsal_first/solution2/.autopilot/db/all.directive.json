@@ -1,0 +1,41 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "compute_matrices"
+              }]
+          }
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "INNER_LOOP",
+          "functionLabel": "",
+          "pragma": {"name": "UNROLL"}
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "OUTER_LOOP",
+          "functionLabel": "",
+          "pragma": {"name": "PIPELINE"}
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "compute_matrices"
+              }]
+          }
+        }
+      ]
+    }]}

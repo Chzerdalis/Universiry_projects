@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="lsal.cpp" path="/home/inf2021/chzerdalis/Desktop/LAB3/ECE340-Embedded-Systems/Lab3_Acceleration/lab3/lsal/only_diag/lsal.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="testbench.cpp" path="/home/inf2021/chzerdalis/Desktop/LAB3/ECE340-Embedded-Systems/Lab3_Acceleration/lab3/lsal/only_diag/testbench.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

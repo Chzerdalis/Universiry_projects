@@ -1,0 +1,37 @@
+# Makefile for lsal and lsal_naive
+CC = /opt/Xilinx/Vitis/2020.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-g++
+CFLAGS = -Wall -O3 -g -std=c++11 -fmessage-length=0
+
+SRC1 = lsal.cpp
+SRC2 = lsal_naive.cpp
+OUT1 = lsal_sw_arm
+OUT2 = lsal_naive_sw_arm
+
+N ?= 32
+M ?= 65536
+PRINT_FLAG ?= 0
+
+all: $(OUT1) $(OUT2)
+
+$(OUT1): $(SRC1)
+	$(CC) $(CFLAGS) -o $@ $<
+
+$(OUT2): $(SRC2)
+	$(CC) $(CFLAGS) -o $@ $<
+
+run:
+	@if [ -z "$(TARGET)" ]; then \
+		echo "Specify the target to run. Example: make run TARGET=lsal_sw_arm"; \
+	else \
+		echo "Running $(TARGET) with N=$(N), M=$(M), PRINT_FLAG=$(PRINT_FLAG)"; \
+		./$(TARGET) $(N) $(M) $(PRINT_FLAG); \
+	fi
+
+clean:
+	rm -f $(OUT1) $(OUT2)
+
+help:
+	@echo "Available targets:"
+	@echo "  all         - Build all executables."
+	@echo "  run         - Run a specific target. Usage: make run TARGET=<lsal_sw_arm|lsal_naive_arm>"
+	@echo "  clean       - Remove all built executables."

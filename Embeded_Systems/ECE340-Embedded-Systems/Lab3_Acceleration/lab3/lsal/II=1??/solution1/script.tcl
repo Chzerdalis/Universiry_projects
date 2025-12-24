@@ -1,0 +1,19 @@
+############################################################
+## This file is generated automatically by Vitis HLS.
+## Please DO NOT edit it.
+## Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+############################################################
+open_project II=1??
+set_top compute_matrices
+add_files II=1??/lsal.cpp
+add_files -tb II=1??/testbench.cpp
+open_solution "solution1" -flow_target vitis
+set_part {xc7z020clg484-1}
+create_clock -period 10 -name default
+config_interface -m_axi_alignment_byte_size 64 -m_axi_latency 64 -m_axi_max_widen_bitwidth 512 -m_axi_offset slave
+config_rtl -register_reset_num 3
+#source "./II=1??/solution1/directives.tcl"
+csim_design
+csynth_design
+cosim_design
+export_design -format ip_catalog

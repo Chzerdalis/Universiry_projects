@@ -1,0 +1,48 @@
+**** module/scope: LDC
+     Flip-Flops   : 0
+     Logic Gates  : 21
+     LPM[5]: 1 unaccounted
+     LOG[13]: 2 unaccounted
+     LOG[14]: 1 unaccounted
+**** module/scope: LDC.gen_nlc[0]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: LDC.gen_nlc[0].nlc_inst
+     Flip-Flops   : 0
+     Logic Gates  : 11
+**** module/scope: LDC.gen_nlc[1]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: LDC.gen_nlc[1].nlc_inst
+     Flip-Flops   : 0
+     Logic Gates  : 11
+**** module/scope: LDC.gen_nlc[2]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: LDC.gen_nlc[2].nlc_inst
+     Flip-Flops   : 0
+     Logic Gates  : 11
+**** module/scope: LDC.gen_nlc[3]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: LDC.gen_nlc[3].nlc_inst
+     Flip-Flops   : 0
+     Logic Gates  : 11
+**** module/scope: LDC.gen_nlc[4]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: LDC.gen_nlc[4].nlc_inst
+     Flip-Flops   : 0
+     Logic Gates  : 11
+**** module/scope: LDC.gen_nlc[5]
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: LDC.gen_nlc[5].nlc_inst
+     Flip-Flops   : 0
+     Logic Gates  : 11
+**** TOTALS
+     Flip-Flops   : 0
+     Logic Gates  : 87
+     LPM[5]: 1 unaccounted
+     LOG[13]: 2 unaccounted
+     LOG[14]: 1 unaccounted

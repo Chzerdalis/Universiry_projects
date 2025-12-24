@@ -1,0 +1,27 @@
+**** module/scope: Debounce_L2P
+     Flip-Flops   : 0
+     Logic Gates  : 0
+**** module/scope: Debounce_L2P.DB
+     Flip-Flops   : 25
+     Logic Gates  : 196
+     ADDER[24]: 1 units
+     MAGNITUDE[24]: 1 units
+     MUX[2]: 50 slices
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** module/scope: Debounce_L2P.L2P
+     Flip-Flops   : 2
+     Logic Gates  : 8
+     MUX[2]: 4 slices
+     LPM[5]: 2 unaccounted
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** TOTALS
+     Flip-Flops   : 27
+     Logic Gates  : 204
+     ADDER[24]: 1 units
+     MAGNITUDE[24]: 1 units
+     MUX[2]: 54 slices
+     LPM[5]: 2 unaccounted
+     LOG[13]: 2 unaccounted
+     LOG[14]: 2 unaccounted

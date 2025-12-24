@@ -1,0 +1,10 @@
+.Xil/
+_x/
+_x.hw.zedboard_202020_1/
+_x.sw_emu.zedboard_202020_1/
+build_dir.hw.zedboard_202020_1/
+build_dir.sw_emu.zedboard_202020_1/
+.ipcache/
+package.hw/
+package.sw_emu/
+*.log

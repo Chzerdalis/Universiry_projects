@@ -1,0 +1,24 @@
+# started on Wed Feb  9 10:50:24 2022
+
+
+ Performance counter stats for './lsal_sw_arm 32 32 0 6':
+
+             11.01 msec task-clock                #    0.882 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                74      page-faults               #    0.007 M/sec                  
+           7328974      cycles                    #    0.665 GHz                    
+           4487001      instructions              #    0.61  insn per cycle         
+            441527      branches                  #   40.092 M/sec                  
+            103639      branch-misses             #   23.47% of all branches        
+           1357688      L1-dcache-loads           #  123.282 M/sec                  
+             38588      L1-dcache-load-misses     #    2.84% of all L1-dcache hits  
+   <not supported>      LLC-loads                                                   
+   <not supported>      LLC-load-misses                                             
+
+       0.012483270 seconds time elapsed
+
+       0.014672000 seconds user
+       0.000000000 seconds sys
+
+

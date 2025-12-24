@@ -1,0 +1,174 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="compute_matrices"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="diag_array_2" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="8"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" value="diag_array_2" positionalBoolean="4"/>
+                <option name="ram_t2p" value="" positionalBoolean="type"/>
+                <option name="bram" value="" positionalBoolean="impl"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="diag_array_1" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="8"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" value="diag_array_1" positionalBoolean="4"/>
+                <option name="ram_t2p" value="" positionalBoolean="type"/>
+                <option name="bram" value="" positionalBoolean="impl"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="diag_array_3" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="8"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" value="diag_array_3" positionalBoolean="4"/>
+                <option name="ram_t2p" value="" positionalBoolean="type"/>
+                <option name="bram" value="" positionalBoolean="impl"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" value="max_value_arr" positionalBoolean="4"/>
+                <option name="ram_t2p" value="" positionalBoolean="type"/>
+                <option name="bram" value="" positionalBoolean="impl"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="max_value_arr" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="8"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" value="database_buff" positionalBoolean="4"/>
+                <option name="ram_t2p" value="" positionalBoolean="type"/>
+                <option name="bram" value="" positionalBoolean="impl"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="database_buff" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="8"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" value="max_index_arr" positionalBoolean="4"/>
+                <option name="ram_t2p" value="" positionalBoolean="type"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="max_index_arr" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="8"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="OUTER_LOOP" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="compute_matrices" label="INNER_LOOP" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="compute_matrices" label="MAX_LOOP" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" value="querry_buff" positionalBoolean="4"/>
+                <option name="ram_t2p" value="" positionalBoolean="type"/>
+                <option name="bram" value="" positionalBoolean="impl"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="querry_buff" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="8"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" value="direction_buff" positionalBoolean="4"/>
+                <option name="ram_t2p" value="" positionalBoolean="type"/>
+                <option name="bram" value="" positionalBoolean="impl"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="direction_buff" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="8"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="max_index" positionalBoolean="4"/>
+                <option name="max_widen_bitwidth" value="32"/>
+                <option name="name" value="gmem"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="database" positionalBoolean="4"/>
+                <option name="max_widen_bitwidth" value="256"/>
+                <option name="name" value="gmem"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="query" positionalBoolean="4"/>
+                <option name="max_widen_bitwidth" value="256"/>
+                <option name="name" value="gmem"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="s_axilite" value="" positionalBoolean="mode"/>
+                <option name="port" value="direction_matrix" positionalBoolean="4"/>
+                <option name="max_widen_bitwidth" value="1024"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="compute_matrices"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="part_3_app" location="/home/nbellas/part_3_v1/part_3_app" platform="/home/nbellas/part_3_v1/part_3_v1/export/part_3_v1/part_3_v1.xpfm" platformUID="xilinx:zed::0.0(custom)" systemProject="part_3_app_system" sysConfig="part_3_v1" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="a1c19ec2bbadbdfd64c6f61a1ced5529">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.911793448" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.172480024" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

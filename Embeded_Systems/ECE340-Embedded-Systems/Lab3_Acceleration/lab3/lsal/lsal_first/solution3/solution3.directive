@@ -1,0 +1,87 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="compute_matrices"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="INNER_LOOP" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="compute_matrices" label="OUTER_LOOP" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="diag_array_1" positionalBoolean="4"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="diag_array_2" positionalBoolean="4"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="diag_array_3" positionalBoolean="4"/>
+                <option name="complete" value="" positionalBoolean="type"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="querry_buff" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="8"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="database_buff" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="8"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" value="database_buff" positionalBoolean="4"/>
+                <option name="ram_1wnr" value="" positionalBoolean="type"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" value="querry_buff" positionalBoolean="4"/>
+                <option name="ram_1wnr" value="" positionalBoolean="type"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="DIR_LOOP" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="BIND_STORAGE">
+                <option name="variable" value="direction_buff" positionalBoolean="4"/>
+                <option name="ram_1wnr" value="" positionalBoolean="type"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="ARRAY_PARTITION">
+                <option name="variable" value="direction_buff" positionalBoolean="4"/>
+                <option name="cyclic" value="" positionalBoolean="type"/>
+                <option name="factor" value="8"/>
+                <option name="dim" value="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="compute_matrices" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="compute_matrices"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

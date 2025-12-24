@@ -1,0 +1,125 @@
+Profile Summary
+Generated on: 2022-02-09 10:49:46
+Msec since Epoch: 1644403786580
+Target platform: 
+Tool version: 2020.2
+XRT build version: 2.8.0
+Build version branch: 2020.2
+Build version hash: f19a872233fbfe2eb933f25fa3d9a780ced774e5
+Build version date: N/A 
+Target devices: edge-0
+Flow mode: System Run
+
+OpenCL API Calls
+API Name,Number Of Calls,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),
+clEnqueueReadBuffer,2,253.381,0.593088,126.691,252.788,
+clEnqueueWriteBuffer,3,159.596,1.89274,53.1988,154.821,
+clWaitForEvents,3,116.505,0.053364,38.8349,116.391,
+clCreateProgramWithBinary,1,49.1319,49.1319,49.1319,49.1319,
+clCreateKernel,1,6.95023,6.95023,6.95023,6.95023,
+clEnqueueTask,1,6.138,6.138,6.138,6.138,
+clGetPlatformInfo,14,0.797664,0.047502,0.056976,0.106386,
+clSetKernelArg,4,0.740817,0.065973,0.185204,0.510837,
+clGetExtensionFunctionAddress,2,0.505776,0.157005,0.252888,0.348771,
+clCreateContext,1,0.473883,0.473883,0.473883,0.473883,
+clCreateBuffer,5,0.295845,0.054435,0.059169,0.071328,
+clReleaseMemObject,5,0.271944,0.050937,0.0543888,0.060897,
+clGetExtensionFunctionAddressForPlatform,2,0.211686,0.055368,0.105843,0.156318,
+clGetEventProfilingInfo,2,0.114,0.053151,0.057,0.060849,
+clBuildProgram,1,0.108528,0.108528,0.108528,0.108528,
+clCreateCommandQueue,1,0.076965,0.076965,0.076965,0.076965,
+clGetDeviceIDs,1,0.06465,0.06465,0.06465,0.06465,
+clReleaseContext,1,0.059901,0.059901,0.059901,0.059901,
+clReleaseProgram,1,0.058419,0.058419,0.058419,0.058419,
+clReleaseCommandQueue,1,0.058107,0.058107,0.058107,0.058107,
+clReleaseKernel,1,0.055806,0.055806,0.055806,0.055806,
+
+
+Kernel Execution
+Kernel,Number Of Enqueues,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),
+compute_matrices,1,49.1797,49.1797,49.1797,49.1797,
+
+
+Compute Unit Utilization
+Device,Compute Unit,Kernel,Global Work Size,Local Work Size,Number Of Calls,Dataflow Execution,Max Overlapping Executions,Dataflow Acceleration,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),Clock Frequency (MHz),
+edge-0,compute_matrices_1,compute_matrices,1:1:1,1:1:1,1,Yes,1,1.000000x,33.8381,33.8381,33.8381,33.8381,142,
+
+
+Data Transfer: Host to Global Memory
+Context:Number of Devices,Transfer Type,Number Of Buffer Transfers,Transfer Rate (MB/s),Average Bandwidth Utilization (%),Average Buffer Size (KB),Total Time (ms),Average Time (ms),
+context0:1,READ,2,152.310103,1.586564,19216.3,252.330707,126.165354,
+context0:1,WRITE,1,537.532788,5.599300,38732.9,72.056810,72.056810,
+
+
+Data Transfer: Kernels to Global Memory
+Device,Compute Unit/Port Name,Kernel Arguments,Memory Resources,Transfer Type,Number Of Transfers,Transfer Rate (MB/s),Average Bandwidth Utilization (%),Average Size (KB),Average Latency (ns),
+edge-0,compute_matrices_1/m_axi_gmem,All,DDR,READ,300129,568,4.93055,0.0640004,292.05,
+edge-0,compute_matrices_1/m_axi_gmem,All,DDR,WRITE,300128,1135.98,9.86098,0.128,556.333,
+
+
+Top Data Transfer: Kernels to Global Memory
+Device,Compute Unit,Number of Transfers,Average Bytes per Transfer,Transfer Efficiency (%),Total Data Transfer (MB),Total Write (MB),Total Read (MB),Total Transfer Rate (MB/s),
+edge-0,compute_matrices_1,600257,96,2.34375,57.6246,38.4163,19.2084,851.992,
+
+
+Top Kernel Execution
+Kernel Instance Address,Kernel,Context ID,Command Queue ID,Device,Start Time (ms),Duration (ms),Global Work Size,Local Work Size,
+5162712,compute_matrices,0,0,edge-0,587.736,49.1797,1:1:1,1:1:1,
+
+
+Top Memory Writes: Host to Global Memory
+Buffer Address,Context ID,Command Queue ID,Start Time (ms),Duration (ms),Buffer Size (KB),Writing Rate(MB/s),
+377782272,0,0,515.191,72.056810,38732.9,537.532788,
+
+
+Top Memory Reads: Host to Global Memory
+Buffer Address,Context ID,Command Queue ID,Start Time (ms),Duration (ms),Buffer Size (KB),Reading Rate(MB/s),
+378535936,0,0,637.78,252.194540,38432.5,152.392324,
+377786368,0,0,890.664,0.136167,0.004,0.029376,
+
+
+Guidance Parameters
+Parameter,Element,Value,
+DEVICE_EXEC_TIME,edge-0,49.179700,
+CU_CALLS,edge-0|compute_matrices_1,1,
+NUM_MONITORS,edge-0|XCL_PERF_MON_ACCEL|1,1,
+NUM_MONITORS,edge-0|XCL_PERF_MON_MEMORY|1,1,
+NUM_MONITORS,edge-0|XCL_PERF_MON_STR|0,0,
+MIGRATE_MEM,host,0,
+MEMORY_USAGE,edge-0|HP2,0,
+MEMORY_USAGE,edge-0|HP3,0,
+PLRAM_DEVICE,all,1,
+HBM_DEVICE,all,0,
+KDMA_DEVICE,all,0,
+P2P_DEVICE,all,0,
+P2P_HOST_TRANSFERS,host,0,
+PORT_BIT_WIDTH,compute_matrices_1/m_axi_gmem,512,
+KERNEL_COUNT,compute_matrices,1,
+OBJECTS_RELEASED,all,0,
+TRACE_MEMORY,all,FIFO,
+CU_CONTEXT_EN,all,0,
+MAX_PARALLEL_KERNEL_ENQUEUES,compute_matrices,1,
+COMMAND_QUEUE_OOO,5137824,0,
+TRACE_BUFFER_FULL,edge-0,0,
+MEMORY_TYPE_BIT_WIDTH,edge-0|DDR,512,
+MEMORY_TYPE_BIT_WIDTH,edge-0|HBM,256,
+MEMORY_TYPE_BIT_WIDTH,edge-0|PLRAM,512,
+XRT_INI_SETTING,aie_trace_buffer_size,8M,
+XRT_INI_SETTING,continuous_trace,0,
+XRT_INI_SETTING,continuous_trace_interval_ms,10,
+XRT_INI_SETTING,data_transfer_trace,off,
+XRT_INI_SETTING,launch_waveform,batch,
+XRT_INI_SETTING,lop_trace,0,
+XRT_INI_SETTING,power_profile,0,
+XRT_INI_SETTING,profile,1,
+XRT_INI_SETTING,stall_trace,off,
+XRT_INI_SETTING,timeline_trace,1,
+XRT_INI_SETTING,trace_buffer_size,1M,
+XRT_INI_SETTING,verbosity,4,
+BUFFER_RD_ACTIVE_TIME_MS,all,252.331,
+BUFFER_WR_ACTIVE_TIME_MS,all,72.0568,
+BUFFER_TX_ACTIVE_TIME_MS,all,375.609,
+APPLICATION_RUN_TIME_MS,all,3798.18,
+TOTAL_KERNEL_RUN_TIME_MS,all,49.1797,
+
+

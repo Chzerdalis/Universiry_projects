@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="interrupt_arm_platform" location="/home/inf2022/dtsiantos/Desktop/ECE340-Embedded-Systems/Lab2_Arm/interrupt_arm_workspace/interrupt_arm_platform" platform="/home/inf2022/dtsiantos/Desktop/ECE340-Embedded-Systems/Lab2_Arm/interrupt_arm_workspace/interrupt_add_platform/export/interrupt_add_platform/interrupt_add_platform.xpfm" platformUID="xilinx:zed::0.0(custom)" systemProject="interrupt_arm_platform_system" sysConfig="interrupt_add_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="8e77c0894e22de6663f26f576aa8c315">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1675277285">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1034607725" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

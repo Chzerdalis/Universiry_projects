@@ -1,0 +1,245 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "compute_matrices"
+              }]
+          }
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "INNER_LOOP",
+          "functionLabel": "",
+          "pragma": {"name": "UNROLL"}
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "OUTER_LOOP",
+          "functionLabel": "",
+          "pragma": {"name": "PIPELINE"}
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "diag_array_1"
+              },
+              {
+                "name": "complete",
+                "value": ""
+              },
+              {
+                "name": "dim",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "diag_array_2"
+              },
+              {
+                "name": "complete",
+                "value": ""
+              },
+              {
+                "name": "dim",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "diag_array_3"
+              },
+              {
+                "name": "complete",
+                "value": ""
+              },
+              {
+                "name": "dim",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "querry_buff"
+              },
+              {
+                "name": "cyclic",
+                "value": ""
+              },
+              {
+                "name": "factor",
+                "value": "8"
+              },
+              {
+                "name": "dim",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "database_buff"
+              },
+              {
+                "name": "cyclic",
+                "value": ""
+              },
+              {
+                "name": "factor",
+                "value": "8"
+              },
+              {
+                "name": "dim",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "BIND_STORAGE",
+            "option": [
+              {
+                "name": "variable",
+                "value": "database_buff"
+              },
+              {
+                "name": "type",
+                "value": "ram_1wnr"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "BIND_STORAGE",
+            "option": [
+              {
+                "name": "variable",
+                "value": "querry_buff"
+              },
+              {
+                "name": "type",
+                "value": "ram_1wnr"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "DIR_LOOP",
+          "functionLabel": "",
+          "pragma": {"name": "UNROLL"}
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "BIND_STORAGE",
+            "option": [
+              {
+                "name": "variable",
+                "value": "direction_buff"
+              },
+              {
+                "name": "type",
+                "value": "ram_1wnr"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "direction_buff"
+              },
+              {
+                "name": "cyclic",
+                "value": ""
+              },
+              {
+                "name": "factor",
+                "value": "8"
+              },
+              {
+                "name": "dim",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "compute_matrices",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "compute_matrices"
+              }]
+          }
+        }
+      ]
+    }]}

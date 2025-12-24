@@ -1,0 +1,39 @@
+===============================================================================
+Version:    v++ v2020.2 (64-bit)
+Build:      SW Build (by xbuild) on 2020-11-18-05:13:29
+Copyright:  Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+Created:    Sat Jun  7 20:08:33 2025
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             lsal
+Target Device:           xilinx.com:xd:zedboard_202020_1:202020.1
+Target Clock:            100.000000MHz
+Total number of kernels: 1
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name       Type  Target              OpenCL Library  Compute Units
+----------------  ----  ------------------  --------------  -------------
+compute_matrices  c     fpga0:OCL_REGION_0  lsal            1
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     lsal
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit        Kernel Name       Module Name       Target Frequency  Estimated Frequency
+------------------  ----------------  ----------------  ----------------  -------------------
+compute_matrices_1  compute_matrices  compute_matrices  100               136.986298
+
+Latency Information
+Compute Unit        Kernel Name       Module Name       Start Interval  Best (cycles)  Avg (cycles)  Worst (cycles)  Best (absolute)  Avg (absolute)  Worst (absolute)
+------------------  ----------------  ----------------  --------------  -------------  ------------  --------------  ---------------  --------------  ----------------
+compute_matrices_1  compute_matrices  compute_matrices  131718          131717         131717        131717          1.317 ms         1.317 ms        1.317 ms
+
+Area Information
+Compute Unit        Kernel Name       Module Name       FF    LUT    DSP  BRAM  URAM
+------------------  ----------------  ----------------  ----  -----  ---  ----  ----
+compute_matrices_1  compute_matrices  compute_matrices  4846  18852  0    112   0
+-------------------------------------------------------------------------------
