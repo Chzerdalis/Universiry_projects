@@ -1,0 +1,58 @@
+//Adapted from Udacity course 344
+
+#ifndef __GPU_TIMER_H__
+#define __GPU_TIMER_H__
+
+#include <sys/time.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+struct GpuTimer
+{
+    cudaEvent_t start;
+    cudaEvent_t stop;
+
+    GpuTimer() {
+        cudaEventCreate(&start);
+        cudaEventCreate(&stop);
+    }
+
+    //We commented this destructor out as we believe that this also happens in
+    //the CudaDeviceReset function and we got segmentation faults
+    // ~GpuTimer() {
+    //     cudaEventDestroy(start);
+    //     cudaEventDestroy(stop);
+    // }
+
+    void Start() {
+        cudaEventRecord(start, 0);
+    }
+    
+    void Stop() {
+        cudaEventRecord(stop, 0);
+    }
+    
+    float Elapsed() {
+        float elapsed;
+        
+        cudaEventSynchronize(stop);
+        cudaEventElapsedTime(&elapsed, start, stop);
+        return elapsed;
+    }
+};
+
+double wtime(void) 
+{
+    double          now_time;
+    struct timeval  etstart;
+    struct timezone tzp;
+
+    if (gettimeofday(&etstart, &tzp) == -1)
+        perror("Error: calling gettimeofday() not successful.\n");
+
+    now_time = ((double)etstart.tv_sec) +              /* in seconds */
+               ((double)etstart.tv_usec) / 1000000.0;  /* in microseconds */
+    return now_time;
+}
+   
+#endif /* __GPU_TIMER_H__ */   

@@ -1,0 +1,141 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Nov 30 22:06:48 2022
+[*]
+[dumpfile] "/home/chris/Desktop/Lab6/lab6/tb_dumpfile.vcd"
+[dumpfile_mtime] "Wed Nov 30 22:03:16 2022"
+[dumpfile_size] 59182
+[savefile] "/home/chris/Desktop/Lab6/lab6/lab6.gtkw"
+[timestart] 240660
+[size] 1440 721
+[pos] 508 171
+*-13.178852 262730 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.cpu0.
+[sst_width] 233
+[signals_width] 291
+[sst_expanded] 1
+[sst_vpaned_height] 187
+@200
+-basics
+@28
+cpu_tb.clock
+cpu_tb.reset
+@22
+cpu_tb.cpu0.PC[31:0]
+cpu_tb.cpu0.NewPC[31:0]
+@200
+-
+-before_pipe
+-
+-IFID
+@22
+cpu_tb.cpu0.IFID_NewPC[31:0]
+cpu_tb.cpu0.IFID_instr[31:0]
+@200
+-
+-IDEX
+@22
+cpu_tb.cpu0.IDEX_NewPC[31:0]
+cpu_tb.cpu0.IDEX_instr_rd[4:0]
+cpu_tb.cpu0.IDEX_instr_rs[4:0]
+cpu_tb.cpu0.IDEX_instr_rt[4:0]
+cpu_tb.cpu0.IDEX_rdA[31:0]
+cpu_tb.cpu0.ALUInA[31:0]
+@28
+cpu_tb.cpu0.ForwardA[1:0]
+@22
+cpu_tb.cpu0.IDEX_rdB[31:0]
+cpu_tb.cpu0.ALUInB_1[31:0]
+cpu_tb.cpu0.ALUInB_2[31:0]
+@28
+cpu_tb.cpu0.ForwardB[1:0]
+@22
+cpu_tb.cpu0.IDEX_signExtend[31:0]
+@28
+cpu_tb.cpu0.IDEX_RegDst
+cpu_tb.cpu0.IDEX_RegWrite
+cpu_tb.cpu0.IDEX_NeqBranch
+cpu_tb.cpu0.IDEX_NeqBranch
+cpu_tb.cpu0.IDEX_MemWrite
+cpu_tb.cpu0.IDEX_MemToReg
+cpu_tb.cpu0.IDEX_MemRead
+cpu_tb.cpu0.IDEX_EqBranch
+cpu_tb.cpu0.IDEX_ALUSrc
+@200
+-
+-EXMEM
+@22
+cpu_tb.cpu0.EXMEM_NewPC[31:0]
+@28
+cpu_tb.cpu0.EXMEM_Zero
+@22
+cpu_tb.cpu0.EXMEM_RegWriteAddr[4:0]
+@28
+cpu_tb.cpu0.EXMEM_RegWrite
+cpu_tb.cpu0.EXMEM_NeqBranch
+@22
+cpu_tb.cpu0.EXMEM_MemWriteData[31:0]
+@28
+cpu_tb.cpu0.EXMEM_MemWrite
+cpu_tb.cpu0.EXMEM_MemToReg
+cpu_tb.cpu0.EXMEM_MemRead
+cpu_tb.cpu0.EXMEM_EqBranch
+@22
+cpu_tb.cpu0.EXMEM_ALUOut[31:0]
+@200
+-
+-MEMWB
+@22
+cpu_tb.cpu0.MEMWB_instr_rd[4:0]
+cpu_tb.cpu0.MEMWB_ALUOut[31:0]
+cpu_tb.cpu0.MEMWB_DMemOut[31:0]
+@28
+cpu_tb.cpu0.MEMWB_MemToReg
+cpu_tb.cpu0.MEMWB_RegWrite
+@22
+cpu_tb.cpu0.MEMWB_RegWriteAddr[4:0]
+@200
+-
+-AFTER
+-
+-regs
+@420
+cpu_tb.cpu0.cpu_regs.\data[0][31:0]
+cpu_tb.cpu0.cpu_regs.\data[1][31:0]
+cpu_tb.cpu0.cpu_regs.\data[2][31:0]
+cpu_tb.cpu0.cpu_regs.\data[3][31:0]
+cpu_tb.cpu0.cpu_regs.\data[4][31:0]
+cpu_tb.cpu0.cpu_regs.\data[5][31:0]
+cpu_tb.cpu0.cpu_regs.\data[6][31:0]
+cpu_tb.cpu0.cpu_regs.\data[7][31:0]
+cpu_tb.cpu0.cpu_regs.\data[8][31:0]
+cpu_tb.cpu0.cpu_regs.\data[9][31:0]
+cpu_tb.cpu0.cpu_regs.\data[10][31:0]
+cpu_tb.cpu0.cpu_regs.\data[11][31:0]
+cpu_tb.cpu0.cpu_regs.\data[12][31:0]
+cpu_tb.cpu0.cpu_regs.\data[13][31:0]
+cpu_tb.cpu0.cpu_regs.\data[14][31:0]
+cpu_tb.cpu0.cpu_regs.\data[15][31:0]
+cpu_tb.cpu0.cpu_regs.\data[16][31:0]
+cpu_tb.cpu0.cpu_regs.\data[17][31:0]
+cpu_tb.cpu0.cpu_regs.\data[18][31:0]
+cpu_tb.cpu0.cpu_regs.\data[19][31:0]
+@22
+cpu_tb.cpu0.cpu_regs.\data[20][31:0]
+@420
+cpu_tb.cpu0.cpu_regs.\data[21][31:0]
+@421
+cpu_tb.cpu0.cpu_regs.\data[22][31:0]
+@420
+cpu_tb.cpu0.cpu_regs.\data[23][31:0]
+cpu_tb.cpu0.cpu_regs.\data[24][31:0]
+cpu_tb.cpu0.cpu_regs.\data[25][31:0]
+cpu_tb.cpu0.cpu_regs.\data[26][31:0]
+cpu_tb.cpu0.cpu_regs.\data[27][31:0]
+cpu_tb.cpu0.cpu_regs.\data[28][31:0]
+cpu_tb.cpu0.cpu_regs.\data[29][31:0]
+cpu_tb.cpu0.cpu_regs.\data[30][31:0]
+cpu_tb.cpu0.cpu_regs.\data[31][31:0]
+[pattern_trace] 1
+[pattern_trace] 0

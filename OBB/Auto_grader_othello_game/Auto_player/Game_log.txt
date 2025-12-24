@@ -1,0 +1,995 @@
+Depth AI: 3 Depth Student: 4 First player: AI
+Welcome to Othello!
+
+Choose color (black/white/b/w/B/W/O/X/o/x): Estimate forward moves [1,9]: 
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . . . . . . . . 
+3 . . . * . . . . 
+4 . . * X O . . . 
+5 . . . O X * . . 
+6 . . . . * . . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: 
+
+Enter your move (e.g. c2): Move played by Auto-player d3
+
+Player O played: d3
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . . . . . . . . 
+3 . . * O * . . . 
+4 . . . O O . . . 
+5 . . * O X . . . 
+6 . . . . . . . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 
+
+Player X played: c3
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . . . . . . . . 
+3 . * X O . . . . 
+4 . . * X O . . . 
+5 . . . O X * . . 
+6 . . . . * . . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 
+
+Enter your move (e.g. c2): Move detected c3
+Move played by Auto-player b3
+
+Player O played: b3
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . * . * . . . . 
+3 . O O O * . . . 
+4 . . . X O * . . 
+5 . . * O X . . . 
+6 . . . * . . . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 
+
+Player X played: f4
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . . . . . . . . 
+3 . O O O . * . . 
+4 . . . X X X . . 
+5 . . . O X * . . 
+6 . . . . . * . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 
+
+Enter your move (e.g. c2): Move detected f4
+Move played by Auto-player f3
+
+Player O played: f3
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . * . * . * . . 
+3 . O O O * O . . 
+4 . . . X O X . . 
+5 . . * O X . . . 
+6 . . . * . . . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 
+
+Player X played: e3
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . . . . . . . . 
+3 . O O O X O . . 
+4 . . . X X X . . 
+5 . . . O X * . . 
+6 . . . . . * . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 
+
+Enter your move (e.g. c2): Move detected e3
+Move played by Auto-player f5
+
+Player O played: f5
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . * . * . . . . 
+3 * O O O X O * . 
+4 . . . X O O * . 
+5 . . . O O O * . 
+6 . . . * * * . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 
+
+Player X played: a3
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . * * * * . . . 
+3 X X X X X O . . 
+4 . . * X O O . . 
+5 . . . O O O . . 
+6 . . . . . . . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 
+
+Enter your move (e.g. c2): Move detected a3
+Move played by Auto-player d2
+
+Player O played: d2
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . . . * . . . 
+2 . . . O . . . . 
+3 X X X O O O * . 
+4 . . . O O O . . 
+5 . . . O O O . . 
+6 . . . . . * . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 
+
+Player X played: f6
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . . . O . . . . 
+3 X X X O O O . . 
+4 . * * X O O . . 
+5 . . * O X O . . 
+6 . . . * * X . . 
+7 . . . . . * . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 
+
+Enter your move (e.g. c2): Move detected f6
+Move played by Auto-player c4
+
+Player O played: c4
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . . . * . . . 
+2 . . . O * * . . 
+3 X X X O O O * . 
+4 . . O O O O . . 
+5 . . * O X O * . 
+6 . . . . * X . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 
+
+Player X played: c5
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . * . O . . . . 
+3 X X X O O O . . 
+4 . * X O O O . . 
+5 . * X X X O . . 
+6 . * * * * X . . 
+7 . . . . . * * . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 
+
+Enter your move (e.g. c2): Move detected c5
+Move played by Auto-player b5
+
+Player O played: b5
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . . . * . . . 
+2 . . . O . * . . 
+3 X X X O O O * . 
+4 . . O O O O . . 
+5 . O O O O O . . 
+6 . . * . * X . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 
+
+Player X played: c6
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 * * . O . . . . 
+3 X X X O O O . . 
+4 . * X O O O . . 
+5 . O X O O O . . 
+6 . * X . . X . . 
+7 . * . * . * * . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 
+
+Enter your move (e.g. c2): Move detected c6
+Move played by Auto-player b4
+
+Player O played: b4
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . * * O . * * . 
+3 X X O O O O * . 
+4 * O O O O O . . 
+5 * O X O O O * . 
+6 . * X . * X . . 
+7 . . . . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 
+
+Player X played: e6
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 . * . O . . . . 
+3 X X O O O O . . 
+4 . O X O O O . . 
+5 . O X X O O . . 
+6 . * X * X X . . 
+7 . * * * * * * . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 
+
+Enter your move (e.g. c2): Move detected e6
+Move played by Auto-player c7
+
+Player O played: c7
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . . * . . . . 
+2 . * . O * * * . 
+3 X X O O O O * . 
+4 . O O O O O * . 
+5 * O O X O O * . 
+6 . * O * X X . . 
+7 . * O . . . . . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 
+
+Player X played: d6
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 * * . O . . . . 
+3 X X O O O O . . 
+4 * X O O O O . . 
+5 * O X X O O . . 
+6 . * O X X X * . 
+7 . . O * * * * . 
+8 . . . . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 
+
+Enter your move (e.g. c2): Move detected d6
+Move played by Auto-player g6
+
+Player O played: g6
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . . * * . . . 
+2 . . * O . * * . 
+3 X X O O O O * . 
+4 . X O O O O * . 
+5 * O X X O O * . 
+6 . * O O O O O . 
+7 . * O * * * . . 
+8 . . * . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 
+
+Player X played: c8
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 * * . O . . . . 
+3 X X O O O O . . 
+4 * X O O O O . . 
+5 * O X X O O . . 
+6 . * X O O O O . 
+7 . * X * . . . . 
+8 . * X . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 
+
+Enter your move (e.g. c2): Move detected c8
+Move played by Auto-player b6
+
+Player O played: b6
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . . * * . . . 
+2 . . * O . . * . 
+3 X X O O O O * . 
+4 . X O O O O * . 
+5 * O O X O O * . 
+6 . O O O O O O . 
+7 . * X * * * . . 
+8 . . X . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 
+
+Player X played: g3
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 * * * O * * * . 
+3 X X X X X X X . 
+4 * X O O O X * . 
+5 * O O X X O * . 
+6 . O O X O O O . 
+7 . . X * * . . . 
+8 . . X * . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 
+
+Enter your move (e.g. c2): Move detected g3
+Move played by Auto-player c2
+
+Player O played: c2
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . * * * . . . 
+2 . * O O . . . . 
+3 X X O O X X X . 
+4 . X O O O X . . 
+5 * O O X X O * . 
+6 * O O X O O O * 
+7 * * X . * * * . 
+8 . . X . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 
+
+Player X played: h6
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 * * O O * * * . 
+3 X X O O X X X * 
+4 * X O O O X * . 
+5 * O O X X O * . 
+6 . O O X X X X X 
+7 . . X * * * * * 
+8 . . X * . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 
+
+Enter your move (e.g. c2): Move detected h6
+Move played by Auto-player h3
+
+Player O played: h3
+
+Player X's turn.
+
+  a b c d e f g h
+1 . * * * * . . . 
+2 . * O O * * * * 
+3 X X O O O O O O 
+4 . X O O O X * . 
+5 * O O X X O * . 
+6 * O O X X X X X 
+7 . * X . . . . . 
+8 . . X . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 
+
+Player X played: a6
+
+Player O's turn.
+
+  a b c d e f g h
+1 . . . . . . . . 
+2 * * O O . . . . 
+3 X X O O O O O O 
+4 * X O O O X * . 
+5 * O O X X O * . 
+6 X X X X X X X X 
+7 * * X * * * * * 
+8 . * X . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 
+
+Enter your move (e.g. c2): Move detected a6
+Move played by Auto-player d7
+
+Player O played: d7
+
+Player X's turn.
+
+  a b c d e f g h
+1 . * * * * . . . 
+2 . * O O * * . * 
+3 X X O O O O O O 
+4 . X O O O X * . 
+5 * O O O X O * . 
+6 X X O O O X X X 
+7 . . X O * * . . 
+8 . . X . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 
+
+Player X played: c1
+
+Player O's turn.
+
+  a b c d e f g h
+1 . * X * . . . . 
+2 * * X X * * . . 
+3 X X X O X O O O 
+4 * X X O O X * . 
+5 . O X O X O . . 
+6 X X X O O X X X 
+7 * * X O . * * * 
+8 . * X . . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 
+
+Enter your move (e.g. c2): Move detected c1
+Move played by Auto-player g4
+
+Player O played: g4
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . X . . . . . 
+2 . . X X * * * * 
+3 X X X O X O O O 
+4 * X X O O O O * 
+5 * O X O X O * . 
+6 X X X O O X X X 
+7 . . X O * * . . 
+8 . . X * * . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 
+
+Player X played: d8
+
+Player O's turn.
+
+  a b c d e f g h
+1 . * X . . . . . 
+2 * * X X * . . . 
+3 X X X X X O O O 
+4 * X X X O O O . 
+5 . O X X X O . . 
+6 X X X X O X X X 
+7 . * X X . * . * 
+8 . * X X * . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 
+
+Enter your move (e.g. c2): Move detected d8
+Move played by Auto-player f7
+
+Player O played: f7
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . X . . . . . 
+2 . . X X . . * * 
+3 X X X X X O O O 
+4 * X X X O O O * 
+5 * O X X X O * . 
+6 X X X X O O X X 
+7 . . X X * O * . 
+8 . . X X * . * . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 
+
+Player X played: g5
+
+Player O's turn.
+
+  a b c d e f g h
+1 . * X . . . . . 
+2 * * X X * . . . 
+3 X X X X X O O O 
+4 * X X X O X O * 
+5 . O X X X X X * 
+6 X X X X O O X X 
+7 . * X X . O * * 
+8 . * X X * . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 
+
+Enter your move (e.g. c2): Move detected g5
+Move played by Auto-player e2
+
+Player O played: e2
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . X . * * . . 
+2 . . X X O * * * 
+3 X X X O O O O O 
+4 * X O X O X O * 
+5 * O X X X X X . 
+6 X X X X O O X X 
+7 . . X X * O * . 
+8 . . X X * * * . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 
+
+Player X played: f1
+
+Player O's turn.
+
+  a b c d e f g h
+1 . * X * * X . . 
+2 * * X X X . . . 
+3 X X X X O O O O 
+4 * X X X O X O * 
+5 . X X X X X X * 
+6 X X X X O O X X 
+7 * * X X . O * * 
+8 . * X X . . . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 
+
+Enter your move (e.g. c2): Move detected f1
+Move played by Auto-player h4
+
+Player O played: h4
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . X . . X . . 
+2 . . X X X * * * 
+3 X X X X O O O O 
+4 . X X X O X O O 
+5 . X X X X X O * 
+6 X X X X O O X X 
+7 . . X X * O * . 
+8 . . X X * * * . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 
+
+Player X played: f8
+
+Player O's turn.
+
+  a b c d e f g h
+1 . * X * * X . . 
+2 * . X X X . . . 
+3 X X X X O O O O 
+4 * X X X O X O O 
+5 * X X X X X O . 
+6 X X X X O X X X 
+7 * * X X * X * * 
+8 . * X X . X * . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 
+
+Enter your move (e.g. c2): Move detected f8
+Move played by Auto-player e7
+
+Player O played: e7
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . X . . X . . 
+2 . . X X X * * * 
+3 X X X X O O O O 
+4 . X X X O X O O 
+5 . X X X X X O * 
+6 X X X X O O X X 
+7 . . X X O X * . 
+8 . . X X * X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 
+
+Player X played: e8
+
+Player O's turn.
+
+  a b c d e f g h
+1 . * X * * X . . 
+2 . * X X X . . . 
+3 X X X X O O O O 
+4 * X X X O X O O 
+5 * X X X X X O . 
+6 X X X X X O X X 
+7 * * X X X X * * 
+8 . * X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 
+
+Enter your move (e.g. c2): Move detected e8
+Move played by Auto-player a5
+
+Player O played: a5
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . X . . X . . 
+2 . . X X X * * * 
+3 X X X X O O O O 
+4 * X X X O X O O 
+5 O O O O O O O * 
+6 X X X X X O X X 
+7 . . X X X X * . 
+8 . . X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 
+
+Player X played: a4
+
+Player O's turn.
+
+  a b c d e f g h
+1 . * X * * X . . 
+2 * * X X X . . . 
+3 X X X X O O O O 
+4 X X X X O X O O 
+5 X X O O O O O . 
+6 X X X X X O X X 
+7 * * X X X X * * 
+8 . * X X X X * . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 
+
+Enter your move (e.g. c2): Move detected a4
+Move played by Auto-player d1
+
+Player O played: d1
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . X O * X . . 
+2 . . X O O * * * 
+3 X X X O O O O O 
+4 X X X O O X O O 
+5 X X O O O O O * 
+6 X X X X X O X X 
+7 . . X X X X * . 
+8 . . X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 
+
+Player X played: e1
+
+Player O's turn.
+
+  a b c d e f g h
+1 . * X X X X . . 
+2 * * X X X * . . 
+3 X X X O X O O O 
+4 X X X O X X O O 
+5 X X O O X O O . 
+6 X X X X X O X X 
+7 * * X X X X * * 
+8 . * X X X X * . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 
+
+Enter your move (e.g. c2): Move detected e1
+Move played by Auto-player f2
+
+Player O played: f2
+
+Player X's turn.
+
+  a b c d e f g h
+1 . . X X X X * . 
+2 . . X X X O * * 
+3 X X X O O O O O 
+4 X X X O X X O O 
+5 X X O O X O O * 
+6 X X X X X O X X 
+7 . . X X X X * . 
+8 . . X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 
+
+Player X played: g1
+
+Player O's turn.
+
+  a b c d e f g h
+1 . * X X X X X . 
+2 * * X X X X . . 
+3 X X X O X O O O 
+4 X X X X X X O O 
+5 X X X O X O O . 
+6 X X X X X O X X 
+7 . * X X X X * * 
+8 . * X X X X * . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 
+
+Enter your move (e.g. c2): Move detected g1
+Move played by Auto-player b2
+
+Player O played: b2
+
+Player X's turn.
+
+  a b c d e f g h
+1 . * X X X X X . 
+2 * O X X X X * * 
+3 X X O O X O O O 
+4 X X X O X X O O 
+5 X X X O O O O * 
+6 X X X X X O X X 
+7 . . X X X X . . 
+8 . . X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 
+
+Player X played: h5
+
+Player O's turn.
+
+  a b c d e f g h
+1 . * X X X X X . 
+2 . O X X X X * . 
+3 X X O O X X O O 
+4 X X X O X X X O 
+5 X X X X X X X X 
+6 X X X X X O X X 
+7 * * X X X X * * 
+8 . * X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 
+
+Enter your move (e.g. c2): Move detected h5
+Move played by Auto-player b1
+
+Player O played: b1
+
+Player X's turn.
+
+  a b c d e f g h
+1 * O X X X X X . 
+2 * O O X X X * * 
+3 X X O O X X O O 
+4 X X X O X X X O 
+5 X X X X X X X X 
+6 X X X X X O X X 
+7 . . X X X X * . 
+8 . . X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 
+
+Player X played: a1
+
+Player O's turn.
+
+  a b c d e f g h
+1 X X X X X X X . 
+2 * X O X X X * . 
+3 X X X O X X O O 
+4 X X X X X X X O 
+5 X X X X X X X X 
+6 X X X X X O X X 
+7 . . X X X X * * 
+8 . * X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 
+
+Enter your move (e.g. c2): Move detected a1
+Move played by Auto-player h7
+
+Player O played: h7
+
+Player X's turn.
+
+  a b c d e f g h
+1 X X X X X X X . 
+2 . X O X X X * * 
+3 X X X O X X O O 
+4 X X X X O X X O 
+5 X X X X X O X O 
+6 X X X X X O O O 
+7 . . X X X X * O 
+8 . . X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 h7 
+
+Player X played: g2
+
+Player O's turn.
+
+  a b c d e f g h
+1 X X X X X X X * 
+2 * X O X X X X * 
+3 X X X O X X X O 
+4 X X X X O X X O 
+5 X X X X X O X O 
+6 X X X X X O O O 
+7 . * X X X X . O 
+8 . . X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 h7 g2 
+
+Enter your move (e.g. c2): Move detected g2
+Move played by Auto-player a2
+
+Player O played: a2
+
+Player X's turn.
+
+  a b c d e f g h
+1 X X X X X X X . 
+2 O O O X X X X . 
+3 X X X O X X X O 
+4 X X X X O X X O 
+5 X X X X X O X O 
+6 X X X X X O O O 
+7 . . X X X X * O 
+8 . . X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 h7 g2 a2 
+
+Player X played: g7
+
+Player O's turn.
+
+  a b c d e f g h
+1 X X X X X X X * 
+2 O O O X X X X * 
+3 X X X O X X X O 
+4 X X X X O X X O 
+5 X X X X X O X O 
+6 X X X X X X X O 
+7 * * X X X X X O 
+8 . . X X X X * * 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 h7 g2 a2 g7 
+
+Enter your move (e.g. c2): Move detected g7
+Move played by Auto-player h1
+
+Player O played: h1
+
+Player X's turn.
+
+  a b c d e f g h
+1 X X X X X X X O 
+2 O O O X X X O * 
+3 X X X O X O X O 
+4 X X X X O X X O 
+5 X X X X X O X O 
+6 X X X X X X X O 
+7 . . X X X X X O 
+8 . . X X X X . . 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 h7 g2 a2 g7 h1 
+
+Player X played: h2
+
+Player O's turn.
+
+  a b c d e f g h
+1 X X X X X X X O 
+2 O O O X X X X X 
+3 X X X O X O X O 
+4 X X X X O X X O 
+5 X X X X X O X O 
+6 X X X X X X X O 
+7 * * X X X X X O 
+8 . . X X X X * * 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 h7 g2 a2 g7 h1 h2 
+
+Enter your move (e.g. c2): Move detected h2
+Move played by Auto-player h8
+
+Player O played: h8
+
+Player X's turn.
+
+  a b c d e f g h
+1 X X X X X X X O 
+2 O O O X X X X X 
+3 X X O O X O X O 
+4 X X X O O X X O 
+5 X X X X O O X O 
+6 X X X X X O X O 
+7 . . X X X X O O 
+8 . . X X X X * O 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 h7 g2 a2 g7 h1 h2 h8 
+
+Player X played: g8
+
+Player O's turn.
+
+  a b c d e f g h
+1 X X X X X X X O 
+2 O O O X X X X X 
+3 X X O O X O X O 
+4 X X X O O X X O 
+5 X X X X O O X O 
+6 X X X X X O X O 
+7 * * X X X X X O 
+8 . * X X X X X O 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 h7 g2 a2 g7 h1 h2 h8 g8 
+
+Enter your move (e.g. c2): Move detected g8
+Move played by Auto-player b8
+
+Player O played: b8
+
+Player X's turn.
+
+  a b c d e f g h
+1 X X X X X X X O 
+2 O O O X X X X X 
+3 X X O O X O X O 
+4 X X X O O X X O 
+5 X X X X O O X O 
+6 X X X O X O X O 
+7 . * O X X X X O 
+8 . O O O O O O O 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 h7 g2 a2 g7 h1 h2 h8 g8 b8 
+
+Player X played: b7
+
+Player O's turn.
+
+  a b c d e f g h
+1 X X X X X X X O 
+2 O O O X X X X X 
+3 X X O O X O X O 
+4 X X X O O X X O 
+5 X X X X O O X O 
+6 X X X O X O X O 
+7 * X X X X X X O 
+8 * O O O O O O O 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 h7 g2 a2 g7 h1 h2 h8 g8 b8 b7 
+
+Enter your move (e.g. c2): Move detected b7
+Move played by Auto-player a8
+
+Player O played: a8
+
+Player X's turn.
+
+  a b c d e f g h
+1 X X X X X X X O 
+2 O O O X X X X X 
+3 X X O O X O X O 
+4 X X X O O X X O 
+5 X X X O O O X O 
+6 X X O O X O X O 
+7 * O X X X X X O 
+8 O O O O O O O O 
+Moves history: d3 c3 b3 f4 f3 e3 f5 a3 d2 f6 c4 c5 b5 c6 b4 e6 c7 d6 g6 c8 b6 g3 c2 h6 h3 a6 d7 c1 g4 d8 f7 g5 e2 f1 h4 f8 e7 e8 a5 a4 d1 e1 f2 g1 b2 h5 b1 a1 h7 g2 a2 g7 h1 h2 h8 g8 b8 b7 a8 
+
+Player X played: a7
+
+Game Over!
+X:36/O:28 Player X won!

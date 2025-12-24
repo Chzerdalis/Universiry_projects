@@ -1,0 +1,121 @@
+a 1 Charles Chandler 35
+a 2 Micah Sinclair 27
+a 3 Ava Walter 14
+a 4 Sofia Gibson 1
+a 5 Eleanor Shane 1
+a 6 William McGrath 32
+a 7 Xavier Sasse 22
+a 8 Mary Benitez 2
+a 9 Leo Maruff 9
+a 10 Al Boyett 25
+a 11 Lewis Scott 26
+a 12 Mike Chivers 3
+a 13 Cassie Aitken 5
+a 14 Ida Moreno 26
+a 15 Aaron Cahill 17
+a 16 Herman Peterson 29
+a 17 Carl Hughey 30
+a 18 Gracie French 38
+a 19 Angela White 4
+a 20 Aaliyah White 2
+a 21 Michael Jackson 7
+a 22 Rhys Stephens 12
+a 23 Roxanne Allan 26
+a 24 Michael Jackson 20
+a 25 William Flynn 11
+a 26 Ernest Anthony 19
+a 27 Emma Barker 43
+a 28 Dominic Howie 14
+a 29 Carys Macleod 45
+a 30 Leah Hood 24
+a 31 Nicole Cain 15
+a 32 Anas Russell 28
+a 33 Rio Smith 7
+a 34 Madeleine Gibbs 38
+a 35 Oscar Martin 44
+a 36 Gary Wingate 43
+a 37 Kyle Cothran 2
+a 38 Kate O'Sullivan 45
+a 39 Scott Jordan 14
+a 40 Leanna Hamilton 17
+a 41 Alexandra Bronner 3
+a 42 Alasdair Gray 33
+a 43 Sofia Armfield 22
+a 44 Samuel Stevenson 12
+a 45 Dean Burne 4
+a 46 Stephanie McKenzie 3
+a 47 Eden Johnston 6
+a 48 Hollie Shaw 1
+a 49 Brenda McAdoo 28
+a 50 Sienna McIntosh 30
+a 51 Niamh Sykes 10
+a 52 Leona Hill 14
+a 53 Harvey Godfrey 32
+a 54 Levi Burns 14
+a 55 Joel Munro 30
+a 56 Mirren Smith 29
+a 57 Cooper Sconce 15
+a 58 Alexander Nolan 41
+a 59 Melissa Johnson 27
+a 60 Eva Garnsey 1
+a 61 Tyler Hammond 42
+a 62 Rosalee Perry 11
+a 63 Destiny Douglas 26
+a 64 Cora Williams 25
+a 65 Blaine Alexander 11
+a 66 Mary Hruska 39
+a 67 Olivia Simmons 6
+a 68 Kate Baylebridge 2
+a 69 Calum Kerr 6
+a 70 Matthew Buvelot 25
+a 71 Sally Bruce 39
+a 72 Aleisha Fleming 43
+a 73 Craig McIntyre 20
+a 74 Ruairi Gray 8
+a 75 Alana Kirk 31
+a 76 Ailie Kennedy 22
+a 77 Donald Greene 18
+a 78 Jesse Guthrie 18
+a 79 Shannon Simpson 42
+a 80 Niall Anderson 8
+a 81 Kate Ten 42
+a 82 Ella Walker 34
+a 83 Kayla Osburne 6
+a 84 Glen Reid 4
+a 85 Timothy Greer 9
+a 86 John Skinner 6
+a 87 Hannah Tomlinson 32
+a 88 Cooper Wright 8
+a 89 Jonathan Lowe 7
+a 90 David Lauritzen 11
+a 91 Natasha Geneff 10
+a 92 Justin Brunker 19
+a 93 Claudia Henderson 12
+a 94 Carly Kerr 12
+a 95 Charlotte Haverfield 9
+a 96 Cara Watt 24
+a 97 Elise Goddard 11
+a 98 Eric Wright 23
+a 99 Isabel Rhodes 7
+a 100 Piper Thornber 5
+s
+f 5
+f 10
+f 15
+f 20
+f 25
+f 30
+f 35
+f 40
+f 45
+f 50
+f 55
+f 60
+f 65
+f 70
+f 75
+f 80
+f 85
+f 90
+f 95
+q

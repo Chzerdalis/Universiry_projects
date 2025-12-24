@@ -1,0 +1,16 @@
+w_real[0] = 16'd1; w_imag[0] = 16'd2;
+w_real[1] = 16'd3; w_imag[1] = 16'd4;
+w_real[2] = 16'd5; w_imag[2] = 16'd6;
+w_real[3] = 16'd7; w_imag[3] = 16'd8;
+w_real[4] = 16'd9; w_imag[4] = 16'd10;
+w_real[5] = 16'd11; w_imag[5] = 16'd12;
+w_real[6] = 16'd13; w_imag[6] = 16'd14;
+w_real[7] = 16'd15; w_imag[7] = 16'd16;
+w_real[8] = 16'd17; w_imag[8] = 16'd18;
+w_real[9] = 16'd19; w_imag[9] = 16'd20;
+w_real[10] = 16'd21; w_imag[10] = 16'd22;
+w_real[11] = 16'd23; w_imag[11] = 16'd24;
+w_real[12] = 16'd25; w_imag[12] = 16'd26;
+w_real[13] = 16'd27; w_imag[13] = 16'd28;
+w_real[14] = 16'd29; w_imag[14] = 16'd30;
+w_real[15] = 16'd31; w_imag[15] = 16'd32;

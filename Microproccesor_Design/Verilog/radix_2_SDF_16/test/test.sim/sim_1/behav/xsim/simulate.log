@@ -1,0 +1,41 @@
+Time resolution is 1 ps
+==================================================
+16-Point FFT Top Module Test
+==================================================
+Starting FFT with cosine input sequence...
+Input sequence (bit-reversed cosine):
+  Input[ 0]: Real=       0, Imag=       0
+  Input[ 1]: Real=   -5281, Imag=       0
+  Input[ 2]: Real=   32767, Imag=       0
+  Input[ 3]: Real=  -24720, Imag=       0
+  Input[ 4]: Real=   12635, Imag=       0
+  Input[ 5]: Real=  -17003, Imag=       0
+  Input[ 6]: Real=   10026, Imag=       0
+  Input[ 7]: Real=   -8124, Imag=       0
+  Input[ 8]: Real=    8124, Imag=       0
+  Input[ 9]: Real=  -10026, Imag=       0
+  Input[10]: Real=   17003, Imag=       0
+  Input[11]: Real=  -12635, Imag=       0
+  Input[12]: Real=   24720, Imag=       0
+  Input[13]: Real=  -32767, Imag=       0
+  Input[14]: Real=    5281, Imag=       0
+  Input[15]: Real=       0, Imag=       0
+
+Input complete, waiting for FFT outputs...
+  Output[ 0]: Real=      -4, Imag=       0 (Time: 225000)
+  Output[ 1]: Real=   35950, Imag= -180734 (Time: 235000)
+  Output[ 2]: Real=   -8337, Imag=   20125 (Time: 245000)
+  Output[ 3]: Real=  -23646, Imag=   35389 (Time: 255000)
+  Output[ 4]: Real=    5232, Imag=   -5232 (Time: 265000)
+  Output[ 5]: Real=   17960, Imag=  -12004 (Time: 275000)
+  Output[ 6]: Real=  -18318, Imag=    7587 (Time: 285000)
+  Output[ 7]: Real=   -9143, Imag=    1821 (Time: 295000)
+  Output[ 8]: Real=     600, Imag=       0 (Time: 305000)
+  Output[ 9]: Real=   -9142, Imag=   -1822 (Time: 315000)
+  Output[10]: Real=  -18317, Imag=   -7587 (Time: 325000)
+  Output[11]: Real=   17960, Imag=   12003 (Time: 335000)
+  Output[12]: Real=    5232, Imag=    5232 (Time: 345000)
+  Output[13]: Real=  -23644, Imag=  -35388 (Time: 355000)
+  Output[14]: Real=   -8336, Imag=  -20125 (Time: 365000)
+  Output[15]: Real=   35953, Imag=  180735 (Time: 375000)
+$finish called at time : 690 ns : File "/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/test_fft_16.v" Line 137

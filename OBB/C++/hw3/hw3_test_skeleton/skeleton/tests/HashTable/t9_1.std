@@ -1,0 +1,203 @@
+ ###### HASH TABLE ######
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 15 ---
+
+ ###### START REMOVALS ######
+Removing 'when'
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 14 ---
+
+Removing 'arrived'
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+15. -assigned-
+16. -group-
+17. -learning-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 13 ---
+
+Removing 'was'
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 12 ---
+
+Removing 'on'
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+ --- CAPACITY: 32, SIZE: 11 ---
+
+Removing 'original'
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+28. -about-
+ --- CAPACITY: 32, SIZE: 10 ---
+
+Removing 'about'
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+ --- CAPACITY: 32, SIZE: 9 ---
+
+Removing 'she'
+ 0. -bees-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+ --- CAPACITY: 32, SIZE: 8 ---
+
+Removing 'was'
+ 0. -bees-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+ --- CAPACITY: 32, SIZE: 8 ---
+
+Removing 'assigned'
+ 0. -bees-
+ 4. -to-
+ 8. -carefully-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+ --- CAPACITY: 32, SIZE: 7 ---
+
+Removing 'to'
+ 0. -bees-
+ 8. -carefully-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+ --- CAPACITY: 32, SIZE: 6 ---
+
+Removing 'at'
+ 0. -bees-
+ 8. -carefully-
+16. -group-
+17. -learning-
+26. -study-
+ --- CAPACITY: 32, SIZE: 5 ---
+
+Removing 'study'
+ 0. -bees-
+ 8. -carefully-
+16. -group-
+17. -learning-
+ --- CAPACITY: 32, SIZE: 4 ---
+
+Removing 'at'
+ 0. -bees-
+ 8. -carefully-
+16. -group-
+17. -learning-
+ --- CAPACITY: 32, SIZE: 4 ---
+
+Removing 'group'
+ 0. -bees-
+ 8. -carefully-
+17. -learning-
+ --- CAPACITY: 32, SIZE: 3 ---
+
+Removing 'carefully'
+ 0. -bees-
+17. -learning-
+ --- CAPACITY: 32, SIZE: 2 ---
+
+Removing 'arrived'
+ 0. -bees-
+17. -learning-
+ --- CAPACITY: 32, SIZE: 2 ---
+
+Removing 'learning'
+ 0. -bees-
+ --- CAPACITY: 32, SIZE: 1 ---
+
+Removing 'about'
+ 0. -bees-
+ --- CAPACITY: 32, SIZE: 1 ---
+
+Removing 'group'
+ 0. -bees-
+ --- CAPACITY: 32, SIZE: 1 ---
+
+Removing 'bees'
+ --- CAPACITY: 32, SIZE: 0 ---
+
+Removing ''
+ --- CAPACITY: 32, SIZE: 0 ---
+

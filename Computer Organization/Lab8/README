@@ -1,0 +1,1 @@
+perf stat -e L1-dcache-loads -e L1-dcache-load-misses -e LLC-loads -e LLC-loads-misses ./kmeans hf_rgb_p2.bmp OutputImage 4

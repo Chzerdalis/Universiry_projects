@@ -1,0 +1,76 @@
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 1 ---
+
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 2 ---
+
+ 6. -on-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 3 ---
+
+ 2. -original-
+ 6. -on-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 4 ---
+
+ 2. -original-
+ 6. -on-
+ 7. -she-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 5 ---
+
+ 0. -was-
+ 2. -original-
+ 6. -on-
+ 7. -she-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 6 ---
+
+ 0. -was-
+ 2. -original-
+ 5. -assigned-
+ 6. -on-
+ 7. -she-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 7 ---
+
+ 0. -was-
+ 2. -original-
+ 3. -to-
+ 5. -assigned-
+ 6. -on-
+ 7. -she-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 8 ---
+
+ 0. -was-
+ 1. -at-
+ 2. -original-
+ 3. -to-
+ 5. -assigned-
+ 6. -on-
+ 7. -she-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 9 ---
+
+ 0. -was-
+ 1. -at-
+ 2. -original-
+ 3. -to-
+ 4. -study-
+ 5. -assigned-
+ 6. -on-
+ 7. -she-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 10 ---
+
+HashTableException occured!

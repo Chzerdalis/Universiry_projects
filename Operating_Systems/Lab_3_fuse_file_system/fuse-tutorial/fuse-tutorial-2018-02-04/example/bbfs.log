@@ -1,0 +1,4675 @@
+
+bbfs_init()
+    conn:
+    proto_major = 7
+    proto_minor = 40
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = dde2ac70
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = dde2a6b0
+    logfile = dde2a750
+    rootdir = /home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir
+    umask = 00000
+
+bb_access(path="/", mask=04)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+
+bbfs_getattr(path="/.Trash", statbuf=0xa4bfec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/.Trash", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/.Trash-1000", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/.Trash-1000", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/.xdg-volume-info", statbuf=0xa4bfec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/.xdg-volume-info", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/.xdg-volume-info"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_opendir(path="/", fi=0xa4bfebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8ba00020f0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba00020f0
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/autorun.inf", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/autorun.inf", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/autorun.inf"
+
+bbfs_getattr(path="/", statbuf=0xa4bfebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0xa0002070, filler=0xa5571d50, offset=0, fi=0x9f7fdbf0)
+    readdir returned 0x0x7c8ba0002120
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba00020f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba00020f0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa4bfebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba00020f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba00020f0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9f7fdbf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b90001270
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90001270
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9fffebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x900011f0, filler=0xa5571d50, offset=0, fi=0xa4bfebf0)
+    readdir returned 0x0x7c8b900012a0
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90001270
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90001270
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9fffebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90001270
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90001270
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa4bfebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8ba000a250
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9f7fdbd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0xa0002210, filler=0xa5571d50, offset=0, fi=0x9fffebf0)
+    readdir returned 0x0x7c8ba000a280
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9fffebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9f7fdbf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b90009340
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0xa4bfebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x90001390, filler=0xa5571d50, offset=0, fi=0x9fffebf0)
+    readdir returned 0x0x7c8b90009370
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa4bfebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9fffebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b98001320
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b98001320
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9f7fdbd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x980012a0, filler=0xa5571d50, offset=0, fi=0xa4bfebf0)
+    readdir returned 0x0x7c8b98001350
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b98001320
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b98001320
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9f7fdbf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b98001320
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b98001320
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa4bfebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8ba000a250
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9fffebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0xa0002290, filler=0xa5571d50, offset=0, fi=0x9f7fdbf0)
+    readdir returned 0x0x7c8ba000a280
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9fffebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9f7fdbf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b90009340
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0xa4bfebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x900015c0, filler=0xa5571d50, offset=0, fi=0x9fffebf0)
+    readdir returned 0x0x7c8b90009370
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa4bfebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9fffebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b980013a0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b980013a0
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9f7fdbd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x98001320, filler=0xa5571d50, offset=0, fi=0xa4bfebf0)
+    readdir returned 0x0x7c8b980013d0
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b980013a0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b980013a0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9f7fdbf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b980013a0
+    writepage = 0
+    direct_io = 0
+
+bb_opendir(path="/", fi=0xa4bfebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    keep_cache = 0
+    fh = 0x00007c8b980013a0
+    opendir returned 0x0x7c8ba000a250
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9f7fdbd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0xa0002310, filler=0xa5571d50, offset=0, fi=0xa4bfebf0)
+    readdir returned 0x0x7c8ba000a280
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9f7fdbf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa4bfebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8ba000a250
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9fffebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0xa00027a0, filler=0xa5571d50, offset=0, fi=0x9f7fdbf0)
+    readdir returned 0x0x7c8ba000a280
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9fffebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9f7fdbf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b90009340
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0xa4bfebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x90001640, filler=0xa5571d50, offset=0, fi=0x9fffebf0)
+    readdir returned 0x0x7c8b90009370
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa4bfebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+
+bb_opendir(path="/", fi=0x9fffebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7c8b98001420
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b98001420
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9f7fdbd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x980013a0, filler=0xa5571d50, offset=0, fi=0xa4bfebf0)
+    readdir returned 0x0x7c8b98001450
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b98001420
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b98001420
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9f7fdbf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b98001420
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b98001420
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa4bfebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8ba000a250
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9fffebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0xa0002820, filler=0xa5571d50, offset=0, fi=0x9f7fdbf0)
+    readdir returned 0x0x7c8ba000a280
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9fffebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9f7fdbf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b90009340
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0xa4bfebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x900016c0, filler=0xa5571d50, offset=0, fi=0x9fffebf0)
+    readdir returned 0x0x7c8b90009370
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa4bfebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+
+bb_opendir(path="/", fi=0x9fffebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7c8b980014a0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b980014a0
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9f7fdbd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x98001420, filler=0xa5571d50, offset=0, fi=0xa4bfebf0)
+    readdir returned 0x0x7c8b980014d0
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b980014a0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b980014a0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9f7fdbf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b980014a0
+    writepage = 0
+    direct_io = 0
+
+bb_opendir(path="/", fi=0xa4bfebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    keep_cache = 0
+    fh = 0x00007c8b980014a0
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7c8ba000a250
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9fffebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0xa00028a0, filler=0xa5571d50, offset=0, fi=0x9f7fdbf0)
+    readdir returned 0x0x7c8ba000a280
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9fffebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9f7fdbf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b90009340
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0xa4bfebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x90001740, filler=0xa5571d50, offset=0, fi=0x9fffebf0)
+    readdir returned 0x0x7c8b90009370
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa4bfebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9fffebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b98001520
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b98001520
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9f7fdbd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x980014a0, filler=0xa5571d50, offset=0, fi=0xa4bfebf0)
+    readdir returned 0x0x7c8b98001550
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b98001520
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b98001520
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9f7fdbf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b98001520
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b98001520
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa4bfebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8ba000a250
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9fffebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0xa0002920, filler=0xa5571d50, offset=0, fi=0x9f7fdbf0)
+    readdir returned 0x0x7c8ba000a280
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9fffebf0)
+    fi:
+
+bb_opendir(path="/", fi=0x9f7fdbf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    opendir returned 0x0x7c8b90009340
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    lock_owner = 0x0000000000000000
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0xa4bfebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x900017c0, filler=0xa5571d50, offset=0, fi=0x9fffebf0)
+    readdir returned 0x0x7c8b90009370
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa4bfebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9fffebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b980015a0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b980015a0
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9f7fdbd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x98001520, filler=0xa5571d50, offset=0, fi=0xa4bfebf0)
+    readdir returned 0x0x7c8b980015d0
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b980015a0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b980015a0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9f7fdbf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b980015a0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b980015a0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa4bfebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8ba000a250
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9fffebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0xa00029a0, filler=0xa5571d50, offset=0, fi=0x9f7fdbf0)
+    readdir returned 0x0x7c8ba000a280
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9fffebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9f7fdbf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b90009340
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0xa4bfebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x90001840, filler=0xa5571d50, offset=0, fi=0x9fffebf0)
+    readdir returned 0x0x7c8b90009370
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0xa4bfebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b90009340
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b90009340
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x9fffebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8b98001620
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b98001620
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9f7fdbd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0x980015a0, filler=0xa5571d50, offset=0, fi=0xa4bfebf0)
+    readdir returned 0x0x7c8b98001650
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b98001620
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8b98001620
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9f7fdbf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8b98001620
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+
+bb_opendir(path="/", fi=0xa4bfebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    fh = 0x00007c8b98001620
+    opendir returned 0x0x7c8ba000a250
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9fffebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0xa00029a0, filler=0xa5571d50, offset=0, fi=0xa4bfebf0)
+    readdir returned 0x0x7c8ba000a280
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9fffebf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0xa4bfebf0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7c8ba000a250
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/", statbuf=0x9f7fdbd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x68489545
+    st_ctime = 0x68489545
+
+bb_readdir(path="/", buf=0xa00029a0, filler=0xa5571d50, offset=0, fi=0x9fffebf0)
+    readdir returned 0x0x7c8ba000a280
+calling filler with name ..
+calling filler with name .
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x9f7fdbf0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7c8ba000a250
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007c8ba000a250
+    lock_owner = 0x0000000000000000
+
+bbfs_getattr(path="/autorun.inf", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/autorun.inf", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/autorun.inf"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33083691
+    f_bavail = 30549048
+    f_files = 12656640
+    f_ffree = 12126211
+    f_favail = 12126211
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33083691
+    f_bavail = 30549048
+    f_files = 12656640
+    f_ffree = 12126211
+    f_favail = 12126211
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9fffec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33083691
+    f_bavail = 30549048
+    f_files = 12656640
+    f_ffree = 12126211
+    f_favail = 12126211
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33083691
+    f_bavail = 30549048
+    f_files = 12656640
+    f_ffree = 12126211
+    f_favail = 12126211
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9fffec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33083691
+    f_bavail = 30549048
+    f_files = 12656640
+    f_ffree = 12126211
+    f_favail = 12126211
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33083691
+    f_bavail = 30549048
+    f_files = 12656640
+    f_ffree = 12126211
+    f_favail = 12126211
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33083691
+    f_bavail = 30549048
+    f_files = 12656640
+    f_ffree = 12126211
+    f_favail = 12126211
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9fffec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33083690
+    f_bavail = 30549047
+    f_files = 12656640
+    f_ffree = 12126211
+    f_favail = 12126211
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33083690
+    f_bavail = 30549047
+    f_files = 12656640
+    f_ffree = 12126211
+    f_favail = 12126211
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bbfs_getattr(path="/image.jpeg", statbuf=0xa4bfec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/image.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/image.jpeg"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/image.jpeg", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/image.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/image.jpeg"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_mknod(path="/image.jpeg", mode=0100664, dev=0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/image.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/image.jpeg"
+    open returned 5
+    close returned 0
+
+bbfs_getattr(path="/image.jpeg", statbuf=0xa4bfec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/image.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/image.jpeg"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285187
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x684896bb
+    st_mtime = 0x684896bb
+    st_ctime = 0x684896bb
+
+bb_open(path"/image.jpeg", fi=0x9fffecb0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/image.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/image.jpeg"
+    open returned 5
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_getxattr(path = "/image.jpeg", name = "security.capability", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/image.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/image.jpeg"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bbfs_write(path="/image.jpeg", buf=0xa5544060, size=4096, offset=0,block_offset is 0 ,block num is 0, fi=0xa4bfed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf ÿØÿà
+position given 0
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: 5df7f7482f9bff2166532dfc90cab1676dc221e0
+
+bbfs_write(path="/image.jpeg", buf=0xa5522060, size=788, offset=4096,block_offset is 0 ,block num is 1, fi=0x9fffed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf 
+File found in metadata: image.jpeg
+iter 0
+overwrite: 0
+written 788, expected 788, offset is 0
+write status is 788 and write to block is 788
+New block written with hash: 6466f4a8dd3040a96586241ca9f77fbe45c52fab
+
+bb_flush(path="/image.jpeg", fi=0x9f7fdcb0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0xe89a963b1ad3bd07
+
+bb_release(path="/image.jpeg", fi=0xa4bfecb0)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bbfs_getattr(path="/text.txt", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/text.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/text.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/text.txt", statbuf=0x9f7fdc00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/text.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/text.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_mknod(path="/text.txt", mode=0100664, dev=0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/text.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/text.txt"
+    open returned 5
+    close returned 0
+
+bbfs_getattr(path="/text.txt", statbuf=0xa4bfec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/text.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/text.txt"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285192
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x684896bb
+    st_mtime = 0x684896bb
+    st_ctime = 0x684896bb
+
+bb_open(path"/text.txt", fi=0x9fffecb0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/text.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/text.txt"
+    open returned 5
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+
+bb_getxattr(path = "/text.txt", name = "security.capability", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/text.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/text.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bbfs_write(path="/text.txt", buf=0xa5544060, size=4096, offset=0,block_offset is 0 ,block num is 0, fi=0xa4bfed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+e
+position given 1
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: 280d8f442fbaff4f7c88a2cac3cfb706b45cd294
+
+bbfs_write(path="/text.txt", buf=0xa5522060, size=4096, offset=4096,block_offset is 0 ,block num is 1, fi=0x9fffed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf xamplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+ex
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: b7b284ac96747d6c81abc566852133533bc28852
+
+bbfs_write(path="/text.txt", buf=0xa4fde060, size=4096, offset=8192,block_offset is 0 ,block num is 2, fi=0x9f7fdd20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf amplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+exa
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: f5cd28d35b94ba90e4bb08b8cd10573f4340ac4d
+
+bbfs_write(path="/text.txt", buf=0xa5544060, size=4096, offset=12288,block_offset is 0 ,block num is 3, fi=0xa4bfed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf mplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+exam
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: c386d237c0512806c8de790bd4d239d93410dd9d
+
+bbfs_write(path="/text.txt", buf=0xa5522060, size=4096, offset=16384,block_offset is 0 ,block num is 4, fi=0x9fffed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf plefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examp
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: 60a386edae3770819a38d933128db751efadb689
+
+bbfs_write(path="/text.txt", buf=0xa4fde060, size=4096, offset=20480,block_offset is 0 ,block num is 5, fi=0x9f7fdd20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf lefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+exampl
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: 108333823820c404902a907346d0eb3d7609ec57
+
+bbfs_write(path="/text.txt", buf=0xa5544060, size=4096, offset=24576,block_offset is 0 ,block num is 6, fi=0xa4bfed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf efile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+example
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: dfd5f9dfb4b74a54658bbffab99064993fcf3512
+
+bbfs_write(path="/text.txt", buf=0xa5522060, size=4096, offset=28672,block_offset is 0 ,block num is 7, fi=0x9fffed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf file.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplef
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: 0f7e626f5df2b2eccb66c8c953a958fac3d4baa8
+
+bbfs_write(path="/text.txt", buf=0xa4fde060, size=4096, offset=32768,block_offset is 0 ,block num is 8, fi=0x9f7fdd20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf ile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefi
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: 95c781a21d60fbbedcd597723b3608378ddd3243
+
+bbfs_write(path="/text.txt", buf=0xa5544060, size=4096, offset=36864,block_offset is 0 ,block num is 9, fi=0xa4bfed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf le.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefil
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: 62ddccfdc7df37995d4efbd7a66870d8ce4635e7
+
+bbfs_write(path="/text.txt", buf=0xa5522060, size=4096, offset=40960,block_offset is 0 ,block num is 10, fi=0x9fffed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf e.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: 6fca7286cc584e6f30066a01a12fab0e2d66e9c8
+
+bbfs_write(path="/text.txt", buf=0xa4fde060, size=4096, offset=45056,block_offset is 0 ,block num is 11, fi=0x9f7fdd20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf .com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: 12b30228bd12edfbaac6f33a29338efd6abd6aba
+
+bbfs_write(path="/text.txt", buf=0xa5544060, size=4096, offset=49152,block_offset is 0 ,block num is 12, fi=0xa4bfed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.c
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: bc4142e3c1a038bb6c004eed0b1463b0e4190aeb
+
+bbfs_write(path="/text.txt", buf=0xa5522060, size=4096, offset=53248,block_offset is 0 ,block num is 13, fi=0x9fffed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf om | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.co
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: 24ab124ebc80ba5563896b30cac7009324b450b2
+
+bbfs_write(path="/text.txt", buf=0xa4fde060, size=4096, offset=57344,block_offset is 0 ,block num is 14, fi=0x9f7fdd20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf m | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 4096, expected 4096, offset is 0
+write status is 4096 and write to block is 4096
+New block written with hash: 6b43e7fd11f8c26986c8fd13b60826ca062e2fea
+
+bbfs_write(path="/text.txt", buf=0xa5544060, size=3458, offset=61440,block_offset is 0 ,block num is 15, fi=0xa4bfed20)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+buf  | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+
+
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.com | Your Example Files.
+examplefile.c
+File found in metadata: text.txt
+iter 0
+overwrite: 0
+written 3458, expected 3458, offset is 0
+write status is 3458 and write to block is 3458
+New block written with hash: ccaae63e89cc9b665b3c8be0f30322f7e9c61899
+
+bb_flush(path="/text.txt", fi=0x9fffecb0)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x015d3c6711ae37cc
+
+bb_release(path="/text.txt", fi=0x9f7fdcb0)
+    fi:
+    flags = 0x00008001
+    fh_old = 0x00000005
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000005
+    lock_owner = 0x0000000000000000
+    close returned 0
+
+bbfs_getattr(path="/image.jpeg", statbuf=0xa4bfec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/image.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/image.jpeg"
+    lstat returned 0
+File found in metadata: image.jpeg size: 4884
+    si:
+    st_dev = 66310
+    st_ino = 3285187
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4884
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x684896bb
+    st_mtime = 0x684896bb
+    st_ctime = 0x684896bb
+
+bb_access(path="/image.jpeg", mask=02)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/image.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/image.jpeg"
+
+bbfs_inlink(path="/image.jpeg
+File found in metadata: image.jpeg
+num_of_users_over: 1
+num_of_users_over: 1
+bb_unlink(path="/image.jpeg")
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/image.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/image.jpeg"
+    unlink returned 0
+
+bbfs_getattr(path="/text.txt", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/text.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/text.txt"
+    lstat returned 0
+File found in metadata: text.txt size: 65536
+    si:
+    st_dev = 66310
+    st_ino = 3285192
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 65536
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x684896bb
+    st_mtime = 0x684896bb
+    st_ctime = 0x684896bb
+
+bb_access(path="/text.txt", mask=02)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/text.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/text.txt"
+
+bbfs_inlink(path="/text.txt
+File found in metadata: text.txt
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+num_of_users_over: 1
+bb_unlink(path="/text.txt")
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/text.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/text.txt"
+    unlink returned 0
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33082100
+    f_bavail = 30547457
+    f_files = 12656640
+    f_ffree = 12125964
+    f_favail = 12125964
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bbfs_getattr(path="/", statbuf=0xa4bfebd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x684896be
+    st_ctime = 0x684896be
+
+bbfs_getattr(path="/", statbuf=0x9f7fdbd0)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 66310
+    st_ino = 3285767
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x684896b3
+    st_mtime = 0x684896be
+    st_ctime = 0x684896be
+
+bbfs_getattr(path="/opapopjgj.txt", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgj.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgj.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/opapopjgj", statbuf=0xa4bfec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgj", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgj"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/opapopjgjpo", statbuf=0x9f7fdc00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgjpo", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgjpo"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/download.jpeg", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/download.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/download.jpeg"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033713
+    f_bavail = 30499070
+    f_files = 12656640
+    f_ffree = 12124355
+    f_favail = 12124355
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033713
+    f_bavail = 30499070
+    f_files = 12656640
+    f_ffree = 12124355
+    f_favail = 12124355
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033714
+    f_bavail = 30499071
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033714
+    f_bavail = 30499071
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033714
+    f_bavail = 30499071
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9fffec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033713
+    f_bavail = 30499070
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033713
+    f_bavail = 30499070
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033713
+    f_bavail = 30499070
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9fffec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033713
+    f_bavail = 30499070
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033713
+    f_bavail = 30499070
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033713
+    f_bavail = 30499070
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9fffec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033713
+    f_bavail = 30499070
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033712
+    f_bavail = 30499069
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033712
+    f_bavail = 30499069
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9fffec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033712
+    f_bavail = 30499069
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033712
+    f_bavail = 30499069
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033712
+    f_bavail = 30499069
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9fffec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033712
+    f_bavail = 30499069
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033711
+    f_bavail = 30499068
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033711
+    f_bavail = 30499068
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9fffec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033711
+    f_bavail = 30499068
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033711
+    f_bavail = 30499068
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033711
+    f_bavail = 30499068
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9fffec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033711
+    f_bavail = 30499068
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0xa4bfec30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033711
+    f_bavail = 30499068
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bb_statfs(path="/", statv=0x9f7fdc30)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/"
+    statvfs returned 0
+    sv:
+    f_bsize = 4096
+    f_frsize = 4096
+    f_blocks = 49735828
+    f_bfree = 33033710
+    f_bavail = 30499067
+    f_files = 12656640
+    f_ffree = 12124358
+    f_favail = 12124358
+    f_fsid = 183740723092770492
+    f_flag = 0x00001000
+    f_namemax = 255
+
+bbfs_getattr(path="/opapopjgj.txt", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgj.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgj.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/opapopjgj", statbuf=0xa4bfec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgj", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgj"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/opapopjgjpo", statbuf=0x9f7fdc00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgjpo", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgjpo"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/download.jpeg", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/download.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/download.jpeg"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/opapopjgj.txt", statbuf=0xa4bfec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgj.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgj.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/opapopjgj", statbuf=0x9f7fdc00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgj", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgj"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/opapopjgjpo", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgjpo", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgjpo"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/download.jpeg", statbuf=0xa4bfec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/download.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/download.jpeg"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/opapopjgj.txt", statbuf=0x9f7fdc00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgj.txt", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgj.txt"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/opapopjgj", statbuf=0x9fffec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgj", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgj"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/opapopjgjpo", statbuf=0xa4bfec00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/opapopjgjpo", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/opapopjgjpo"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bbfs_getattr(path="/download.jpeg", statbuf=0x9f7fdc00)
+    bb_fullpath:  rootdir = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir", path = "/download.jpeg", fpath = "/home/christodoulos-zerdalis/Desktop/Operating systems/p3/fuse-tutorial/fuse-tutorial-2018-02-04/example/rootdir/download.jpeg"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_destroy(userdata=0xdde2a6b0)

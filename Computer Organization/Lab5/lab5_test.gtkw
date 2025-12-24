@@ -1,0 +1,89 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun Nov 20 14:55:57 2022
+[*]
+[dumpfile] "/home/chris/Desktop/Lab5/CPUtest.vcd"
+[dumpfile_mtime] "Sun Nov 20 14:54:27 2022"
+[dumpfile_size] 35263
+[savefile] "/home/chris/Desktop/Lab5/lab5_test.gtkw"
+[timestart] 0
+[size] 1920 976
+[pos] -1 -1
+*-13.031847 2300 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.cpu0.
+[sst_width] 233
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 275
+@200
+-###
+@28
+cpu_tb.clock
+cpu_tb.reset
+@22
+cpu_tb.cpu0.PC[31:0]
+cpu_tb.cpu0.NewPC[31:0]
+cpu_tb.cpu0.ExtOffset[31:0]
+@200
+-
+-CONTROL_SIG
+@28
+cpu_tb.cpu0.ALUcntrl[1:0]
+cpu_tb.cpu0.EqBranch
+cpu_tb.cpu0.MemRead
+cpu_tb.cpu0.MemToReg
+cpu_tb.cpu0.MemWrite
+cpu_tb.cpu0.NeqBranch
+cpu_tb.cpu0.RegDst
+cpu_tb.cpu0.RegWrite
+cpu_tb.cpu0.ALUSrc
+cpu_tb.cpu0.zero
+@200
+-
+-mod_in
+@22
+cpu_tb.cpu0.ALUOp[3:0]
+cpu_tb.cpu0.AluInA[31:0]
+cpu_tb.cpu0.AluInB[31:0]
+cpu_tb.cpu0.ALUout[31:0]
+cpu_tb.cpu0.Instruction[31:0]
+cpu_tb.cpu0.MemData[31:0]
+cpu_tb.cpu0.WriteData[31:0]
+@200
+-
+-regs
+@22
+cpu_tb.cpu0.cpu_regs.\data[0][31:0]
+cpu_tb.cpu0.cpu_regs.\data[1][31:0]
+cpu_tb.cpu0.cpu_regs.\data[2][31:0]
+cpu_tb.cpu0.cpu_regs.\data[3][31:0]
+cpu_tb.cpu0.cpu_regs.\data[4][31:0]
+cpu_tb.cpu0.cpu_regs.\data[5][31:0]
+cpu_tb.cpu0.cpu_regs.\data[6][31:0]
+cpu_tb.cpu0.cpu_regs.\data[7][31:0]
+cpu_tb.cpu0.cpu_regs.\data[8][31:0]
+cpu_tb.cpu0.cpu_regs.\data[9][31:0]
+cpu_tb.cpu0.cpu_regs.\data[10][31:0]
+cpu_tb.cpu0.cpu_regs.\data[11][31:0]
+cpu_tb.cpu0.cpu_regs.\data[12][31:0]
+cpu_tb.cpu0.cpu_regs.\data[13][31:0]
+cpu_tb.cpu0.cpu_regs.\data[14][31:0]
+cpu_tb.cpu0.cpu_regs.\data[15][31:0]
+cpu_tb.cpu0.cpu_regs.\data[16][31:0]
+cpu_tb.cpu0.cpu_regs.\data[17][31:0]
+cpu_tb.cpu0.cpu_regs.\data[18][31:0]
+@200
+-data
+@22
+cpu_tb.cpu0.DATA_MEMORY.\data[0][31:0]
+cpu_tb.cpu0.DATA_MEMORY.\data[1][31:0]
+cpu_tb.cpu0.DATA_MEMORY.\data[2][31:0]
+cpu_tb.cpu0.DATA_MEMORY.\data[3][31:0]
+cpu_tb.cpu0.DATA_MEMORY.\data[4][31:0]
+cpu_tb.cpu0.DATA_MEMORY.\data[5][31:0]
+cpu_tb.cpu0.DATA_MEMORY.\data[6][31:0]
+@23
+cpu_tb.cpu0.DATA_MEMORY.\data[7][31:0]
+[pattern_trace] 1
+[pattern_trace] 0

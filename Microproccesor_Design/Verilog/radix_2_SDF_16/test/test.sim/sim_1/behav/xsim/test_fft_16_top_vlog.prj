@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../../../../tools/Xilinx/2025.1/data/rsb/busdef" --include "../../../../../" \
+"../../../../../butterfly.v" \
+"../../../../../delay_buffer.v" \
+"../../../../../fft_16.v" \
+"../../../../../stage_unit.v" \
+"../../../../../test_fft_16.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

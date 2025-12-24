@@ -1,0 +1,16 @@
+input_real_arr[0]  = 32'sd0;
+input_real_arr[1]  = -32'sd5281;
+input_real_arr[2]  = 32'sd32767;
+input_real_arr[3]  = -32'sd24720;
+input_real_arr[4]  = 32'sd12635;
+input_real_arr[5]  = -32'sd17003;
+input_real_arr[6]  = 32'sd10026;
+input_real_arr[7]  = -32'sd8124;
+input_real_arr[8]  = 32'sd8124;
+input_real_arr[9]  = -32'sd10026;
+input_real_arr[10] = 32'sd17003;
+input_real_arr[11] = -32'sd12635;
+input_real_arr[12] = 32'sd24720;
+input_real_arr[13] = -32'sd32767;
+input_real_arr[14] = 32'sd5281;
+input_real_arr[15] = 32'sd0;

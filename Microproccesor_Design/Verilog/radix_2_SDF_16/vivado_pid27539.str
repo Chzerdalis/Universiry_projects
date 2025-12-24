@@ -1,0 +1,139 @@
+/*
+
+AMD Vivado v2025.1 (64-bit) [Major: 2025, Minor: 1]
+SW Build: 6140274 on Wed May 21 22:58:25 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
+
+Process ID (PID): 27539
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Nov 29 00:36:14 EET 2025
+Time zone: 	Eastern European Standard Time (Europe/Athens)
+
+OS: Ubuntu
+OS Version: 6.14.0-36-generic
+OS Architecture: amd64
+Available processors (cores): 8
+LSB Release Description: Ubuntu 24.04.3 LTS
+
+Display: 0
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 32, width = 1920, height = 1001
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	/tools/Xilinx/2025.1/tps/lnx64/jre21.0.1_12
+Java executable: 	/tools/Xilinx/2025.1/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms812m, -Xmx6144m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	812 MB
+Java maximum memory (-Xmx):	 6 GB
+
+User name: 	christodoulos-zerdalis
+User home directory: /home/christodoulos-zerdalis
+User working directory: /home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/2025.1
+HDI_APPROOT: /tools/Xilinx/2025.1/Vivado
+RDI_DATADIR: /tools/Xilinx/2025.1/data
+RDI_BINDIR: /tools/Xilinx/2025.1/Vivado/bin
+
+Vivado preferences file: /home/christodoulos-zerdalis/.Xilinx/Vivado/2025.1/vivado.xml
+Vivado preferences directory: /home/christodoulos-zerdalis/.Xilinx/Vivado/2025.1/
+Vivado layouts directory: /home/christodoulos-zerdalis/.Xilinx/Vivado/2025.1/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/2025.1/Vivado/lib/classes/planAhead.jar
+Vivado log file: 	/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/vivado.log
+Vivado journal file: 	/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-27539-christodoulos-zerdalis-IdeaPad-3-15IIL05
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+RDI_APPROOT: /tools/Xilinx/2025.1/Vivado
+RDI_BASEROOT: /tools/Xilinx/2025.1
+RDI_BINROOT: /tools/Xilinx/2025.1/Vivado/bin
+RDI_BUILD: yes
+RDI_DATADIR: /tools/Xilinx/2025.1/Vivado/data
+RDI_INSTALLROOT: /tools/Xilinx
+RDI_INSTALLVER: Vivado
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /tools/Xilinx/2025.1/Vivado/lib/lnx64.o/Ubuntu/24:/tools/Xilinx/2025.1/Vivado/lib/lnx64.o/Ubuntu:/tools/Xilinx/2025.1/Vivado/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /tools/Xilinx/2025.1/Vitis/bin:/tools/Xilinx/2025.1/Vivado/ids_lite/ISE/bin/lin64
+RDI_PROG: /tools/Xilinx/2025.1/Vivado/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16:christodoulos-zerdalis-IdeaPad-3-15IIL05_1764369356_27450
+RDI_SHARED_DATA: /tools/Xilinx/SharedData/Vivado/data
+RDI_TPS_ROOT: /tools/Xilinx/2025.1/Vivado/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+XILINX: /tools/Xilinx/2025.1/Vivado/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/2025.1/Vivado/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/2025.1/Vitis
+XILINX_PLANAHEAD: /tools/Xilinx/2025.1/Vivado
+XILINX_SDK: /tools/Xilinx/2025.1/Vitis
+XILINX_VITIS: /tools/Xilinx/2025.1/Vitis
+XILINX_VIVADO: /tools/Xilinx/2025.1/Vivado
+
+
+GUI allocated memory:	812 MB
+GUI max memory:		6,144 MB
+Engine allocated memory: 1,863 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // t (PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+selectButton("NEXT", "Next", "New Project"); // JButton (NEXT)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,883 MB. GUI used memory: 69 MB. Current time: 11/29/25, 12:36:16 AM EET
+// Elapsed time: 21 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "fft_2_sdf"); // ad (PAResourceOtoP.ProjectNameChooser_PROJECT_NAME)
+selectButton("NEXT", "Next", "New Project"); // JButton (NEXT)
+selectButton("NEXT", "Next", "New Project"); // JButton (NEXT)
+selectButton("NEXT", "Next", "New Project"); // JButton (NEXT)
+// [GUI Memory]: 101 MB (+103160kb) [00:00:43]
+// [Engine Memory]: 1,861 MB (+1799797kb) [00:00:43]
+// [GUI Memory]: 106 MB (+304kb) [00:00:44]
+selectButton("NEXT", "Next", "New Project"); // JButton (NEXT)
+// WARNING: HEventQueue.dispatchEvent() is taking  1758 ms.
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // g (PAResourceOtoP.PartChooser_TABBED_PANE)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,475 MB. GUI used memory: 68 MB. Current time: 11/29/25, 12:36:51 AM EET
+setText("PAResourceAtoD.BoardChooser_BOARD_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField (PAResourceAtoD.BoardChooser_BOARD_TABLE_SEARCH_FIELD)
+// [Engine Memory]: 2,476 MB (+546936kb) [00:00:56]
+selectComboBox(PAResourceAtoD.BoardChooser_VENDOR, "xilinx.com", 2); // a.a (PAResourceAtoD.BoardChooser_VENDOR)
+selectComboBox(PAResourceAtoD.BoardChooser_VENDOR, "Leopardimaging", 1); // a.a (PAResourceAtoD.BoardChooser_VENDOR)
+selectComboBox(PAResourceAtoD.BoardChooser_VENDOR, "All", 0); // a.a (PAResourceAtoD.BoardChooser_VENDOR)
+// [GUI Memory]: 122 MB (+11405kb) [00:01:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,485 MB. GUI used memory: 69 MB. Current time: 11/29/25, 12:37:10 AM EET
+// [GUI Memory]: 135 MB (+6891kb) [00:01:32]
+// Elapsed time: 43 seconds
+setText("PAResourceAtoD.BoardChooser_BOARD_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField (PAResourceAtoD.BoardChooser_BOARD_TABLE_SEARCH_FIELD)
+selectButton(PAResourceAtoD.BoardChooser_RESET_ALL_FILTERS, "Reset All Filters", "New Project"); // h (PAResourceAtoD.BoardChooser_RESET_ALL_FILTERS)
+selectButton(PAResourceAtoD.BoardChooser_RESET_ALL_FILTERS, "Reset All Filters", "New Project"); // h (PAResourceAtoD.BoardChooser_RESET_ALL_FILTERS)
+// [GUI Memory]: 247 MB (+109862kb) [00:01:48]
+selectButton(PAResourceAtoD.BoardChooser_REFRESH, "Refresh", "New Project"); // a (PAResourceAtoD.BoardChooser_REFRESH)
+// TclEventType: LOAD_FEATURE
+// TclEventType: XHUB_XSTORE_DIR_CHANGE
+// TclEventType: XHUB_XSTORE_REFRESH
+// Tcl Message: xhub::refresh_catalog [xhub::get_xstores xilinx_board_store] 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,478 MB. GUI used memory: 70 MB. Current time: 11/29/25, 12:38:24 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,478 MB. GUI used memory: 69 MB. Current time: 11/29/25, 12:38:54 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,478 MB. GUI used memory: 69 MB. Current time: 11/29/25, 12:39:24 AM EET

@@ -1,0 +1,12 @@
+prog5e.c: In function ‘main’:
+prog5e.c:21:6: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   21 |  if (word = NULL) {
+      |      ^~~~
+prog5e.c: In function ‘g’:
+prog5e.c:34:6: warning: unused variable ‘y’ [-Wunused-variable]
+   34 |  int y;
+      |      ^
+prog5e.c: In function ‘f’:
+prog5e.c:30:11: warning: ‘x’ is used uninitialized in this function [-Wuninitialized]
+   30 |  return x * 2;
+      |         ~~^~~

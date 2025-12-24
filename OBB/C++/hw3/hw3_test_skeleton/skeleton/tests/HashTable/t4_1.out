@@ -1,0 +1,102 @@
+gthanos: 119427539
+adding for i: 0, c:32
+hashCode: 119427539, hashPos: 19
+'when' added!
+gthanos: 4263861896878
+adding for i: 0, c:32
+hashCode: 4263861896878, hashPos: 14
+'arrived' added!
+gthanos: 3618796
+adding for i: 0, c:32
+hashCode: 3618796, hashPos: 12
+'was' added!
+gthanos: 109406
+adding for i: 0, c:32
+hashCode: 109406, hashPos: 30
+'on' added!
+gthanos: 141303745750902
+adding for i: 0, c:32
+hashCode: 141303745750902, hashPos: 22
+'original' added!
+gthanos: 3914814140
+adding for i: 0, c:32
+hashCode: 3914814140, hashPos: 28
+'about' added!
+gthanos: 3614657
+adding for i: 0, c:32
+hashCode: 3614657, hashPos: 1
+'she' added!
+'was' failed!
+gthanos: 140708772671215
+adding for i: 0, c:32
+hashCode: 140708772671215, hashPos: 15
+'assigned' added!
+gthanos: 109572
+adding for i: 0, c:32
+hashCode: 109572, hashPos: 4
+'to' added!
+gthanos: 108950
+adding for i: 1, c:32
+hashCode: 108950, hashPos: 23
+'at' added!
+gthanos: 3936813562
+adding for i: 0, c:32
+hashCode: 3936813562, hashPos: 26
+'study' added!
+'at' failed!
+gthanos: 3922504654
+adding for i: 2, c:32
+hashCode: 3922504654, hashPos: 16
+'group' added!
+gthanos: 4645433734477096
+adding for i: 0, c:32
+hashCode: 4645433734477096, hashPos: 8
+'carefully' added!
+'arrived' failed!
+gthanos: 141158801475025
+adding for i: 0, c:32
+hashCode: 141158801475025, hashPos: 17
+'learning' added!
+'about' failed!
+'group' failed!
+gthanos: 118669600
+adding for i: 0, c:32
+hashCode: 118669600, hashPos: 0
+'bees' added!
+'' failed!
+ ###### HASH TABLE 1 ######
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 15 ---
+
+ ###### HASH TABLE 2 ######
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 15 ---
+

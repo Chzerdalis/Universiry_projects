@@ -1,0 +1,269 @@
+gthanos: 119427539
+adding for i: 0, c:32
+hashCode: 119427539, hashPos: 19
+gthanos: 4263861896878
+adding for i: 0, c:32
+hashCode: 4263861896878, hashPos: 14
+gthanos: 3618796
+adding for i: 0, c:32
+hashCode: 3618796, hashPos: 12
+gthanos: 109406
+adding for i: 0, c:32
+hashCode: 109406, hashPos: 30
+gthanos: 141303745750902
+adding for i: 0, c:32
+hashCode: 141303745750902, hashPos: 22
+gthanos: 3914814140
+adding for i: 0, c:32
+hashCode: 3914814140, hashPos: 28
+gthanos: 3614657
+adding for i: 0, c:32
+hashCode: 3614657, hashPos: 1
+gthanos: 140708772671215
+adding for i: 0, c:32
+hashCode: 140708772671215, hashPos: 15
+gthanos: 109572
+adding for i: 0, c:32
+hashCode: 109572, hashPos: 4
+gthanos: 108950
+adding for i: 1, c:32
+hashCode: 108950, hashPos: 23
+gthanos: 3936813562
+adding for i: 0, c:32
+hashCode: 3936813562, hashPos: 26
+gthanos: 3922504654
+adding for i: 2, c:32
+hashCode: 3922504654, hashPos: 16
+gthanos: 4645433734477096
+adding for i: 0, c:32
+hashCode: 4645433734477096, hashPos: 8
+gthanos: 141158801475025
+adding for i: 0, c:32
+hashCode: 141158801475025, hashPos: 17
+gthanos: 118669600
+adding for i: 0, c:32
+hashCode: 118669600, hashPos: 0
+ ###### HASH TABLE ######
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 15 ---
+
+ ###### START REMOVALS ######
+Removing 'when'
+gthanos: 119427539
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 14 ---
+
+Removing 'arrived'
+gthanos: 4263861896878
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+15. -assigned-
+16. -group-
+17. -learning-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 13 ---
+
+Removing 'was'
+gthanos: 3618796
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 12 ---
+
+Removing 'on'
+gthanos: 109406
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+ --- CAPACITY: 32, SIZE: 11 ---
+
+Removing 'original'
+gthanos: 141303745750902
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+28. -about-
+ --- CAPACITY: 32, SIZE: 10 ---
+
+Removing 'about'
+gthanos: 3914814140
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+ --- CAPACITY: 32, SIZE: 9 ---
+
+Removing 'she'
+gthanos: 3614657
+ 0. -bees-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+ --- CAPACITY: 32, SIZE: 8 ---
+
+Removing 'was'
+gthanos: 3618796
+ 0. -bees-
+ 4. -to-
+ 8. -carefully-
+15. -assigned-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+ --- CAPACITY: 32, SIZE: 8 ---
+
+Removing 'assigned'
+gthanos: 140708772671215
+ 0. -bees-
+ 4. -to-
+ 8. -carefully-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+ --- CAPACITY: 32, SIZE: 7 ---
+
+Removing 'to'
+gthanos: 109572
+ 0. -bees-
+ 8. -carefully-
+16. -group-
+17. -learning-
+23. -at-
+26. -study-
+ --- CAPACITY: 32, SIZE: 6 ---
+
+Removing 'at'
+gthanos: 108950
+ 0. -bees-
+ 8. -carefully-
+16. -group-
+17. -learning-
+26. -study-
+ --- CAPACITY: 32, SIZE: 5 ---
+
+Removing 'study'
+gthanos: 3936813562
+ 0. -bees-
+ 8. -carefully-
+16. -group-
+17. -learning-
+ --- CAPACITY: 32, SIZE: 4 ---
+
+Removing 'at'
+gthanos: 108950
+ 0. -bees-
+ 8. -carefully-
+16. -group-
+17. -learning-
+ --- CAPACITY: 32, SIZE: 4 ---
+
+Removing 'group'
+gthanos: 3922504654
+ 0. -bees-
+ 8. -carefully-
+17. -learning-
+ --- CAPACITY: 32, SIZE: 3 ---
+
+Removing 'carefully'
+gthanos: 4645433734477096
+ 0. -bees-
+17. -learning-
+ --- CAPACITY: 32, SIZE: 2 ---
+
+Removing 'arrived'
+gthanos: 4263861896878
+ 0. -bees-
+17. -learning-
+ --- CAPACITY: 32, SIZE: 2 ---
+
+Removing 'learning'
+gthanos: 141158801475025
+ 0. -bees-
+ --- CAPACITY: 32, SIZE: 1 ---
+
+Removing 'about'
+gthanos: 3914814140
+ 0. -bees-
+ --- CAPACITY: 32, SIZE: 1 ---
+
+Removing 'group'
+gthanos: 3922504654
+ 0. -bees-
+ --- CAPACITY: 32, SIZE: 1 ---
+
+Removing 'bees'
+gthanos: 118669600
+ --- CAPACITY: 32, SIZE: 0 ---
+
+Removing ''
+gthanos: 97
+ --- CAPACITY: 32, SIZE: 0 ---
+

@@ -1,0 +1,47 @@
+--> Size: 5, New capacity: 16
+--> Size: 9, New capacity: 32
+--> Size: 17, New capacity: 64
+ ###### HASH TABLE ######
+ 3. -working-
+ 5. -the-
+ 6. -have-
+12. -passage-
+13. -become-
+14. -programs-
+19. -group-
+21. -can-
+22. -rite-
+23. -of-
+24. -at-
+27. -in-
+29. -teams-
+44. -outcome-
+52. -practice-
+54. -employees-
+58. -original-
+59. -study-
+61. -students-
+64. -transofrm-
+ --- CAPACITY: 64, SIZE: 20 ---
+ ###### HASH TABLE ######
+ 2. -working-
+ 3. -the-
+ 5. -have-
+ 6. -passage-
+12. -become-
+13. -programs-
+14. -group-
+19. -can-
+21. -rite-
+22. -of-
+23. -at-
+24. -in-
+27. -teams-
+29. -outcome-
+44. -practice-
+52. -employees-
+54. -original-
+58. -study-
+59. -students-
+61. -transofrm-
+ --- CAPACITY: 64, SIZE: 20 ---

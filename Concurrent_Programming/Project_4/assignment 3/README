@@ -1,0 +1,2 @@
+compile with make
+run ./ask3 <number of readers> <limit number>

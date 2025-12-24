@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.0.1 (3529600 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="39.3721650" minlon="22.9390640" maxlat="39.3738760" maxlon="22.9432750"/>
+ <node id="287475269" visible="true" version="7" changeset="58378717" timestamp="2018-04-24T15:59:17Z" user="Σεραφειμ" uid="2230609" lat="39.3589362" lon="22.9330007"/>
+ <node id="354798101" visible="true" version="75" changeset="100650801" timestamp="2021-03-08T16:29:43Z" user="Σεραφειμ" uid="2230609" lat="39.3760532" lon="22.9386333">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="354803419" visible="true" version="31" changeset="120982374" timestamp="2022-05-14T14:47:57Z" user="Σεραφειμ" uid="2230609" lat="39.3675527" lon="22.9505135"/>
+ <node id="354803525" visible="true" version="43" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3671430" lon="22.9512240"/>
+ <node id="354803527" visible="true" version="44" changeset="132259919" timestamp="2023-02-08T14:36:57Z" user="sheldonelectric" uid="936280" lat="39.3665200" lon="22.9523293"/>
+ <node id="354803528" visible="true" version="25" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3658077" lon="22.9535011"/>
+ <node id="354803529" visible="true" version="21" changeset="64424341" timestamp="2018-11-12T23:39:20Z" user="Σεραφειμ" uid="2230609" lat="39.3648397" lon="22.9553518"/>
+ <node id="354803530" visible="true" version="32" changeset="104659702" timestamp="2021-05-13T21:23:44Z" user="Henosb" uid="11601547" lat="39.3643799" lon="22.9561417"/>
+ <node id="354803531" visible="true" version="29" changeset="104659702" timestamp="2021-05-13T21:23:44Z" user="Henosb" uid="11601547" lat="39.3632749" lon="22.9578815"/>
+ <node id="354803532" visible="true" version="28" changeset="104599773" timestamp="2021-05-12T22:20:39Z" user="Henosb" uid="11601547" lat="39.3630173" lon="22.9583244"/>
+ <node id="354806074" visible="true" version="22" changeset="123148266" timestamp="2022-07-03T11:50:24Z" user="Σεραφειμ" uid="2230609" lat="39.3707518" lon="22.9375049"/>
+ <node id="354806112" visible="true" version="19" changeset="58375504" timestamp="2018-04-24T14:17:40Z" user="Σεραφειμ" uid="2230609" lat="39.3710472" lon="22.9381643"/>
+ <node id="354806264" visible="true" version="19" changeset="123135280" timestamp="2022-07-02T22:37:12Z" user="Σεραφειμ" uid="2230609" lat="39.3707438" lon="22.9426300"/>
+ <node id="354806265" visible="true" version="24" changeset="123135280" timestamp="2022-07-02T22:37:12Z" user="Σεραφειμ" uid="2230609" lat="39.3724497" lon="22.9415739"/>
+ <node id="354806327" visible="true" version="22" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3733483" lon="22.9438047"/>
+ <node id="354806405" visible="true" version="30" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3740181" lon="22.9454437"/>
+ <node id="354806452" visible="true" version="9" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3704573" lon="22.9437419"/>
+ <node id="354806453" visible="true" version="10" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3710347" lon="22.9433738"/>
+ <node id="354806454" visible="true" version="21" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3727366" lon="22.9422796"/>
+ <node id="354806497" visible="true" version="36" changeset="93486228" timestamp="2020-11-03T13:28:highway35Z" user="Σεραφειμ" uid="2230609" lat="39.3704901" lon="22.9452164"/>
+ <node id="354806499" visible="true" version="25" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3693788" lon="22.9473182"/>
+ <node id="354806502" visible="true" version="20" changeset="123494455" timestamp="2022-07-11T23:41:04Z" user="Σεραφειμ" uid="2230609" lat="39.3681167" lon="22.9495259"/>
+ <node id="355243915" visible="true" version="22" changeset="104659702" timestamp="2021-05-13T21:23:44Z" user="Henosb" uid="11601547" lat="39.3653674" lon="22.9543631"/>
+ <node id="355243974" visible="true" version="19" changeset="104599773" timestamp="2021-05-12T22:20:39Z" user="Henosb" uid="11601547" lat="39.3637447" lon="22.9571329"/>
+ <node id="355244203" visible="true" version="17" changeset="64424341" timestamp="2018-11-12T23:39:20Z" user="Σεραφειμ" uid="2230609" lat="39.3651238" lon="22.9548330"/>
+ <node id="355257667" visible="true" version="34" changeset="123338693" timestamp="2022-07-07T23:28:13Z" user="Σεραφειμ" uid="2230609" lat="39.3736521" lon="22.9445550"/>
+ <node id="355258556" visible="true" version="47" changeset="145073494" timestamp="2023-12-13T12:34:16Z" user="user_9221753" uid="9221753" lat="39.3739252" lon="22.9390423"/>
+ <node id="355259772" visible="true" version="30" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609" lat="39.3721568" lon="22.9364190"/>
+ <node id="355259773" visible="true" version="35" changeset="104590404" timestamp="2021-05-12T18:11:21Z" user="Henosb" uid="11601547" lat="39.3722000" lon="22.9366839"/>
+ <node id="355259775" visible="true" version="40" changeset="78274148" timestamp="2019-12-11T17:43:01Z" user="Σεραφειμ" uid="2230609" lat="39.3724932" lon="22.9393176"/>
+ <node id="355259919" visible="true" version="26" changeset="145073494" timestamp="2023-12-13T12:34:16Z" user="user_9221753" uid="9221753" lat="39.3733010" lon="22.9391623"/>
+ <node id="355286719" visible="true" version="7" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3645205" lon="22.9309581"/>
+ <node id="355286869" visible="true" version="6" changeset="100548755" timestamp="2021-03-06T18:25:44Z" user="Σεραφειμ" uid="2230609" lat="39.3642623" lon="22.9307399"/>
+ <node id="355305520" visible="true" version="30" changeset="145073494" timestamp="2023-12-13T12:34:16Z" user="user_9221753" uid="9221753" lat="39.3749337" lon="22.9388485"/>
+ <node id="355305705" visible="true" version="18" changeset="70877555" timestamp="2019-06-03T08:48:24Z" user="user_9221753" uid="9221753" lat="39.3728475" lon="22.9354861"/>
+ <node id="355305728" visible="true" version="19" changeset="70877555" timestamp="2019-06-03T08:48:24Z" user="user_9221753" uid="9221753" lat="39.3729773" lon="22.9365381"/>
+ <node id="355305731" visible="true" version="26" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3722332" lon="22.9370798"/>
+ <node id="355305757" visible="true" version="18" changeset="104590404" timestamp="2021-05-12T18:11:21Z" user="Henosb" uid="11601547" lat="39.3730282" lon="22.9369307"/>
+ <node id="355305853" visible="true" version="23" changeset="104590404" timestamp="2021-05-12T18:11:21Z" user="Henosb" uid="11601547" lat="39.3722904" lon="22.9375501"/>
+ <node id="355305888" visible="true" version="15" changeset="104590404" timestamp="2021-05-12T18:11:21Z" user="Henosb" uid="11601547" lat="39.3730827" lon="22.9373808"/>
+ <node id="355306322" visible="true" version="27" changeset="123770931" timestamp="2022-07-18T16:15:10Z" user="Σεραφειμ" uid="2230609" lat="39.3732418" lon="22.9386815"/>
+ <node id="355306350" visible="true" version="22" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3724376" lon="22.9388364"/>
+ <node id="355306378" visible="true" version="21" changeset="78274148" timestamp="2019-12-11T17:43:01Z" user="Σεραφειμ" uid="2230609" lat="39.3723897" lon="22.9384226"/>
+ <node id="355306379" visible="true" version="14" changeset="70877555" timestamp="2019-06-03T08:48:24Z" user="user_9221753" uid="9221753" lat="39.3731896" lon="22.9382592"/>
+ <node id="355306637" visible="true" version="14" changeset="100228897" timestamp="2021-03-01T20:16:26Z" user="Σεραφειμ" uid="2230609" lat="39.3727562" lon="22.9398633"/>
+ <node id="355306640" visible="true" version="19" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3733728" lon="22.9397614"/>
+ <node id="355306642" visible="true" version="30" changeset="123770931" timestamp="2022-07-18T16:15:10Z" user="Σεραφειμ" uid="2230609" lat="39.3739960" lon="22.9396356"/>
+ <node id="355306714" visible="true" version="28" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3736916" lon="22.9403808"/>
+ <node id="355306716" visible="true" version="29" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3749179" lon="22.9414148"/>
+ <node id="355306785" visible="true" version="9" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609" lat="39.3736510" lon="22.9426889"/>
+ <node id="355306786" visible="true" version="8" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609" lat="39.3733531" lon="22.9429726"/>
+ <node id="355307728" visible="true" version="49" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3746568" lon="22.9470292">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="355307731" visible="true" version="20" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3748265" lon="22.9466570"/>
+ <node id="355307781" visible="true" version="19" changeset="100557778" timestamp="2021-03-07T00:11:44Z" user="Σεραφειμ" uid="2230609" lat="39.3758311" lon="22.9443063"/>
+ <node id="355307941" visible="true" version="20" changeset="145073494" timestamp="2023-12-13T12:34:16Z" user="user_9221753" uid="9221753" lat="39.3726834" lon="22.9392810"/>
+ <node id="355307952" visible="true" version="17" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3732279" lon="22.9408531"/>
+ <node id="355307954" visible="true" version="12" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3741921" lon="22.9421332"/>
+ <node id="355308156" visible="true" version="15" changeset="145073494" timestamp="2023-12-13T12:34:16Z" user="user_9221753" uid="9221753" lat="39.3752838" lon="22.9387812"/>
+ <node id="355308259" visible="true" version="14" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3749898" lon="22.9431067"/>
+ <node id="355308356" visible="true" version="10" changeset="132259919" timestamp="2023-02-08T14:36:57Z" user="sheldonelectric" uid="936280" lat="39.3738877" lon="22.9443094"/>
+ <node id="355308365" visible="true" version="10" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3743690" lon="22.9437851"/>
+ <node id="355308405" visible="true" version="12" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3726955" lon="22.9413829"/>
+ <node id="355308455" visible="true" version="9" changeset="132259919" timestamp="2023-02-08T14:36:57Z" user="sheldonelectric" uid="936280" lat="39.3721036" lon="22.9399485"/>
+ <node id="355308617" visible="true" version="15" changeset="136476831" timestamp="2023-05-24T01:14:43Z" user="nikospag" uid="609559" lat="39.3718936" lon="22.9394395"/>
+ <node id="355308683" visible="true" version="13" changeset="123135280" timestamp="2022-07-02T22:37:12Z" user="Σεραφειμ" uid="2230609" lat="39.3719219" lon="22.9419007"/>
+ <node id="355308836" visible="true" version="10" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3715753" lon="22.9410118"/>
+ <node id="355308837" visible="true" version="9" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3721992" lon="22.9426171"/>
+ <node id="355308838" visible="true" version="10" changeset="100592073" timestamp="2021-03-07T21:05:54Z" user="Σεραφειμ" uid="2230609" lat="39.3728018" lon="22.9441407"/>
+ <node id="355308840" visible="true" version="23" changeset="123338693" timestamp="2022-07-07T23:28:13Z" user="Σεραφειμ" uid="2230609" lat="39.3731094" lon="22.9449053"/>
+ <node id="355308904" visible="true" version="19" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3713453" lon="22.9441652"/>
+ <node id="355309024" visible="true" version="16" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3724993" lon="22.9433711"/>
+ <node id="355309044" visible="true" version="27" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3730276" lon="22.9430149"/>
+ <node id="355309045" visible="true" version="16" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3720043" lon="22.9437064"/>
+ <node id="355309251" visible="true" version="10" changeset="123135280" timestamp="2022-07-02T22:37:12Z" user="Σεραφειμ" uid="2230609" lat="39.3714352" lon="22.9422020"/>
+ <node id="355309252" visible="true" version="5" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3717084" lon="22.9429338"/>
+ <node id="355335569" visible="true" version="18" changeset="123184236" timestamp="2022-07-04T10:39:04Z" user="Σεραφειμ" uid="2230609" lat="39.3640165" lon="22.9567172"/>
+ <node id="355338396" visible="true" version="14" changeset="123199457" timestamp="2022-07-04T16:21:59Z" user="Σεραφειμ" uid="2230609" lat="39.3683478" lon="22.9490773"/>
+ <node id="355338465" visible="true" version="14" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3699816" lon="22.9462061"/>
+ <node id="355338582" visible="true" version="14" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3696724" lon="22.9467798"/>
+ <node id="355340000" visible="true" version="11" changeset="87027112" timestamp="2020-06-23T10:04:43Z" user="erenozdemir" uid="9206516" lat="39.3765889" lon="22.9538593"/>
+ <node id="355340551" visible="true" version="21" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3741995" lon="22.9458977"/>
+ <node id="355340759" visible="true" version="20" changeset="63190788" timestamp="2018-10-04T10:58:45Z" user="Σεραφειμ" uid="2230609" lat="39.3703536" lon="22.9367319"/>
+ <node id="355340761" visible="true" version="24" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3715986" lon="22.9394955">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="355341790" visible="true" version="21" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3720181" lon="22.9360892"/>
+ <node id="355481178" visible="true" version="11" changeset="104659702" timestamp="2021-05-13T21:23:44Z" user="Henosb" uid="11601547" lat="39.3655976" lon="22.9539126"/>
+ <node id="355483398" visible="true" version="7" changeset="101422322" timestamp="2021-03-21T00:07:31Z" user="Σεραφειμ" uid="2230609" lat="39.3729354" lon="22.9444781"/>
+ <node id="355483404" visible="true" version="16" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3734963" lon="22.9441646"/>
+ <node id="355483424" visible="true" version="14" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3738092" lon="22.9449453"/>
+ <node id="355483439" visible="true" version="16" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3743510" lon="22.9462688"/>
+ <node id="355483560" visible="true" version="10" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3661176" lon="22.9530056"/>
+ <node id="355483799" visible="true" version="11" changeset="123254222" timestamp="2022-07-05T23:49:22Z" user="Σεραφειμ" uid="2230609" lat="39.3678481" lon="22.9500571"/>
+ <node id="355483837" visible="true" version="12" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3686792" lon="22.9484139"/>
+ <node id="355484177" visible="true" version="16" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3753714" lon="22.9487582"/>
+ <node id="355484224" visible="true" version="16" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3749903" lon="22.9478282"/>
+ <node id="355484244" visible="true" version="15" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3764981" lon="22.9515992"/>
+ <node id="355484386" visible="true" version="11" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3760432" lon="22.9504678"/>
+ <node id="355484412" visible="true" version="9" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3762802" lon="22.9510326"/>
+ <node id="355484928" visible="true" version="9" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3766676" lon="22.9519448"/>
+ <node id="355484929" visible="true" version="7" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3767299" lon="22.9521664"/>
+ <node id="355484931" visible="true" version="6" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3767058" lon="22.9537377"/>
+ <node id="355484932" visible="true" version="6" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3766773" lon="22.9537830"/>
+ <node id="355485022" visible="true" version="8" changeset="58185490" timestamp="2018-04-17T23:31:36Z" user="Σεραφειμ" uid="2230609" lat="39.3746122" lon="22.9426498"/>
+ <node id="355485032" visible="true" version="14" changeset="104592647" timestamp="2021-05-12T18:41:29Z" user="Henosb" uid="11601547" lat="39.3753990" lon="22.9453255"/>
+ <node id="355485057" visible="true" version="6" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3747373" lon="22.9393493"/>
+ <node id="355485096" visible="true" version="10" changeset="145073494" timestamp="2023-12-13T12:34:16Z" user="user_9221753" uid="9221753" lat="39.3754083" lon="22.9387573"/>
+ <node id="356001108" visible="true" version="11" changeset="104590404" timestamp="2021-05-12T18:11:21Z" user="Henosb" uid="11601547" lat="39.3721742" lon="22.9365078"/>
+ <node id="356001115" visible="true" version="11" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3718623" lon="22.9357367"/>
+ <node id="356001180" visible="true" version="7" changeset="70877555" timestamp="2019-06-03T08:48:24Z" user="user_9221753" uid="9221753" lat="39.3729227" lon="22.9360953"/>
+ <node id="356001224" visible="true" version="6" changeset="70877555" timestamp="2019-06-03T08:48:24Z" user="user_9221753" uid="9221753" lat="39.3728791" lon="22.9357420"/>
+ <node id="356001287" visible="true" version="15" changeset="130889041" timestamp="2023-01-05T03:43:31Z" user="sheldonelectric" uid="936280" lat="39.3715835" lon="22.9351064">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="356001672" visible="true" version="11" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3717539" lon="22.9354917"/>
+ <node id="356012842" visible="true" version="3" changeset="64424341" timestamp="2018-11-12T23:39:20Z" user="Σεραφειμ" uid="2230609" lat="39.3644913" lon="22.9559444"/>
+ <node id="427828621" visible="true" version="7" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609" lat="39.3718613" lon="22.9403445"/>
+ <node id="427828623" visible="true" version="7" changeset="72466650" timestamp="2019-07-20T18:04:33Z" user="Σεραφειμ" uid="2230609" lat="39.3710174" lon="22.9409342"/>
+ <node id="428628740" visible="true" version="9" changeset="145975134" timestamp="2024-01-06T23:51:57Z" user="Σεραφειμ" uid="2230609" lat="39.3720895" lon="22.9406798"/>
+ <node id="642235878" visible="true" version="9" changeset="154555660" timestamp="2024-07-29T10:24:06Z" user="ika-chan!" uid="4763179" lat="39.3627183" lon="22.9317029"/>
+ <node id="642236062" visible="true" version="7" changeset="154555660" timestamp="2024-07-29T10:24:06Z" user="ika-chan!" uid="4763179" lat="39.3628243" lon="22.9316707"/>
+ <node id="658131562" visible="true" version="6" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3702688" lon="22.9456579"/>
+ <node id="1138681302" visible="true" version="4" changeset="123770931" timestamp="2022-07-18T16:15:10Z" user="Σεραφειμ" uid="2230609" lat="39.3727889" lon="22.9393873">
+  <tag k="addr:city" v="Νέα Ιωνία Βόλου"/>
+  <tag k="addr:housenumber" v="16"/>
+  <tag k="addr:postcode" v="384 46"/>
+  <tag k="addr:street" v="Αναπαύσεως"/>
+  <tag k="amenity" v="pharmacy"/>
+  <tag k="dispensing" v="yes"/>
+  <tag k="healthcare" v="pharmacy"/>
+  <tag k="name" v="Τσιόλκας Ευάγ. &amp; Βασ."/>
+  <tag k="phone" v="2421065427"/>
+ </node>
+ <node id="1946666638" visible="true" version="5" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3717099" lon="22.9413740"/>
+ <node id="1946666663" visible="true" version="5" changeset="145975134" timestamp="2024-01-06T23:51:57Z" user="Σεραφειμ" uid="2230609" lat="39.3722298" lon="22.9410301"/>
+ <node id="1946666666" visible="true" version="2" changeset="58077805" timestamp="2018-04-13T22:18:49Z" user="Σεραφειμ" uid="2230609" lat="39.3724742" lon="22.9403063"/>
+ <node id="1946666669" visible="true" version="6" changeset="132259919" timestamp="2023-02-08T14:36:57Z" user="sheldonelectric" uid="936280" lat="39.3725002" lon="22.9409096"/>
+ <node id="1946666673" visible="true" version="3" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3727896" lon="22.9400756"/>
+ <node id="1946666677" visible="true" version="4" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3728193" lon="22.9401874"/>
+ <node id="1946666680" visible="true" version="4" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3729640" lon="22.9404458"/>
+ <node id="2207180140" visible="true" version="3" changeset="58375851" timestamp="2018-04-24T14:30:41Z" user="Σεραφειμ" uid="2230609" lat="39.3734500" lon="22.9438877"/>
+ <node id="2207180142" visible="true" version="1" changeset="15400336" timestamp="2013-03-17T19:48:57Z" user="ignisfatuus" uid="138864" lat="39.3676309" lon="22.9328843"/>
+ <node id="2207180144" visible="true" version="3" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3656490" lon="22.9308417"/>
+ <node id="2207180146" visible="true" version="5" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3700549" lon="22.9357755"/>
+ <node id="2207180148" visible="true" version="3" changeset="58375851" timestamp="2018-04-24T14:30:41Z" user="Σεραφειμ" uid="2230609" lat="39.3726748" lon="22.9419763"/>
+ <node id="2207180150" visible="true" version="3" changeset="58375851" timestamp="2018-04-24T14:30:41Z" user="Σεραφειμ" uid="2230609" lat="39.3742576" lon="22.9459061"/>
+ <node id="2207180153" visible="true" version="3" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3695219" lon="22.9349369"/>
+ <node id="2207180154" visible="true" version="3" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3651295" lon="22.9309649"/>
+ <node id="2207180156" visible="true" version="2" changeset="58375504" timestamp="2018-04-24T14:17:41Z" user="Σεραφειμ" uid="2230609" lat="39.3728354" lon="22.9418400"/>
+ <node id="2207180158" visible="true" version="2" changeset="58375504" timestamp="2018-04-24T14:17:41Z" user="Σεραφειμ" uid="2230609" lat="39.3744063" lon="22.9458128"/>
+ <node id="2207180166" visible="true" version="2" changeset="58375504" timestamp="2018-04-24T14:17:41Z" user="Σεραφειμ" uid="2230609" lat="39.3755426" lon="22.9486160"/>
+ <node id="2207180168" visible="true" version="2" changeset="46308066" timestamp="2017-02-22T13:56:15Z" user="ika-chan!" uid="4763179" lat="39.3705548" lon="22.9366223"/>
+ <node id="2207180169" visible="true" version="2" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3675661" lon="22.9324805"/>
+ <node id="2207180174" visible="true" version="2" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3601433" lon="22.9328949"/>
+ <node id="2207180176" visible="true" version="3" changeset="58373192" timestamp="2018-04-24T12:51:01Z" user="Σεραφειμ" uid="2230609" lat="39.3708266" lon="22.9375244"/>
+ <node id="2207180181" visible="true" version="2" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3608731" lon="22.9325262"/>
+ <node id="2207180182" visible="true" version="3" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3674490" lon="22.9323257"/>
+ <node id="2207180184" visible="true" version="3" changeset="58375851" timestamp="2018-04-24T14:30:41Z" user="Σεραφειμ" uid="2230609" lat="39.3701875" lon="22.9363568"/>
+ <node id="2207180186" visible="true" version="1" changeset="15400336" timestamp="2013-03-17T19:48:57Z" user="ignisfatuus" uid="138864" lat="39.3689837" lon="22.9344312"/>
+ <node id="2207180189" visible="true" version="3" changeset="58375851" timestamp="2018-04-24T14:30:41Z" user="Σεραφειμ" uid="2230609" lat="39.3730359" lon="22.9428597"/>
+ <node id="2207180192" visible="true" version="4" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3633576" lon="22.9310955"/>
+ <node id="2207180194" visible="true" version="6" changeset="100520679" timestamp="2021-03-06T03:07:19Z" user="Σεραφειμ" uid="2230609" lat="39.3630748" lon="22.9315982"/>
+ <node id="2207180196" visible="true" version="1" changeset="15400336" timestamp="2013-03-17T19:48:57Z" user="ignisfatuus" uid="138864" lat="39.3738612" lon="22.9449390"/>
+ <node id="2207180198" visible="true" version="4" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3592832" lon="22.9325768"/>
+ <node id="2207180202" visible="true" version="2" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3668058" lon="22.9316471"/>
+ <node id="2207180206" visible="true" version="3" changeset="72461331" timestamp="2019-07-20T13:57:09Z" user="Σεραφειμ" uid="2230609" lat="39.3600340" lon="22.9326031"/>
+ <node id="2207180208" visible="true" version="5" changeset="100502030" timestamp="2021-03-05T15:54:11Z" user="Σεραφειμ" uid="2230609" lat="39.3620208" lon="22.9316004"/>
+ <node id="2207180210" visible="true" version="2" changeset="58375504" timestamp="2018-04-24T14:17:41Z" user="Σεραφειμ" uid="2230609" lat="39.3723879" lon="22.9407327"/>
+ <node id="2207180212" visible="true" version="2" changeset="46308066" timestamp="2017-02-22T13:56:15Z" user="ika-chan!" uid="4763179" lat="39.3714220" lon="22.9384684"/>
+ <node id="2207180214" visible="true" version="3" changeset="58375851" timestamp="2018-04-24T14:30:41Z" user="Σεραφειμ" uid="2230609" lat="39.3719480" lon="22.9401822"/>
+ <node id="2207180216" visible="true" version="3" changeset="58375851" timestamp="2018-04-24T14:30:41Z" user="Σεραφειμ" uid="2230609" lat="39.3722631" lon="22.9409658"/>
+ <node id="2207180217" visible="true" version="4" changeset="58377941" timestamp="2018-04-24T15:37:23Z" user="Σεραφειμ" uid="2230609" lat="39.3587120" lon="22.9325749"/>
+ <node id="2207180219" visible="true" version="3" changeset="72461331" timestamp="2019-07-20T13:57:09Z" user="Σεραφειμ" uid="2230609" lat="39.3607795" lon="22.9322197"/>
+ <node id="2207180221" visible="true" version="4" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3647136" lon="22.9309366"/>
+ <node id="2207180223" visible="true" version="3" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3599326" lon="22.9326126"/>
+ <node id="2207180227" visible="true" version="4" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3650337" lon="22.9306736"/>
+ <node id="2207180230" visible="true" version="3" changeset="58373192" timestamp="2018-04-24T12:51:00Z" user="Σεραφειμ" uid="2230609" lat="39.3710966" lon="22.9381299"/>
+ <node id="2207180231" visible="true" version="3" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3748876" lon="22.9470097"/>
+ <node id="2207180233" visible="true" version="4" changeset="100502030" timestamp="2021-03-05T15:54:11Z" user="Σεραφειμ" uid="2230609" lat="39.3615914" lon="22.9318193"/>
+ <node id="2207180237" visible="true" version="2" changeset="58375504" timestamp="2018-04-24T14:17:41Z" user="Σεραφειμ" uid="2230609" lat="39.3731700" lon="22.9427244"/>
+ <node id="2207180239" visible="true" version="5" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3643723" lon="22.9307076"/>
+ <node id="2207180240" visible="true" version="4" changeset="100502030" timestamp="2021-03-05T15:54:11Z" user="Σεραφειμ" uid="2230609" lat="39.3620135" lon="22.9319669"/>
+ <node id="2207180244" visible="true" version="1" changeset="15400336" timestamp="2013-03-17T19:48:58Z" user="ignisfatuus" uid="138864" lat="39.3694099" lon="22.9350926"/>
+ <node id="2207180248" visible="true" version="2" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3590792" lon="22.9330010"/>
+ <node id="2207180250" visible="true" version="3" changeset="100502030" timestamp="2021-03-05T15:54:11Z" user="Σεραφειμ" uid="2230609" lat="39.3614678" lon="22.9322334"/>
+ <node id="2207180256" visible="true" version="3" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3685475" lon="22.9335910"/>
+ <node id="2207180259" visible="true" version="3" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3595866" lon="22.9331543"/>
+ <node id="2207180264" visible="true" version="3" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3624101" lon="22.9317705"/>
+ <node id="2207180265" visible="true" version="2" changeset="58077805" timestamp="2018-04-13T22:18:50Z" user="Σεραφειμ" uid="2230609" lat="39.3690178" lon="22.9341181"/>
+ <node id="2207180268" visible="true" version="4" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3747690" lon="22.9471445"/>
+ <node id="2207180271" visible="true" version="3" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3671280" lon="22.9323430"/>
+ <node id="2207180272" visible="true" version="5" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3660625" lon="22.9313642"/>
+ <node id="2207180288" visible="true" version="2" changeset="58375504" timestamp="2018-04-24T14:17:41Z" user="Σεραφειμ" uid="2230609" lat="39.3740299" lon="22.9448310"/>
+ <node id="2207180290" visible="true" version="2" changeset="58375504" timestamp="2018-04-24T14:17:41Z" user="Σεραφειμ" uid="2230609" lat="39.3736280" lon="22.9438100"/>
+ <node id="2207180295" visible="true" version="3" changeset="100502030" timestamp="2021-03-05T15:54:11Z" user="Σεραφειμ" uid="2230609" lat="39.3612075" lon="22.9320165"/>
+ <node id="2207180298" visible="true" version="2" changeset="46308066" timestamp="2017-02-22T13:56:15Z" user="ika-chan!" uid="4763179" lat="39.3710454" lon="22.9375260"/>
+ <node id="2207180300" visible="true" version="3" changeset="58375851" timestamp="2018-04-24T14:30:41Z" user="Σεραφειμ" uid="2230609" lat="39.3719346" lon="22.9396274"/>
+ <node id="2207180305" visible="true" version="3" changeset="100972546" timestamp="2021-03-13T22:56:17Z" user="Σεραφειμ" uid="2230609" lat="39.3682632" lon="22.9335722"/>
+ <node id="2207180307" visible="true" version="4" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3663545" lon="22.9315850"/>
+ <node id="2207180309" visible="true" version="3" changeset="58373192" timestamp="2018-04-24T12:51:01Z" user="Σεραφειμ" uid="2230609" lat="39.3753782" lon="22.9486739"/>
+ <node id="2207180310" visible="true" version="2" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3596779" lon="22.9331499"/>
+ <node id="2207180313" visible="true" version="4" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3597135" lon="22.9327034"/>
+ <node id="2207180315" visible="true" version="2" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3661437" lon="22.9310777"/>
+ <node id="2207180318" visible="true" version="2" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3667733" lon="22.9319496"/>
+ <node id="2207180319" visible="true" version="3" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3698645" lon="22.9358277"/>
+ <node id="2207180321" visible="true" version="4" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3654535" lon="22.9310526"/>
+ <node id="2207180322" visible="true" version="3" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3663105" lon="22.9311902"/>
+ <node id="2207180323" visible="true" version="3" changeset="58376258" timestamp="2018-04-24T14:45:12Z" user="Σεραφειμ" uid="2230609" lat="39.3646850" lon="22.9306712"/>
+ <node id="2207300230" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:33Z" user="ignisfatuus" uid="138864" lat="39.3718926" lon="22.9399402"/>
+ <node id="2207300231" visible="true" version="3" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3589911" lon="22.9328473"/>
+ <node id="2207300233" visible="true" version="2" changeset="46308066" timestamp="2017-02-22T13:56:15Z" user="ika-chan!" uid="4763179" lat="39.3709337" lon="22.9376106"/>
+ <node id="2207300234" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:33Z" user="ignisfatuus" uid="138864" lat="39.3613563" lon="22.9320782"/>
+ <node id="2207300236" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:33Z" user="ignisfatuus" uid="138864" lat="39.3694644" lon="22.9350350"/>
+ <node id="2207300237" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:33Z" user="ignisfatuus" uid="138864" lat="39.3739232" lon="22.9448960"/>
+ <node id="2207300238" visible="true" version="2" changeset="58300315" timestamp="2018-04-21T23:50:37Z" user="Σεραφειμ" uid="2230609" lat="39.3620010" lon="22.9317797"/>
+ <node id="2207300239" visible="true" version="2" changeset="16394154" timestamp="2013-06-02T17:42:24Z" user="aitolos" uid="653" lat="39.3683467" lon="22.9334725"/>
+ <node id="2207300240" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3699324" lon="22.9357919"/>
+ <node id="2207300241" visible="true" version="2" changeset="46308066" timestamp="2017-02-22T13:56:15Z" user="ika-chan!" uid="4763179" lat="39.3704172" lon="22.9366409"/>
+ <node id="2207300242" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3743183" lon="22.9458560"/>
+ <node id="2207300243" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3635909" lon="22.9311628"/>
+ <node id="2207300244" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3671790" lon="22.9322507"/>
+ <node id="2207300245" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3625097" lon="22.9315694"/>
+ <node id="2207300246" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3652889" lon="22.9308389"/>
+ <node id="2207300247" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3602920" lon="22.9326487"/>
+ <node id="2207300249" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3727096" lon="22.9419147"/>
+ <node id="2207300250" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3690346" lon="22.9343679"/>
+ <node id="2207300251" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3631250" lon="22.9313784"/>
+ <node id="2207300252" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3730681" lon="22.9427853"/>
+ <node id="2207300254" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3655968" lon="22.9309678"/>
+ <node id="2207300259" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3722666" lon="22.9408257"/>
+ <node id="2207300262" visible="true" version="2" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3595123" lon="22.9329621"/>
+ <node id="2207300266" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3660095" lon="22.9311909"/>
+ <node id="2207300267" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3667263" lon="22.9317857"/>
+ <node id="2207300269" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3644632" lon="22.9308306"/>
+ <node id="2207300271" visible="true" version="2" changeset="78370167" timestamp="2019-12-13T11:39:30Z" user="Σεραφειμ" uid="2230609" lat="39.3677711" lon="22.9328694"/>
+ <node id="2207300272" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3734900" lon="22.9438543"/>
+ <node id="2207300278" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3597999" lon="22.9328617"/>
+ <node id="2207300280" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3747957" lon="22.9470515"/>
+ <node id="2207300281" visible="true" version="2" changeset="46308066" timestamp="2017-02-22T13:56:15Z" user="ika-chan!" uid="4763179" lat="39.3713185" lon="22.9385400"/>
+ <node id="2207300283" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3754686" lon="22.9486365"/>
+ <node id="2207300285" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3608461" lon="22.9323485"/>
+ <node id="2207300286" visible="true" version="4" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3588855" lon="22.9328484"/>
+ <node id="2207300289" visible="true" version="1" changeset="15401429" timestamp="2013-03-17T21:11:34Z" user="ignisfatuus" uid="138864" lat="39.3663608" lon="22.9314783"/>
+ <node id="2207303407" visible="true" version="4" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3586304" lon="22.9329446"/>
+ <node id="2207350145" visible="true" version="3" changeset="58377941" timestamp="2018-04-24T15:37:23Z" user="Σεραφειμ" uid="2230609" lat="39.3585320" lon="22.9326769"/>
+ <node id="2207355234" visible="true" version="3" changeset="58378987" timestamp="2018-04-24T16:06:36Z" user="Σεραφειμ" uid="2230609" lat="39.3586949" lon="22.9331161"/>
+ <node id="2329681290" visible="true" version="3" changeset="104263541" timestamp="2021-05-06T15:56:44Z" user="Henosb" uid="11601547" lat="39.3685701" lon="22.9338893"/>
+ <node id="2329681291" visible="true" version="1" changeset="16394154" timestamp="2013-06-02T17:42:22Z" user="aitolos" uid="653" lat="39.3686482" lon="22.9338026"/>
+ <node id="2329681292" visible="true" version="1" changeset="16394154" timestamp="2013-06-02T17:42:22Z" user="aitolos" uid="653" lat="39.3686982" lon="22.9337261"/>
+ <node id="2712348195" visible="true" version="2" changeset="58375851" timestamp="2018-04-24T14:30:41Z" user="Σεραφειμ" uid="2230609" lat="39.3746536" lon="22.9468744"/>
+ <node id="3145144642" visible="true" version="6" changeset="104590404" timestamp="2021-05-12T18:11:21Z" user="Henosb" uid="11601547" lat="39.3723398" lon="22.9379879"/>
+ <node id="3145144643" visible="true" version="5" changeset="104590404" timestamp="2021-05-12T18:11:21Z" user="Henosb" uid="11601547" lat="39.3731369" lon="22.9378202"/>
+ <node id="3145823986" visible="true" version="5" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3740531" lon="22.9400140"/>
+ <node id="3145823992" visible="true" version="5" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3733862" lon="22.9398517"/>
+ <node id="3145823993" visible="true" version="5" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3734194" lon="22.9399517"/>
+ <node id="3145823995" visible="true" version="8" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3742462" lon="22.9412927"/>
+ <node id="3145823996" visible="true" version="4" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3745406" lon="22.9417910"/>
+ <node id="3145916889" visible="true" version="4" changeset="104592647" timestamp="2021-05-12T18:41:29Z" user="Henosb" uid="11601547" lat="39.3729131" lon="22.9418947"/>
+ <node id="3145916890" visible="true" version="5" changeset="104592647" timestamp="2021-05-12T18:41:29Z" user="Henosb" uid="11601547" lat="39.3734796" lon="22.9412096"/>
+ <node id="3145926491" visible="true" version="4" changeset="87028562" timestamp="2020-06-23T10:29:51Z" user="erenozdemir" uid="9206516" lat="39.3736385" lon="22.9414295"/>
+ <node id="3145926492" visible="true" version="6" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3740727" lon="22.9410060"/>
+ <node id="3145926497" visible="true" version="3" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3744723" lon="22.9396071"/>
+ <node id="3145926502" visible="true" version="2" changeset="72466650" timestamp="2019-07-20T18:04:33Z" user="Σεραφειμ" uid="2230609" lat="39.3750022" lon="22.9390876"/>
+ <node id="3145930824" visible="true" version="5" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3744246" lon="22.9396518"/>
+ <node id="3145930828" visible="true" version="4" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3748615" lon="22.9423007"/>
+ <node id="3145931229" visible="true" version="3" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3749585" lon="22.9422061"/>
+ <node id="3850693441" visible="true" version="7" changeset="132259919" timestamp="2023-02-08T14:36:57Z" user="sheldonelectric" uid="936280" lat="39.3723064" lon="22.9404400"/>
+ <node id="3987149374" visible="true" version="5" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3710123" lon="22.9434829"/>
+ <node id="3987149375" visible="true" version="3" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3705196" lon="22.9437946"/>
+ <node id="3987149376" visible="true" version="5" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3706416" lon="22.9441358"/>
+ <node id="4028996186" visible="true" version="2" changeset="58373192" timestamp="2018-04-24T12:51:01Z" user="Σεραφειμ" uid="2230609" lat="39.3758404" lon="22.9498238"/>
+ <node id="4028996187" visible="true" version="2" changeset="58375504" timestamp="2018-04-24T14:17:41Z" user="Σεραφειμ" uid="2230609" lat="39.3758841" lon="22.9499176"/>
+ <node id="4028997889" visible="true" version="2" changeset="58373192" timestamp="2018-04-24T12:51:01Z" user="Σεραφειμ" uid="2230609" lat="39.3759541" lon="22.9500356"/>
+ <node id="4028997890" visible="true" version="2" changeset="58373192" timestamp="2018-04-24T12:51:01Z" user="Σεραφειμ" uid="2230609" lat="39.3760032" lon="22.9500040"/>
+ <node id="4028997892" visible="true" version="2" changeset="58373192" timestamp="2018-04-24T12:51:01Z" user="Σεραφειμ" uid="2230609" lat="39.3760891" lon="22.9499423"/>
+ <node id="4699230373" visible="true" version="7" changeset="78367262" timestamp="2019-12-13T10:41:49Z" user="Σεραφειμ" uid="2230609" lat="39.3708689" lon="22.9377574"/>
+ <node id="4699230374" visible="true" version="1" changeset="46308066" timestamp="2017-02-22T13:56:05Z" user="ika-chan!" uid="4763179" lat="39.3709665" lon="22.9378136"/>
+ <node id="4699230375" visible="true" version="4" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3715240" lon="22.9393078">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="4699230377" visible="true" version="6" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3715458" lon="22.9393673">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing:island" v="no"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="4699230382" visible="true" version="2" changeset="58373192" timestamp="2018-04-24T12:51:01Z" user="Σεραφειμ" uid="2230609" lat="39.3703975" lon="22.9367113"/>
+ <node id="4699230383" visible="true" version="2" changeset="58373192" timestamp="2018-04-24T12:51:01Z" user="Σεραφειμ" uid="2230609" lat="39.3706090" lon="22.9370946"/>
+ <node id="4699231289" visible="true" version="1" changeset="46308066" timestamp="2017-02-22T13:56:05Z" user="ika-chan!" uid="4763179" lat="39.3701729" lon="22.9363678"/>
+ <node id="4699231293" visible="true" version="2" changeset="58373192" timestamp="2018-04-24T12:51:00Z" user="Σεραφειμ" uid="2230609" lat="39.3715973" lon="22.9393365"/>
+ <node id="4699231294" visible="true" version="2" changeset="58375504" timestamp="2018-04-24T14:17:41Z" user="Σεραφειμ" uid="2230609" lat="39.3718038" lon="22.9393793"/>
+ <node id="4699231297" visible="true" version="5" changeset="130889041" timestamp="2023-01-05T03:43:31Z" user="sheldonelectric" uid="936280" lat="39.3701248" lon="22.9363916">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="4699231305" visible="true" version="5" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3700422" lon="22.9361142"/>
+ <node id="4699231306" visible="true" version="4" changeset="100118440" timestamp="2021-02-27T22:34:36Z" user="Σεραφειμ" uid="2230609" lat="39.3701368" lon="22.9363012"/>
+ <node id="4699231307" visible="true" version="5" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3702056" lon="22.9359978"/>
+ <node id="4699231308" visible="true" version="6" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3703129" lon="22.9361786"/>
+ <node id="5263900652" visible="true" version="5" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3754390" lon="22.9489335"/>
+ <node id="5506887124" visible="true" version="5" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3730115" lon="22.9368118"/>
+ <node id="5549167136" visible="true" version="5" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3708564" lon="22.9445378"/>
+ <node id="5549167137" visible="true" version="4" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3708953" lon="22.9444942"/>
+ <node id="5551443607" visible="true" version="5" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609" lat="39.3727521" lon="22.9398374"/>
+ <node id="5555369599" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3721626" lon="22.9385322"/>
+ <node id="5555369600" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3716870" lon="22.9386428"/>
+ <node id="5555385222" visible="true" version="2" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3722990" lon="22.9392846"/>
+ <node id="5555385224" visible="true" version="2" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3719021" lon="22.9393613"/>
+ <node id="5555385225" visible="true" version="2" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3716175" lon="22.9386551"/>
+ <node id="5555385226" visible="true" version="2" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3722108" lon="22.9385216"/>
+ <node id="5555385227" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3721270" lon="22.9389736"/>
+ <node id="5555385228" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3720764" lon="22.9389890"/>
+ <node id="5555385229" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3720653" lon="22.9389279"/>
+ <node id="5555385230" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3720097" lon="22.9389448"/>
+ <node id="5555385231" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3720348" lon="22.9390827"/>
+ <node id="5555385232" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3720859" lon="22.9390671"/>
+ <node id="5555385233" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3721111" lon="22.9392054"/>
+ <node id="5555385234" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3721661" lon="22.9391887"/>
+ <node id="5555385235" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3721670" lon="22.9388219"/>
+ <node id="5555385236" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3721198" lon="22.9388354"/>
+ <node id="5555385237" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3721337" lon="22.9389163"/>
+ <node id="5555385238" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3721509" lon="22.9389113"/>
+ <node id="5555385239" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3721828" lon="22.9390971"/>
+ <node id="5555385240" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3722409" lon="22.9390804"/>
+ <node id="5555385241" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3722028" lon="22.9388589"/>
+ <node id="5555385242" visible="true" version="2" changeset="97497532" timestamp="2021-01-14T13:16:47Z" user="erenozdemir" uid="9206516" lat="39.3721748" lon="22.9388670"/>
+ <node id="5559602656" visible="true" version="4" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3688855" lon="22.9480987"/>
+ <node id="5559918738" visible="true" version="2" changeset="58375504" timestamp="2018-04-24T14:17:40Z" user="Σεραφειμ" uid="2230609" lat="39.3712803" lon="22.9387416"/>
+ <node id="5559949570" visible="true" version="4" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3767291" lon="22.9528844"/>
+ <node id="5560349754" visible="true" version="3" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3669432" lon="22.9515950"/>
+ <node id="5560576669" visible="true" version="1" changeset="58185490" timestamp="2018-04-17T23:31:35Z" user="Σεραφειμ" uid="2230609" lat="39.3738466" lon="22.9417173"/>
+ <node id="5560576670" visible="true" version="1" changeset="58185490" timestamp="2018-04-17T23:31:35Z" user="Σεραφειμ" uid="2230609" lat="39.3746529" lon="22.9426991"/>
+ <node id="5560576671" visible="true" version="2" changeset="87028622" timestamp="2020-06-23T10:30:47Z" user="erenozdemir" uid="9206516" lat="39.3750733" lon="22.9432220"/>
+ <node id="5576075256" visible="true" version="4" changeset="78367262" timestamp="2019-12-13T10:41:49Z" user="Σεραφειμ" uid="2230609" lat="39.3705277" lon="22.9370704"/>
+ <node id="5576075261" visible="true" version="2" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3757684" lon="22.9497695"/>
+ <node id="5576111002" visible="true" version="3" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3758874" lon="22.9500976"/>
+ <node id="5576111011" visible="true" version="4" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3758218" lon="22.9499160"/>
+ <node id="5576292399" visible="true" version="2" changeset="58386596" timestamp="2018-04-24T19:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3718681" lon="22.9394438"/>
+ <node id="5576292403" visible="true" version="3" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3701694" lon="22.9364541"/>
+ <node id="5576292404" visible="true" version="2" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3702616" lon="22.9365772"/>
+ <node id="5673903022" visible="true" version="2" changeset="133269930" timestamp="2023-03-03T20:50:28Z" user="geraki" uid="16821" lat="39.3646101" lon="22.9432895"/>
+ <node id="5673903023" visible="true" version="3" changeset="133269930" timestamp="2023-03-03T20:50:28Z" user="geraki" uid="16821" lat="39.3643882" lon="22.9436974"/>
+ <node id="5673903024" visible="true" version="3" changeset="133269930" timestamp="2023-03-03T20:50:28Z" user="geraki" uid="16821" lat="39.3651096" lon="22.9442391"/>
+ <node id="5673903043" visible="true" version="2" changeset="100867326" timestamp="2021-03-11T22:34:21Z" user="Σεραφειμ" uid="2230609" lat="39.3657974" lon="22.9379255"/>
+ <node id="5673903044" visible="true" version="1" changeset="59652870" timestamp="2018-06-08T02:32:10Z" user="ika-chan!" uid="4763179" lat="39.3663168" lon="22.9375886"/>
+ <node id="5673903091" visible="true" version="3" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3711889" lon="22.9413548"/>
+ <node id="5673903092" visible="true" version="2" changeset="101662851" timestamp="2021-03-24T16:55:46Z" user="Σεραφειμ" uid="2230609" lat="39.3709029" lon="22.9416332"/>
+ <node id="5673903093" visible="true" version="2" changeset="101671330" timestamp="2021-03-24T19:54:25Z" user="Σεραφειμ" uid="2230609" lat="39.3703671" lon="22.9412989"/>
+ <node id="5673903094" visible="true" version="3" changeset="101671330" timestamp="2021-03-24T19:54:25Z" user="Σεραφειμ" uid="2230609" lat="39.3702173" lon="22.9413940"/>
+ <node id="5673903100" visible="true" version="4" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3706775" lon="22.9442326"/>
+ <node id="5673903101" visible="true" version="2" changeset="64425928" timestamp="2018-11-13T01:32:59Z" user="Σεραφειμ" uid="2230609" lat="39.3714098" lon="22.9449141"/>
+ <node id="5673903102" visible="true" version="1" changeset="59652870" timestamp="2018-06-08T02:32:11Z" user="ika-chan!" uid="4763179" lat="39.3722190" lon="22.9444059"/>
+ <node id="5673903103" visible="true" version="3" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3732381" lon="22.9437859"/>
+ <node id="5821489754" visible="true" version="4" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3766888" lon="22.9520091"/>
+ <node id="5821489755" visible="true" version="3" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3767337" lon="22.9521832"/>
+ <node id="5821489757" visible="true" version="3" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3767362" lon="22.9522048"/>
+ <node id="5821489758" visible="true" version="5" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3763914" lon="22.9513149"/>
+ <node id="5873906738" visible="true" version="1" changeset="62202157" timestamp="2018-09-01T17:58:11Z" user="aitolos" uid="653" lat="39.3690786" lon="22.9477932"/>
+ <node id="6056095088" visible="true" version="4" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3657727" lon="22.9535593"/>
+ <node id="6056225069" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:57Z" user="Σεραφειμ" uid="2230609" lat="39.3669293" lon="22.9458174"/>
+ <node id="6056225076" visible="true" version="2" changeset="64457866" timestamp="2018-11-13T21:01:44Z" user="Σεραφειμ" uid="2230609" lat="39.3628677" lon="22.9419008"/>
+ <node id="6056225077" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3629109" lon="22.9418058"/>
+ <node id="6056225078" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3638861" lon="22.9408002"/>
+ <node id="6056225079" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3640090" lon="22.9406945"/>
+ <node id="6056225080" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3639343" lon="22.9404158"/>
+ <node id="6056225081" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3637713" lon="22.9396728"/>
+ <node id="6056225082" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3636338" lon="22.9390662"/>
+ <node id="6056225083" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3633976" lon="22.9380137"/>
+ <node id="6056225084" visible="true" version="2" changeset="78492591" timestamp="2019-12-16T21:30:33Z" user="Σεραφειμ" uid="2230609" lat="39.3641879" lon="22.9376456"/>
+ <node id="6056225585" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3642737" lon="22.9378514"/>
+ <node id="6056225586" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3647851" lon="22.9374522"/>
+ <node id="6056225587" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3668222" lon="22.9457207"/>
+ <node id="6056225590" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3657830" lon="22.9448032"/>
+ <node id="6056225592" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3643074" lon="22.9430102"/>
+ <node id="6056225593" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3640466" lon="22.9428062"/>
+ <node id="6056225594" visible="true" version="3" changeset="101079989" timestamp="2021-03-16T00:44:05Z" user="Σεραφειμ" uid="2230609" lat="39.3626484" lon="22.9424419"/>
+ <node id="6056225595" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3637882" lon="22.9397499"/>
+ <node id="6056225596" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3635810" lon="22.9388336"/>
+ <node id="6056225597" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3643626" lon="22.9377901"/>
+ <node id="6056225598" visible="true" version="2" changeset="120622262" timestamp="2022-05-06T09:50:20Z" user="Σεραφειμ" uid="2230609" lat="39.3647677" lon="22.9374158"/>
+ <node id="6056225600" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3653500" lon="22.9371412"/>
+ <node id="6056225601" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3657330" lon="22.9379714"/>
+ <node id="6056225602" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3664169" lon="22.9375232"/>
+ <node id="6056225603" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3663104" lon="22.9372666"/>
+ <node id="6056225604" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3663075" lon="22.9372124"/>
+ <node id="6056225606" visible="true" version="5" changeset="101671330" timestamp="2021-03-24T19:54:25Z" user="Σεραφειμ" uid="2230609" lat="39.3668507" lon="22.9368060"/>
+ <node id="6056225607" visible="true" version="4" changeset="101671330" timestamp="2021-03-24T19:54:25Z" user="Σεραφειμ" uid="2230609" lat="39.3667046" lon="22.9364665"/>
+ <node id="6056225608" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3671463" lon="22.9360055"/>
+ <node id="6056225609" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3672860" lon="22.9358656"/>
+ <node id="6056225610" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3682953" lon="22.9347604"/>
+ <node id="6056225611" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3686624" lon="22.9341653"/>
+ <node id="6056225612" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3688144" lon="22.9343269"/>
+ <node id="6056225613" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3692382" lon="22.9349637"/>
+ <node id="6056225614" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3697619" lon="22.9358316"/>
+ <node id="6056225615" visible="true" version="3" changeset="100118440" timestamp="2021-02-27T22:34:36Z" user="Σεραφειμ" uid="2230609" lat="39.3699625" lon="22.9361862"/>
+ <node id="6056225616" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3700477" lon="22.9363422"/>
+ <node id="6056225617" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3702835" lon="22.9367152"/>
+ <node id="6056225618" visible="true" version="2" changeset="78367262" timestamp="2019-12-13T10:41:49Z" user="Σεραφειμ" uid="2230609" lat="39.3709094" lon="22.9380589"/>
+ <node id="6056225619" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3714816" lon="22.9394389"/>
+ <node id="6056225620" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3715406" lon="22.9395827"/>
+ <node id="6056225622" visible="true" version="2" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3726402" lon="22.9422679"/>
+ <node id="6056225623" visible="true" version="2" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3704944" lon="22.9436572"/>
+ <node id="6056225624" visible="true" version="1" changeset="64425928" timestamp="2018-11-13T01:32:58Z" user="Σεραφειμ" uid="2230609" lat="39.3703038" lon="22.9437602"/>
+ <node id="6056225625" visible="true" version="2" changeset="78483133" timestamp="2019-12-16T16:24:21Z" user="Σεραφειμ" uid="2230609" lat="39.3702596" lon="22.9438484"/>
+ <node id="6056225632" visible="true" version="3" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3709777" lon="22.9433519"/>
+ <node id="6056225633" visible="true" version="3" changeset="78483133" timestamp="2019-12-16T16:24:21Z" user="Σεραφειμ" uid="2230609" lat="39.3684451" lon="22.9471529"/>
+ <node id="6058681337" visible="true" version="4" changeset="78444238" timestamp="2019-12-16T02:01:34Z" user="Σεραφειμ" uid="2230609" lat="39.3628469" lon="22.9419917"/>
+ <node id="6058709989" visible="true" version="1" changeset="64457866" timestamp="2018-11-13T21:01:44Z" user="Σεραφειμ" uid="2230609" lat="39.3639648" lon="22.9427437"/>
+ <node id="6058709990" visible="true" version="2" changeset="101079989" timestamp="2021-03-16T00:44:05Z" user="Σεραφειμ" uid="2230609" lat="39.3637280" lon="22.9432122"/>
+ <node id="6058709991" visible="true" version="1" changeset="64457866" timestamp="2018-11-13T21:01:44Z" user="Σεραφειμ" uid="2230609" lat="39.3639250" lon="22.9428267"/>
+ <node id="6058709998" visible="true" version="2" changeset="64458042" timestamp="2018-11-13T21:07:50Z" user="Σεραφειμ" uid="2230609" lat="39.3628819" lon="22.9419121"/>
+ <node id="6159857296" visible="true" version="2" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3708903" lon="22.9444294"/>
+ <node id="6403091606" visible="true" version="3" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3767006" lon="22.9537522"/>
+ <node id="6482615703" visible="true" version="4" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3667472" lon="22.9519432"/>
+ <node id="6634119327" visible="true" version="2" changeset="72506493" timestamp="2019-07-22T09:38:33Z" user="Σεραφειμ" uid="2230609" lat="39.3696311" lon="22.9399438"/>
+ <node id="6634119328" visible="true" version="1" changeset="72466650" timestamp="2019-07-20T18:04:33Z" user="Σεραφειμ" uid="2230609" lat="39.3690863" lon="22.9400623"/>
+ <node id="6636954840" visible="true" version="1" changeset="72506493" timestamp="2019-07-22T09:38:33Z" user="Σεραφειμ" uid="2230609" lat="39.3705418" lon="22.9422444"/>
+ <node id="6636954841" visible="true" version="2" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3704542" lon="22.9422947"/>
+ <node id="6636954842" visible="true" version="1" changeset="72506493" timestamp="2019-07-22T09:38:33Z" user="Σεραφειμ" uid="2230609" lat="39.3704209" lon="22.9422094"/>
+ <node id="6636954843" visible="true" version="1" changeset="72506493" timestamp="2019-07-22T09:38:33Z" user="Σεραφειμ" uid="2230609" lat="39.3701393" lon="22.9423938"/>
+ <node id="6636954844" visible="true" version="1" changeset="72506493" timestamp="2019-07-22T09:38:33Z" user="Σεραφειμ" uid="2230609" lat="39.3701988" lon="22.9425503"/>
+ <node id="6636954845" visible="true" version="1" changeset="72506493" timestamp="2019-07-22T09:38:33Z" user="Σεραφειμ" uid="2230609" lat="39.3701800" lon="22.9425642"/>
+ <node id="6636954846" visible="true" version="2" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3702898" lon="22.9428370"/>
+ <node id="6645115144" visible="true" version="2" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3767092" lon="22.9537200"/>
+ <node id="7049944809" visible="true" version="2" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3673351" lon="22.9508767"/>
+ <node id="7050511098" visible="true" version="2" changeset="87028622" timestamp="2020-06-23T10:30:47Z" user="erenozdemir" uid="9206516" lat="39.3754971" lon="22.9406137"/>
+ <node id="7050511099" visible="true" version="2" changeset="87028622" timestamp="2020-06-23T10:30:47Z" user="erenozdemir" uid="9206516" lat="39.3758711" lon="22.9402717"/>
+ <node id="7050511104" visible="true" version="1" changeset="78282886" timestamp="2019-12-11T22:48:07Z" user="Σεραφειμ" uid="2230609" lat="39.3746977" lon="22.9411575"/>
+ <node id="7050511105" visible="true" version="1" changeset="78282886" timestamp="2019-12-11T22:48:07Z" user="Σεραφειμ" uid="2230609" lat="39.3744089" lon="22.9414366"/>
+ <node id="7050528352" visible="true" version="2" changeset="100557778" timestamp="2021-03-07T00:11:44Z" user="Σεραφειμ" uid="2230609" lat="39.3771286" lon="22.9412358"/>
+ <node id="7050528353" visible="true" version="3" changeset="100557778" timestamp="2021-03-07T00:11:44Z" user="Σεραφειμ" uid="2230609" lat="39.3769734" lon="22.9413736"/>
+ <node id="7050528354" visible="true" version="2" changeset="100557778" timestamp="2021-03-07T00:11:44Z" user="Σεραφειμ" uid="2230609" lat="39.3767670" lon="22.9416051"/>
+ <node id="7054279391" visible="true" version="1" changeset="78367262" timestamp="2019-12-13T10:41:49Z" user="Σεραφειμ" uid="2230609" lat="39.3710026" lon="22.9382728"/>
+ <node id="7054279392" visible="true" version="1" changeset="78367262" timestamp="2019-12-13T10:41:49Z" user="Σεραφειμ" uid="2230609" lat="39.3707408" lon="22.9376775"/>
+ <node id="7054279393" visible="true" version="1" changeset="78367262" timestamp="2019-12-13T10:41:49Z" user="Σεραφειμ" uid="2230609" lat="39.3708138" lon="22.9376379"/>
+ <node id="7054279394" visible="true" version="1" changeset="78367262" timestamp="2019-12-13T10:41:49Z" user="Σεραφειμ" uid="2230609" lat="39.3706680" lon="22.9373365"/>
+ <node id="7054331639" visible="true" version="2" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609" lat="39.3721492" lon="22.9363884"/>
+ <node id="7054331640" visible="true" version="2" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609" lat="39.3721595" lon="22.9364375"/>
+ <node id="7054520409" visible="true" version="3" changeset="104590404" timestamp="2021-05-12T18:11:21Z" user="Henosb" uid="11601547" lat="39.3724510" lon="22.9370405"/>
+ <node id="7054520410" visible="true" version="3" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3725061" lon="22.9375041"/>
+ <node id="7054520411" visible="true" version="4" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3725581" lon="22.9379420"/>
+ <node id="7054520412" visible="true" version="2" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3726099" lon="22.9383776"/>
+ <node id="7054520413" visible="true" version="3" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3726593" lon="22.9387937"/>
+ <node id="7054520415" visible="true" version="3" changeset="145073494" timestamp="2023-12-13T12:34:16Z" user="user_9221753" uid="9221753" lat="39.3727165" lon="22.9392747"/>
+ <node id="7054520416" visible="true" version="1" changeset="78372454" timestamp="2019-12-13T12:30:37Z" user="Σεραφειμ" uid="2230609" lat="39.3726625" lon="22.9372731"/>
+ <node id="7054520417" visible="true" version="3" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3726850" lon="22.9374657"/>
+ <node id="7054520419" visible="true" version="3" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3727364" lon="22.9379044"/>
+ <node id="7054520420" visible="true" version="2" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3727875" lon="22.9383413"/>
+ <node id="7054520422" visible="true" version="3" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3728365" lon="22.9387596"/>
+ <node id="7054526040" visible="true" version="1" changeset="78372823" timestamp="2019-12-13T12:38:28Z" user="Σεραφειμ" uid="2230609" lat="39.3728457" lon="22.9372615"/>
+ <node id="7054526041" visible="true" version="3" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3728651" lon="22.9374272"/>
+ <node id="7054526042" visible="true" version="3" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3729165" lon="22.9378664"/>
+ <node id="7054526043" visible="true" version="2" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3729678" lon="22.9383045"/>
+ <node id="7054526044" visible="true" version="3" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609" lat="39.3730170" lon="22.9387248"/>
+ <node id="7054526045" visible="true" version="3" changeset="145073494" timestamp="2023-12-13T12:34:16Z" user="user_9221753" uid="9221753" lat="39.3730733" lon="22.9392061"/>
+ <node id="7054526046" visible="true" version="1" changeset="78372823" timestamp="2019-12-13T12:38:28Z" user="Σεραφειμ" uid="2230609" lat="39.3730608" lon="22.9372152"/>
+ <node id="7054526047" visible="true" version="1" changeset="78372823" timestamp="2019-12-13T12:38:28Z" user="Σεραφειμ" uid="2230609" lat="39.3728801" lon="22.9391322"/>
+ <node id="7054526048" visible="true" version="3" changeset="145073494" timestamp="2023-12-13T12:34:16Z" user="user_9221753" uid="9221753" lat="39.3728937" lon="22.9392406"/>
+ <node id="7054604545" visible="true" version="4" changeset="100228897" timestamp="2021-03-01T20:16:26Z" user="Σεραφειμ" uid="2230609" lat="39.3730429" lon="22.9398199"/>
+ <node id="7054604546" visible="true" version="4" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3735038" lon="22.9405699"/>
+ <node id="7054604553" visible="true" version="1" changeset="78374533" timestamp="2019-12-13T13:12:58Z" user="Σεραφειμ" uid="2230609" lat="39.3751667" lon="22.9394669"/>
+ <node id="7054604554" visible="true" version="1" changeset="78374533" timestamp="2019-12-13T13:12:58Z" user="Σεραφειμ" uid="2230609" lat="39.3750057" lon="22.9391875"/>
+ <node id="7061691701" visible="true" version="1" changeset="78493256" timestamp="2019-12-16T21:58:25Z" user="Σεραφειμ" uid="2230609" lat="39.3663186" lon="22.9371812"/>
+ <node id="7063820470" visible="true" version="2" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3699343" lon="22.9359509"/>
+ <node id="7063820471" visible="true" version="2" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3696670" lon="22.9355137"/>
+ <node id="7605431844" visible="true" version="2" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3700720" lon="22.9361730"/>
+ <node id="7643101008" visible="true" version="3" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3767254" lon="22.9531658"/>
+ <node id="7645985601" visible="true" version="3" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3708973" lon="22.9429042"/>
+ <node id="7646016816" visible="true" version="2" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3728097" lon="22.9401614"/>
+ <node id="7646070860" visible="true" version="3" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3720515" lon="22.9422328"/>
+ <node id="7649232321" visible="true" version="3" changeset="154555660" timestamp="2024-07-29T10:24:06Z" user="ika-chan!" uid="4763179" lat="39.3626248" lon="22.9317313"/>
+ <node id="8078026469" visible="true" version="1" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3707369" lon="22.9447399"/>
+ <node id="8078026470" visible="true" version="1" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3708328" lon="22.9445770"/>
+ <node id="8078026471" visible="true" version="1" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3709632" lon="22.9444359"/>
+ <node id="8078026472" visible="true" version="1" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3710476" lon="22.9443729"/>
+ <node id="8078026478" visible="true" version="1" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3701912" lon="22.9428958"/>
+ <node id="8078026479" visible="true" version="1" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3706216" lon="22.9421980"/>
+ <node id="8078026486" visible="true" version="1" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3708667" lon="22.9445236"/>
+ <node id="8078026487" visible="true" version="1" changeset="93486228" timestamp="2020-11-03T13:28:35Z" user="Σεραφειμ" uid="2230609" lat="39.3708790" lon="22.9445100"/>
+ <node id="8078136989" visible="true" version="1" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3710504" lon="22.9414606"/>
+ <node id="8078136994" visible="true" version="1" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3711024" lon="22.9434246"/>
+ <node id="8078136998" visible="true" version="3" changeset="120982374" timestamp="2022-05-14T14:47:57Z" user="Σεραφειμ" uid="2230609" lat="39.3676562" lon="22.9503904"/>
+ <node id="8078136999" visible="true" version="2" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3675972" lon="22.9504677"/>
+ <node id="8078137000" visible="true" version="2" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3680545" lon="22.9496509"/>
+ <node id="8078137001" visible="true" version="2" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3679577" lon="22.9498465"/>
+ <node id="8078137002" visible="true" version="2" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3678925" lon="22.9499699"/>
+ <node id="8078137003" visible="true" version="2" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3677640" lon="22.9502030"/>
+ <node id="8078137004" visible="true" version="3" changeset="120982374" timestamp="2022-05-14T14:47:57Z" user="Σεραφειμ" uid="2230609" lat="39.3676298" lon="22.9504306"/>
+ <node id="8078137005" visible="true" version="2" changeset="120982374" timestamp="2022-05-14T14:47:57Z" user="Σεραφειμ" uid="2230609" lat="39.3675045" lon="22.9505753"/>
+ <node id="8078137006" visible="true" version="1" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3674370" lon="22.9506897"/>
+ <node id="8078137007" visible="true" version="1" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3658299" lon="22.9534681"/>
+ <node id="8078137008" visible="true" version="1" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3657351" lon="22.9536258"/>
+ <node id="8078189755" visible="true" version="1" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3730046" lon="22.9405114"/>
+ <node id="8078189756" visible="true" version="1" changeset="93489088" timestamp="2020-11-03T14:36:29Z" user="Σεραφειμ" uid="2230609" lat="39.3728419" lon="22.9402300"/>
+ <node id="8156613812" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3755688" lon="22.9401713"/>
+ <node id="8156613813" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3753179" lon="22.9404208"/>
+ <node id="8156613814" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3754485" lon="22.9406488"/>
+ <node id="8156613815" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3759337" lon="22.9402169"/>
+ <node id="8156613816" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3758424" lon="22.9400533"/>
+ <node id="8156632917" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3765080" lon="22.9394847"/>
+ <node id="8156632918" visible="true" version="2" changeset="100557778" timestamp="2021-03-07T00:11:44Z" user="Σεραφειμ" uid="2230609" lat="39.3776971" lon="22.9413749"/>
+ <node id="8156632919" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3774057" lon="22.9416090"/>
+ <node id="8156632920" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3771756" lon="22.9411933"/>
+ <node id="8156632921" visible="true" version="2" changeset="100557778" timestamp="2021-03-07T00:11:44Z" user="Σεραφειμ" uid="2230609" lat="39.3764636" lon="22.9411375"/>
+ <node id="8156632922" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3759461" lon="22.9415688"/>
+ <node id="8156632923" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3761887" lon="22.9420489"/>
+ <node id="8156632924" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3766697" lon="22.9416519"/>
+ <node id="8156632925" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3769081" lon="22.9420087"/>
+ <node id="8156632926" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3767837" lon="22.9421106"/>
+ <node id="8156632927" visible="true" version="2" changeset="99936926" timestamp="2021-02-25T01:44:18Z" user="Σεραφειμ" uid="2230609" lat="39.3767008" lon="22.9421910"/>
+ <node id="8156632928" visible="true" version="2" changeset="99936926" timestamp="2021-02-25T01:44:18Z" user="Σεραφειμ" uid="2230609" lat="39.3766597" lon="22.9422415"/>
+ <node id="8156632929" visible="true" version="2" changeset="99936926" timestamp="2021-02-25T01:44:18Z" user="Σεραφειμ" uid="2230609" lat="39.3765469" lon="22.9424251"/>
+ <node id="8156632930" visible="true" version="2" changeset="99936926" timestamp="2021-02-25T01:44:18Z" user="Σεραφειμ" uid="2230609" lat="39.3760810" lon="22.9435046"/>
+ <node id="8156632931" visible="true" version="2" changeset="99936926" timestamp="2021-02-25T01:44:18Z" user="Σεραφειμ" uid="2230609" lat="39.3758511" lon="22.9440689"/>
+ <node id="8156632932" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3757254" lon="22.9440693"/>
+ <node id="8156632933" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3754915" lon="22.9437301"/>
+ <node id="8156632934" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3751100" lon="22.9431722"/>
+ <node id="8156632935" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3746559" lon="22.9425848"/>
+ <node id="8156632936" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3742042" lon="22.9420527"/>
+ <node id="8156632939" visible="true" version="3" changeset="100228897" timestamp="2021-03-01T20:16:26Z" user="Σεραφειμ" uid="2230609" lat="39.3737792" lon="22.9415380"/>
+ <node id="8156632940" visible="true" version="2" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3735326" lon="22.9411938"/>
+ <node id="8156632941" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3731672" lon="22.9406616"/>
+ <node id="8156632942" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3729848" lon="22.9403666"/>
+ <node id="8156632943" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3728687" lon="22.9401466"/>
+ <node id="8156632944" visible="true" version="2" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609" lat="39.3728365" lon="22.9400430"/>
+ <node id="8156632945" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3728085" lon="22.9398865"/>
+ <node id="8156632946" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3727546" lon="22.9393607"/>
+ <node id="8156632947" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3749130" lon="22.9389343"/>
+ <node id="8156632948" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3749276" lon="22.9390308"/>
+ <node id="8156632949" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3749441" lon="22.9390818"/>
+ <node id="8156632950" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3742757" lon="22.9421348"/>
+ <node id="8156632951" visible="true" version="2" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3749926" lon="22.9414008"/>
+ <node id="8156632952" visible="true" version="2" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3747822" lon="22.9410774"/>
+ <node id="8156632953" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3743167" lon="22.9415221"/>
+ <node id="8156632954" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3744730" lon="22.9417828"/>
+ <node id="8156632955" visible="true" version="2" changeset="99936926" timestamp="2021-02-25T01:44:18Z" user="Σεραφειμ" uid="2230609" lat="39.3764578" lon="22.9426045"/>
+ <node id="8156632956" visible="true" version="2" changeset="99936926" timestamp="2021-02-25T01:44:18Z" user="Σεραφειμ" uid="2230609" lat="39.3766120" lon="22.9423145"/>
+ <node id="8156632958" visible="true" version="3" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609" lat="39.3753271" lon="22.9436849"/>
+ <node id="8156632959" visible="true" version="2" changeset="99936926" timestamp="2021-02-25T01:44:18Z" user="Σεραφειμ" uid="2230609" lat="39.3750265" lon="22.9432664"/>
+ <node id="8156632960" visible="true" version="2" changeset="99936926" timestamp="2021-02-25T01:44:18Z" user="Σεραφειμ" uid="2230609" lat="39.3749154" lon="22.9431085"/>
+ <node id="8156632961" visible="true" version="3" changeset="100228897" timestamp="2021-03-01T20:16:26Z" user="Σεραφειμ" uid="2230609" lat="39.3738407" lon="22.9418118"/>
+ <node id="8156632963" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3732036" lon="22.9409208"/>
+ <node id="8156632964" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3729416" lon="22.9405295"/>
+ <node id="8156632965" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3727725" lon="22.9402430"/>
+ <node id="8156632966" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3727487" lon="22.9401659"/>
+ <node id="8156632967" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3726391" lon="22.9393741"/>
+ <node id="8156632968" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3719651" lon="22.9395004"/>
+ <node id="8156632969" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3732036" lon="22.9424891"/>
+ <node id="8156632970" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3743254" lon="22.9452189"/>
+ <node id="8156632971" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3747732" lon="22.9463681"/>
+ <node id="8156632972" visible="true" version="1" changeset="94671026" timestamp="2020-11-24T03:13:49Z" user="Σεραφειμ" uid="2230609" lat="39.3748644" lon="22.9463662"/>
+ <node id="8156632973" visible="true" version="3" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609" lat="39.3757610" lon="22.9442923"/>
+ <node id="8455863929" visible="true" version="1" changeset="99936926" timestamp="2021-02-25T01:44:18Z" user="Σεραφειμ" uid="2230609" lat="39.3737651" lon="22.9416120"/>
+ <node id="8462312163" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3733133" lon="22.9408905"/>
+ <node id="8462312165" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3749217" lon="22.9430268"/>
+ <node id="8462312171" visible="true" version="2" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609" lat="39.3729713" lon="22.9341940"/>
+ <node id="8462312172" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3722602" lon="22.9367374"/>
+ <node id="8462312173" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3722351" lon="22.9367680"/>
+ <node id="8462312174" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3725151" lon="22.9392544"/>
+ <node id="8462312175" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3738462" lon="22.9390076"/>
+ <node id="8462312176" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3756107" lon="22.9386482"/>
+ <node id="8462312177" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3759440" lon="22.9385873"/>
+ <node id="8462312178" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3759154" lon="22.9382163"/>
+ <node id="8462312179" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3758698" lon="22.9380340"/>
+ <node id="8462312180" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3753473" lon="22.9361054"/>
+ <node id="8462312181" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3751732" lon="22.9355180"/>
+ <node id="8462312182" visible="true" version="2" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3746694" lon="22.9351976"/>
+ <node id="8462312184" visible="true" version="3" changeset="100228897" timestamp="2021-03-01T20:16:26Z" user="Σεραφειμ" uid="2230609" lat="39.3743834" lon="22.9343475"/>
+ <node id="8462312186" visible="true" version="2" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3747109" lon="22.9341073"/>
+ <node id="8462312188" visible="true" version="2" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3743325" lon="22.9332167"/>
+ <node id="8462312189" visible="true" version="2" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3739157" lon="22.9335212"/>
+ <node id="8462312190" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3740405" lon="22.9338151"/>
+ <node id="8462312191" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3731587" lon="22.9344832"/>
+ <node id="8462312192" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3731222" lon="22.9345383"/>
+ <node id="8462312193" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3731676" lon="22.9345073"/>
+ <node id="8462312194" visible="true" version="2" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609" lat="39.3716505" lon="22.9351565"/>
+ <node id="8462312195" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3722245" lon="22.9364484"/>
+ <node id="8462312196" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3722280" lon="22.9386411"/>
+ <node id="8462312197" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3722460" lon="22.9387702"/>
+ <node id="8462312211" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3723792" lon="22.9380477"/>
+ <node id="8462312212" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3738205" lon="22.9377473"/>
+ <node id="8462312213" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3736943" lon="22.9366364"/>
+ <node id="8462312214" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3729442" lon="22.9367626"/>
+ <node id="8462312215" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3730698" lon="22.9377848"/>
+ <node id="8462312216" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3723664" lon="22.9379276"/>
+ <node id="8462316917" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3723322" lon="22.9384962"/>
+ <node id="8462316918" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609" lat="39.3724240" lon="22.9392609"/>
+ <node id="8462664339" visible="true" version="1" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609" lat="39.3721416" lon="22.9363686"/>
+ <node id="8462664340" visible="true" version="1" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609" lat="39.3721532" lon="22.9364020"/>
+ <node id="8462664341" visible="true" version="1" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609" lat="39.3728519" lon="22.9401010"/>
+ <node id="8462664342" visible="true" version="1" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609" lat="39.3728232" lon="22.9399748"/>
+ <node id="8464723250" visible="true" version="2" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3698875" lon="22.9355149"/>
+ <node id="8464881274" visible="true" version="1" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3702808" lon="22.9366068"/>
+ <node id="8464881275" visible="true" version="1" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3701478" lon="22.9364251"/>
+ <node id="8464881280" visible="true" version="1" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3701052" lon="22.9362386"/>
+ <node id="8464881282" visible="true" version="1" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3702771" lon="22.9361172"/>
+ <node id="8464881283" visible="true" version="1" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3702397" lon="22.9360540"/>
+ <node id="8464881284" visible="true" version="1" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3696892" lon="22.9352060"/>
+ <node id="8464881291" visible="true" version="1" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3750162" lon="22.9350503"/>
+ <node id="8464881306" visible="true" version="1" changeset="100119899" timestamp="2021-02-28T00:04:12Z" user="Σεραφειμ" uid="2230609" lat="39.3745680" lon="22.9337551"/>
+ <node id="8465061614" visible="true" version="1" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3658667" lon="22.9309393"/>
+ <node id="8465061615" visible="true" version="1" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3654165" lon="22.9307551"/>
+ <node id="8465061616" visible="true" version="1" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3652386" lon="22.9307130"/>
+ <node id="8465080417" visible="true" version="1" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3648680" lon="22.9306675"/>
+ <node id="8465080418" visible="true" version="1" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3645344" lon="22.9306851"/>
+ <node id="8465080419" visible="true" version="1" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3666070" lon="22.9314526"/>
+ <node id="8465080420" visible="true" version="1" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3664584" lon="22.9313128"/>
+ <node id="8465080424" visible="true" version="2" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3657758" lon="22.9312018"/>
+ <node id="8465080425" visible="true" version="2" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3661743" lon="22.9314478"/>
+ <node id="8465080426" visible="true" version="2" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3655710" lon="22.9310963"/>
+ <node id="8465080427" visible="true" version="2" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3652672" lon="22.9309946"/>
+ <node id="8465080428" visible="true" version="2" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3649788" lon="22.9309434"/>
+ <node id="8465080429" visible="true" version="2" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3648221" lon="22.9309376"/>
+ <node id="8465080430" visible="true" version="2" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3644382" lon="22.9309887"/>
+ <node id="8465080431" visible="true" version="2" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3639025" lon="22.9312156"/>
+ <node id="8465080432" visible="true" version="2" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3643635" lon="22.9310187"/>
+ <node id="8465080433" visible="true" version="2" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3642075" lon="22.9310864"/>
+ <node id="8465080446" visible="true" version="1" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3645928" lon="22.9309410"/>
+ <node id="8465080453" visible="true" version="1" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3624248" lon="22.9314168"/>
+ <node id="8465080454" visible="true" version="1" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3641409" lon="22.9307878"/>
+ <node id="8465080457" visible="true" version="1" changeset="100121841" timestamp="2021-02-28T02:56:01Z" user="Σεραφειμ" uid="2230609" lat="39.3624920" lon="22.9317382"/>
+ <node id="8477474153" visible="true" version="1" changeset="100235821" timestamp="2021-03-02T00:52:12Z" user="Σεραφειμ" uid="2230609" lat="39.3757155" lon="22.9441373"/>
+ <node id="8479242437" visible="true" version="1" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609" lat="39.3751441" lon="22.9434288"/>
+ <node id="8479242438" visible="true" version="1" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609" lat="39.3746409" lon="22.9427802"/>
+ <node id="8479242439" visible="true" version="1" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609" lat="39.3739386" lon="22.9419427"/>
+ <node id="8479242440" visible="true" version="1" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609" lat="39.3734469" lon="22.9430886"/>
+ <node id="8479242710" visible="true" version="1" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609" lat="39.3726395" lon="22.9422682"/>
+ <node id="8479242711" visible="true" version="1" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609" lat="39.3718620" lon="22.9403441"/>
+ <node id="8487415775" visible="true" version="1" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3665739" lon="22.9317646"/>
+ <node id="8487415776" visible="true" version="1" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3659126" lon="22.9312792"/>
+ <node id="8487415779" visible="true" version="1" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3653578" lon="22.9310177"/>
+ <node id="8487415780" visible="true" version="1" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3656594" lon="22.9311378"/>
+ <node id="8487415781" visible="true" version="1" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3644517" lon="22.9306908"/>
+ <node id="8487415782" visible="true" version="1" changeset="100450961" timestamp="2021-03-04T23:57:51Z" user="Σεραφειμ" uid="2230609" lat="39.3646402" lon="22.9309393"/>
+ <node id="8487415785" visible="true" version="3" changeset="154555660" timestamp="2024-07-29T10:24:06Z" user="ika-chan!" uid="4763179" lat="39.3629784" lon="22.9316238"/>
+ <node id="8489526165" visible="true" version="1" changeset="100502030" timestamp="2021-03-05T15:54:11Z" user="Σεραφειμ" uid="2230609" lat="39.3622851" lon="22.9314724"/>
+ <node id="8493212545" visible="true" version="1" changeset="100557778" timestamp="2021-03-07T00:11:44Z" user="Σεραφειμ" uid="2230609" lat="39.3777070" lon="22.9412569"/>
+ <node id="8493212546" visible="true" version="1" changeset="100557778" timestamp="2021-03-07T00:11:44Z" user="Σεραφειμ" uid="2230609" lat="39.3767294" lon="22.9415565"/>
+ <node id="8493212547" visible="true" version="1" changeset="100557778" timestamp="2021-03-07T00:11:44Z" user="Σεραφειμ" uid="2230609" lat="39.3766536" lon="22.9414402"/>
+ <node id="8495184431" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3589666" lon="22.9325681"/>
+ <node id="8495184432" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3593708" lon="22.9326018"/>
+ <node id="8495184433" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3589972" lon="22.9329902"/>
+ <node id="8495184434" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3596039" lon="22.9329330"/>
+ <node id="8495184435" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3594259" lon="22.9329676"/>
+ <node id="8495184436" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3593571" lon="22.9329604"/>
+ <node id="8495184437" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3590890" lon="22.9328643"/>
+ <node id="8495184438" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3587181" lon="22.9329017"/>
+ <node id="8495184439" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3600784" lon="22.9327513"/>
+ <node id="8495184440" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3596602" lon="22.9327164"/>
+ <node id="8495184441" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3595988" lon="22.9326975"/>
+ <node id="8495184442" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3597416" lon="22.9331216"/>
+ <node id="8495184443" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3594870" lon="22.9331294"/>
+ <node id="8495184444" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3588041" lon="22.9328624"/>
+ <node id="8495184445" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3592711" lon="22.9329335"/>
+ <node id="8495184452" visible="true" version="1" changeset="100595174" timestamp="2021-03-07T22:59:44Z" user="Σεραφειμ" uid="2230609" lat="39.3694523" lon="22.9471888"/>
+ <node id="8515464126" visible="true" version="2" changeset="104263541" timestamp="2021-05-06T15:56:44Z" user="Henosb" uid="11601547" lat="39.3688470" lon="22.9342138"/>
+ <node id="8542154849" visible="true" version="1" changeset="101419105" timestamp="2021-03-20T21:43:02Z" user="Σεραφειμ" uid="2230609" lat="39.3690579" lon="22.9478268"/>
+ <node id="8542154853" visible="true" version="2" changeset="104598229" timestamp="2021-05-12T21:20:14Z" user="Henosb" uid="11601547" lat="39.3736731" lon="22.9446042"/>
+ <node id="8557744980" visible="true" version="1" changeset="101662851" timestamp="2021-03-24T16:55:46Z" user="Σεραφειμ" uid="2230609" lat="39.3709570" lon="22.9415343"/>
+ <node id="8557744981" visible="true" version="1" changeset="101662851" timestamp="2021-03-24T16:55:46Z" user="Σεραφειμ" uid="2230609" lat="39.3709254" lon="22.9415825"/>
+ <node id="8557744983" visible="true" version="2" changeset="104339914" timestamp="2021-05-07T20:25:09Z" user="Σεραφειμ" uid="2230609" lat="39.3723318" lon="22.9426675">
+  <tag k="addr:city" v="Βόλος"/>
+  <tag k="addr:housenumber" v="9"/>
+  <tag k="addr:street" v="Αναλήψεως"/>
+ </node>
+ <node id="8557744987" visible="true" version="2" changeset="101671330" timestamp="2021-03-24T19:54:25Z" user="Σεραφειμ" uid="2230609" lat="39.3725666" lon="22.9422444">
+  <tag k="addr:city" v="Βόλος"/>
+  <tag k="addr:housenumber" v="2"/>
+  <tag k="addr:street" v="Αναλήψεως"/>
+ </node>
+ <node id="8557744989" visible="true" version="2" changeset="101674340" timestamp="2021-03-24T21:07:56Z" user="Σεραφειμ" uid="2230609" lat="39.3717232" lon="22.9427880">
+  <tag k="addr:city" v="Βόλος"/>
+  <tag k="addr:housenumber" v="20"/>
+  <tag k="addr:street" v="Αναλήψεως"/>
+ </node>
+ <node id="8557744992" visible="true" version="1" changeset="101662851" timestamp="2021-03-24T16:55:46Z" user="Σεραφειμ" uid="2230609" lat="39.3726758" lon="22.9424462">
+  <tag k="addr:city" v="Βόλος"/>
+  <tag k="addr:housenumber" v="1"/>
+  <tag k="addr:street" v="Αναλήψεως"/>
+ </node>
+ <node id="8558202124" visible="true" version="1" changeset="101671330" timestamp="2021-03-24T19:54:25Z" user="Σεραφειμ" uid="2230609" lat="39.3722469" lon="22.9435421"/>
+ <node id="8558337238" visible="true" version="2" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3689107" lon="22.9480590"/>
+ <node id="8726085143" visible="true" version="2" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3747903" lon="22.9444170"/>
+ <node id="8726433255" visible="true" version="1" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547" lat="39.3734025" lon="22.9399087"/>
+ <node id="9137873839" visible="true" version="1" changeset="111966514" timestamp="2021-10-01T14:22:16Z" user="ForEspresso" uid="10493069" lat="39.3745958" lon="22.9341917"/>
+ <node id="9171420824" visible="true" version="2" changeset="119902224" timestamp="2022-04-19T11:24:00Z" user="user_9221753" uid="9221753" lat="39.3726097" lon="22.9394661">
+  <tag k="addr:housenumber" v="14"/>
+  <tag k="addr:street" v="Αναπαύσεως"/>
+  <tag k="amenity" v="fuel"/>
+  <tag k="brand" v="Shell"/>
+  <tag k="brand:wikidata" v="Q110716465"/>
+  <tag k="brand:wikipedia" v="en:Royal Dutch Shell"/>
+  <tag k="name" v="SHELL"/>
+  <tag k="operator" v="ΚΩΣΤΑΡΑΣ ΘΕΟΔΩΡΟΣ"/>
+ </node>
+ <node id="9171420825" visible="true" version="1" changeset="112495355" timestamp="2021-10-14T09:39:31Z" user="user_9221753" uid="9221753" lat="39.3724654" lon="22.9393232"/>
+ <node id="9171420826" visible="true" version="1" changeset="112495355" timestamp="2021-10-14T09:39:31Z" user="user_9221753" uid="9221753" lat="39.3727158" lon="22.9395436"/>
+ <node id="9171420827" visible="true" version="1" changeset="112495355" timestamp="2021-10-14T09:39:31Z" user="user_9221753" uid="9221753" lat="39.3725293" lon="22.9393794"/>
+ <node id="9171420828" visible="true" version="1" changeset="112495355" timestamp="2021-10-14T09:39:31Z" user="user_9221753" uid="9221753" lat="39.3726693" lon="22.9395027"/>
+ <node id="9497492521" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3703666" lon="22.9367211"/>
+ <node id="9497492522" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3707843" lon="22.9375183"/>
+ <node id="9497492523" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3710656" lon="22.9381524"/>
+ <node id="9497492524" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3715633" lon="22.9393550"/>
+ <node id="9497492525" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3716207" lon="22.9394911"/>
+ <node id="9497492526" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3734093" lon="22.9438800"/>
+ <node id="9497492527" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3736963" lon="22.9445871"/>
+ <node id="9497492528" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3739070" lon="22.9444374"/>
+ <node id="9497492529" visible="true" version="2" changeset="120660656" timestamp="2022-05-07T09:56:51Z" user="Σεραφειμ" uid="2230609" lat="39.3748113" lon="22.9466995"/>
+ <node id="9497492530" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3731243" lon="22.9424939"/>
+ <node id="9497492531" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3731283" lon="22.9424218"/>
+ <node id="9497492532" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3727524" lon="22.9422681"/>
+ <node id="9497492533" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068" lat="39.3729956" lon="22.9420968"/>
+ <node id="9720166725" visible="true" version="1" changeset="120622262" timestamp="2022-05-06T09:50:20Z" user="Σεραφειμ" uid="2230609" lat="39.3627639" lon="22.9421799"/>
+ <node id="9739779644" visible="true" version="1" changeset="120982374" timestamp="2022-05-14T14:47:57Z" user="Σεραφειμ" uid="2230609" lat="39.3676133" lon="22.9504514"/>
+ <node id="9739779645" visible="true" version="1" changeset="120982374" timestamp="2022-05-14T14:47:57Z" user="Σεραφειμ" uid="2230609" lat="39.3675367" lon="22.9505324"/>
+ <node id="9868674788" visible="true" version="1" changeset="123243998" timestamp="2022-07-05T17:10:42Z" user="Σεραφειμ" uid="2230609" lat="39.3721821" lon="22.9427642">
+  <tag k="addr:city" v="Βόλος"/>
+  <tag k="addr:housenumber" v="11"/>
+  <tag k="addr:street" v="Αναλήψεως"/>
+ </node>
+ <node id="9868674789" visible="true" version="1" changeset="123243998" timestamp="2022-07-05T17:10:42Z" user="Σεραφειμ" uid="2230609" lat="39.3718395" lon="22.9429855">
+  <tag k="addr:city" v="Βόλος"/>
+  <tag k="addr:housenumber" v="19"/>
+  <tag k="addr:street" v="Αναλήψεως"/>
+ </node>
+ <node id="9924804360" visible="true" version="1" changeset="124348479" timestamp="2022-08-01T14:08:53Z" user="user_9221753" uid="9221753" lat="39.3738384" lon="22.9391672">
+  <tag k="amenity" v="fuel"/>
+  <tag k="brand" v="ΕΤΕΚΑ"/>
+  <tag k="brand:wikidata" v="Q31283952"/>
+  <tag k="name" v="ΕΤΕΚΑ"/>
+  <tag k="operator" v="ΛΥΚΟΥΡΗΣ Α.Ε."/>
+ </node>
+ <node id="9924804361" visible="true" version="1" changeset="124348479" timestamp="2022-08-01T14:08:53Z" user="user_9221753" uid="9221753" lat="39.3726870" lon="22.9395183"/>
+ <node id="12079841514" visible="true" version="1" changeset="154554918" timestamp="2024-07-29T10:05:09Z" user="ika-chan!" uid="4763179" lat="39.3631429" lon="22.9311300"/>
+ <node id="12079841515" visible="true" version="1" changeset="154554918" timestamp="2024-07-29T10:05:09Z" user="ika-chan!" uid="4763179" lat="39.3631153" lon="22.9311391"/>
+ <node id="12079841516" visible="true" version="1" changeset="154554918" timestamp="2024-07-29T10:05:09Z" user="ika-chan!" uid="4763179" lat="39.3628792" lon="22.9312149"/>
+ <node id="12079841517" visible="true" version="1" changeset="154554918" timestamp="2024-07-29T10:05:09Z" user="ika-chan!" uid="4763179" lat="39.3627798" lon="22.9312469"/>
+ <node id="12079841518" visible="true" version="1" changeset="154554918" timestamp="2024-07-29T10:05:09Z" user="ika-chan!" uid="4763179" lat="39.3632713" lon="22.9310887"/>
+ <way id="31712455" visible="true" version="10" changeset="97923856" timestamp="2021-01-21T19:09:28Z" user="Sotiris Pap" uid="12428261">
+  <nd ref="354806454"/>
+  <nd ref="355308837"/>
+  <nd ref="355309252"/>
+  <nd ref="354806453"/>
+  <nd ref="354806452"/>
+  <tag k="foot" v="yes"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Αναλήψεως"/>
+  <tag k="oneway" v="no"/>
+  <tag k="sidewalk" v="both"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="31712459" visible="true" version="32" changeset="120982374" timestamp="2022-05-14T14:47:57Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="355309044"/>
+  <nd ref="355309024"/>
+  <nd ref="8558202124"/>
+  <nd ref="355309045"/>
+  <nd ref="355308904"/>
+  <nd ref="8078026472"/>
+  <nd ref="8078026471"/>
+  <nd ref="5549167137"/>
+  <nd ref="8078026487"/>
+  <nd ref="8078026486"/>
+  <nd ref="5549167136"/>
+  <nd ref="8078026470"/>
+  <nd ref="8078026469"/>
+  <nd ref="354806497"/>
+  <nd ref="658131562"/>
+  <nd ref="355338465"/>
+  <nd ref="355338582"/>
+  <nd ref="8495184452"/>
+  <nd ref="354806499"/>
+  <nd ref="5873906738"/>
+  <nd ref="8542154849"/>
+  <nd ref="8558337238"/>
+  <nd ref="5559602656"/>
+  <nd ref="355483837"/>
+  <nd ref="355338396"/>
+  <nd ref="354806502"/>
+  <nd ref="8078137000"/>
+  <nd ref="8078137001"/>
+  <nd ref="8078137002"/>
+  <nd ref="355483799"/>
+  <nd ref="8078137003"/>
+  <nd ref="8078136998"/>
+  <nd ref="8078137004"/>
+  <nd ref="9739779644"/>
+  <nd ref="8078136999"/>
+  <nd ref="354803419"/>
+  <nd ref="9739779645"/>
+  <nd ref="8078137005"/>
+  <nd ref="8078137006"/>
+  <nd ref="7049944809"/>
+  <nd ref="354803525"/>
+  <nd ref="5560349754"/>
+  <nd ref="6482615703"/>
+  <nd ref="354803527"/>
+  <nd ref="355483560"/>
+  <nd ref="8078137007"/>
+  <nd ref="354803528"/>
+  <nd ref="6056095088"/>
+  <nd ref="8078137008"/>
+  <nd ref="355481178"/>
+  <nd ref="355243915"/>
+  <nd ref="355244203"/>
+  <nd ref="354803529"/>
+  <nd ref="356012842"/>
+  <nd ref="354803530"/>
+  <nd ref="355335569"/>
+  <nd ref="355243974"/>
+  <nd ref="354803531"/>
+  <nd ref="354803532"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Λόρδου Βύρωνος"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="31745917" visible="true" version="25" changeset="78372823" timestamp="2019-12-13T12:38:28Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="355259919"/>
+  <nd ref="355306322"/>
+  <nd ref="355306379"/>
+  <nd ref="3145144643"/>
+  <nd ref="355305888"/>
+  <nd ref="7054526046"/>
+  <nd ref="355305757"/>
+  <nd ref="5506887124"/>
+  <nd ref="355305728"/>
+  <nd ref="356001180"/>
+  <nd ref="356001224"/>
+  <nd ref="355305705"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Ευφραιμίδου"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="31749504" visible="true" version="10" changeset="72470699" timestamp="2019-07-20T22:12:29Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="355308455"/>
+  <nd ref="5551443607"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Κηφισίας"/>
+  <tag k="oneway" v="no"/>
+ </way>
+ <way id="31749514" visible="true" version="9" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="355306716"/>
+  <nd ref="3145823996"/>
+  <nd ref="355307954"/>
+  <nd ref="355306785"/>
+  <nd ref="355306786"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Βουλγαροκτόνου"/>
+ </way>
+ <way id="31749631" visible="true" version="14" changeset="78374533" timestamp="2019-12-13T13:12:58Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="355308405"/>
+  <nd ref="355307952"/>
+  <nd ref="7054604546"/>
+  <nd ref="355306714"/>
+  <nd ref="3145823986"/>
+  <nd ref="3145930824"/>
+  <nd ref="3145926497"/>
+  <nd ref="355485057"/>
+  <nd ref="3145926502"/>
+  <nd ref="355308156"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Σινώπης"/>
+  <tag k="oneway" v="no"/>
+ </way>
+ <way id="31749670" visible="true" version="12" changeset="101422322" timestamp="2021-03-21T00:07:31Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="355308836"/>
+  <nd ref="1946666638"/>
+  <nd ref="355308683"/>
+  <nd ref="7646070860"/>
+  <nd ref="355308837"/>
+  <nd ref="355309024"/>
+  <nd ref="355308838"/>
+  <nd ref="355483398"/>
+  <nd ref="355308840"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Αδμήτου"/>
+  <tag k="name:el" v="Αδμήτου"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="sidewalk" v="both"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="31758448" visible="true" version="8" changeset="104592647" timestamp="2021-05-12T18:41:29Z" user="Henosb" uid="11601547">
+  <nd ref="355306785"/>
+  <nd ref="355308365"/>
+  <nd ref="8726085143"/>
+  <nd ref="355485032"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Βουτζά"/>
+ </way>
+ <way id="37058610" visible="true" version="26" changeset="132259919" timestamp="2023-02-08T14:36:57Z" user="sheldonelectric" uid="936280">
+  <nd ref="5576292399"/>
+  <nd ref="355308617"/>
+  <nd ref="9171420825"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="int_name" v="Anapafseos"/>
+  <tag k="lanes" v="2"/>
+  <tag k="name" v="Αναπαύσεως"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="98410729" visible="true" version="6" changeset="87028266" timestamp="2020-06-23T10:24:32Z" user="erenozdemir" uid="9206516">
+  <nd ref="1946666638"/>
+  <nd ref="1946666663"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="name" v="Ναπ. Λαπαθιώτη"/>
+  <tag k="oneway" v="no"/>
+ </way>
+ <way id="184210494" visible="true" version="9" changeset="165258342" timestamp="2025-04-21T21:03:04Z" user="Geokap" uid="21893859">
+  <nd ref="1946666680"/>
+  <nd ref="1946666669"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
+  <tag k="name" v="Γόρδιου"/>
+  <tag k="oneway" v="no"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="184210495" visible="true" version="4" changeset="87028562" timestamp="2020-06-23T10:29:51Z" user="erenozdemir" uid="9206516">
+  <nd ref="3850693441"/>
+  <nd ref="1946666666"/>
+  <nd ref="1946666673"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Μπιζανίου"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="189733086" visible="true" version="10" changeset="100080616" timestamp="2021-02-27T01:45:25Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="356001287"/>
+  <nd ref="356001672"/>
+  <nd ref="356001115"/>
+  <nd ref="355341790"/>
+  <nd ref="8462664339"/>
+  <nd ref="7054331639"/>
+  <nd ref="8462664340"/>
+  <nd ref="355259772"/>
+  <nd ref="7054331640"/>
+  <nd ref="356001108"/>
+  <nd ref="355259773"/>
+  <nd ref="355305731"/>
+  <nd ref="355305853"/>
+  <nd ref="3145144642"/>
+  <nd ref="355306378"/>
+  <nd ref="355306350"/>
+  <nd ref="355259775"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="Δημοκρατίας"/>
+  <tag k="oneway" v="no"/>
+ </way>
+ <way id="210650352" visible="true" version="37" changeset="154555660" timestamp="2024-07-29T10:24:06Z" user="ika-chan!" uid="4763179">
+  <nd ref="4028997889"/>
+  <nd ref="4028996187"/>
+  <nd ref="4028996186"/>
+  <nd ref="2207180309"/>
+  <nd ref="2207180268"/>
+  <nd ref="2712348195"/>
+  <nd ref="2207180150"/>
+  <nd ref="2207180196"/>
+  <nd ref="2207180140"/>
+  <nd ref="2207180189"/>
+  <nd ref="2207180148"/>
+  <nd ref="2207180216"/>
+  <nd ref="2207180214"/>
+  <nd ref="4699231293"/>
+  <nd ref="2207180230"/>
+  <nd ref="4699230374"/>
+  <nd ref="2207180176"/>
+  <nd ref="4699230383"/>
+  <nd ref="4699230382"/>
+  <nd ref="2207180184"/>
+  <nd ref="4699231289"/>
+  <nd ref="4699231306"/>
+  <nd ref="8464881280"/>
+  <nd ref="7605431844"/>
+  <nd ref="4699231305"/>
+  <nd ref="7063820470"/>
+  <nd ref="2207180319"/>
+  <nd ref="7063820471"/>
+  <nd ref="2207180244"/>
+  <nd ref="2207180186"/>
+  <nd ref="8515464126"/>
+  <nd ref="2329681290"/>
+  <nd ref="2207180305"/>
+  <nd ref="2207180142"/>
+  <nd ref="2207180271"/>
+  <nd ref="2207180318"/>
+  <nd ref="8487415775"/>
+  <nd ref="2207180307"/>
+  <nd ref="8465080425"/>
+  <nd ref="2207180272"/>
+  <nd ref="8487415776"/>
+  <nd ref="8465080424"/>
+  <nd ref="8487415780"/>
+  <nd ref="8465080426"/>
+  <nd ref="2207180321"/>
+  <nd ref="8487415779"/>
+  <nd ref="8465080427"/>
+  <nd ref="2207180154"/>
+  <nd ref="8465080428"/>
+  <nd ref="8465080429"/>
+  <nd ref="2207180221"/>
+  <nd ref="8487415782"/>
+  <nd ref="8465080446"/>
+  <nd ref="355286719"/>
+  <nd ref="8465080430"/>
+  <nd ref="8465080432"/>
+  <nd ref="8465080433"/>
+  <nd ref="8465080431"/>
+  <nd ref="2207180194"/>
+  <nd ref="8487415785"/>
+  <nd ref="642236062"/>
+  <nd ref="642235878"/>
+  <nd ref="7649232321"/>
+  <nd ref="8465080457"/>
+  <nd ref="2207180264"/>
+  <nd ref="2207180240"/>
+  <nd ref="2207180250"/>
+  <nd ref="2207180181"/>
+  <nd ref="2207180174"/>
+  <nd ref="8495184442"/>
+  <nd ref="2207180310"/>
+  <nd ref="2207180259"/>
+  <nd ref="8495184443"/>
+  <nd ref="2207180248"/>
+  <nd ref="8495184433"/>
+  <nd ref="287475269"/>
+  <nd ref="2207355234"/>
+  <nd ref="2207303407"/>
+  <nd ref="2207350145"/>
+  <nd ref="2207180217"/>
+  <nd ref="8495184431"/>
+  <nd ref="2207180198"/>
+  <nd ref="8495184432"/>
+  <nd ref="8495184441"/>
+  <nd ref="8495184440"/>
+  <nd ref="2207180313"/>
+  <nd ref="2207180223"/>
+  <nd ref="2207180206"/>
+  <nd ref="2207180219"/>
+  <nd ref="2207180295"/>
+  <nd ref="2207180233"/>
+  <nd ref="2207180208"/>
+  <nd ref="8489526165"/>
+  <nd ref="8465080453"/>
+  <nd ref="12079841517"/>
+  <nd ref="12079841516"/>
+  <nd ref="12079841515"/>
+  <nd ref="12079841514"/>
+  <nd ref="12079841518"/>
+  <nd ref="2207180192"/>
+  <nd ref="8465080454"/>
+  <nd ref="355286869"/>
+  <nd ref="2207180239"/>
+  <nd ref="8487415781"/>
+  <nd ref="8465080418"/>
+  <nd ref="2207180323"/>
+  <nd ref="8465080417"/>
+  <nd ref="2207180227"/>
+  <nd ref="8465061616"/>
+  <nd ref="8465061615"/>
+  <nd ref="2207180144"/>
+  <nd ref="8465061614"/>
+  <nd ref="2207180315"/>
+  <nd ref="2207180322"/>
+  <nd ref="8465080420"/>
+  <nd ref="8465080419"/>
+  <nd ref="2207180202"/>
+  <nd ref="2207180182"/>
+  <nd ref="2207180169"/>
+  <nd ref="2207180256"/>
+  <nd ref="2329681292"/>
+  <nd ref="2207180265"/>
+  <nd ref="2207180153"/>
+  <nd ref="8464881284"/>
+  <nd ref="8464723250"/>
+  <nd ref="2207180146"/>
+  <nd ref="4699231307"/>
+  <nd ref="8464881283"/>
+  <nd ref="8464881282"/>
+  <nd ref="4699231308"/>
+  <nd ref="2207180168"/>
+  <nd ref="2207180298"/>
+  <nd ref="2207180212"/>
+  <nd ref="4699231294"/>
+  <nd ref="2207180300"/>
+  <nd ref="2207180210"/>
+  <nd ref="2207180156"/>
+  <nd ref="2207180237"/>
+  <nd ref="2207180290"/>
+  <nd ref="2207180288"/>
+  <nd ref="2207180158"/>
+  <nd ref="2207180231"/>
+  <nd ref="2207180166"/>
+  <nd ref="4028997892"/>
+  <nd ref="4028997890"/>
+  <nd ref="4028997889"/>
+  <tag k="natural" v="water"/>
+  <tag k="water" v="river"/>
+ </way>
+ <way id="210650353" visible="true" version="10" changeset="162761535" timestamp="2025-02-21T00:59:51Z" user="nikospag" uid="609559">
+  <nd ref="4028997890"/>
+  <nd ref="2207300283"/>
+  <nd ref="2207300280"/>
+  <nd ref="2207300242"/>
+  <nd ref="2207300237"/>
+  <nd ref="2207300272"/>
+  <nd ref="2207300252"/>
+  <nd ref="2207300249"/>
+  <nd ref="2207300259"/>
+  <nd ref="2207300230"/>
+  <nd ref="2207300281"/>
+  <nd ref="2207300233"/>
+  <nd ref="2207300241"/>
+  <nd ref="2207300240"/>
+  <nd ref="2207300236"/>
+  <nd ref="2207300250"/>
+  <nd ref="2329681291"/>
+  <nd ref="2207300239"/>
+  <nd ref="2207300271"/>
+  <nd ref="2207300244"/>
+  <nd ref="2207300267"/>
+  <nd ref="2207300289"/>
+  <nd ref="2207300266"/>
+  <nd ref="2207300254"/>
+  <nd ref="2207300246"/>
+  <nd ref="2207300269"/>
+  <nd ref="2207300243"/>
+  <nd ref="2207300251"/>
+  <nd ref="2207300245"/>
+  <nd ref="2207300238"/>
+  <nd ref="2207300234"/>
+  <nd ref="2207300285"/>
+  <nd ref="2207300247"/>
+  <nd ref="8495184439"/>
+  <nd ref="2207300278"/>
+  <nd ref="8495184434"/>
+  <nd ref="2207300262"/>
+  <nd ref="8495184435"/>
+  <nd ref="8495184436"/>
+  <nd ref="8495184445"/>
+  <nd ref="8495184437"/>
+  <nd ref="2207300231"/>
+  <nd ref="2207300286"/>
+  <nd ref="8495184444"/>
+  <nd ref="8495184438"/>
+  <nd ref="2207303407"/>
+  <tag k="name" v="Κραυσίδων"/>
+  <tag k="name:el" v="Κραυσίδων"/>
+  <tag k="name:en" v="Kravsidon"/>
+  <tag k="tidal" v="no"/>
+  <tag k="tunnel" v="no"/>
+  <tag k="waterway" v="river"/>
+ </way>
+ <way id="309262955" visible="true" version="4" changeset="87028562" timestamp="2020-06-23T10:29:51Z" user="erenozdemir" uid="9206516">
+  <nd ref="3145916889"/>
+  <nd ref="3145916890"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Νικάνδρου"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="309263320" visible="true" version="2" changeset="72466650" timestamp="2019-07-20T18:04:33Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="3145926491"/>
+  <nd ref="3145926492"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Μιλήτου"/>
+ </way>
+ <way id="309263525" visible="true" version="4" changeset="104599287" timestamp="2021-05-12T22:00:16Z" user="Henosb" uid="11601547">
+  <nd ref="355259919"/>
+  <nd ref="355306640"/>
+  <nd ref="3145823992"/>
+  <nd ref="8726433255"/>
+  <nd ref="3145823993"/>
+  <nd ref="355306714"/>
+  <nd ref="3145926492"/>
+  <nd ref="3145823995"/>
+  <nd ref="3145823996"/>
+  <nd ref="3145930828"/>
+  <nd ref="3145931229"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Στρατηγού Ιωάννου"/>
+  <tag k="oneway" v="no"/>
+ </way>
+ <way id="381872729" visible="true" version="10" changeset="136476831" timestamp="2023-05-24T01:14:43Z" user="nikospag" uid="609559">
+  <nd ref="355308405"/>
+  <nd ref="1946666669"/>
+  <nd ref="3850693441"/>
+  <nd ref="355308455"/>
+  <nd ref="355308617"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="30"/>
+  <tag k="name" v="Μπιζανίου"/>
+  <tag k="name:el" v="Καραμπατζάκη"/>
+  <tag k="name:en" v="Karabatzaki"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="381872739" visible="true" version="7" changeset="136476831" timestamp="2023-05-24T01:14:43Z" user="nikospag" uid="609559">
+  <nd ref="355306786"/>
+  <nd ref="9497492531"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Καραμπατζάκη"/>
+  <tag k="name:el" v="Καραμπατζάκη"/>
+  <tag k="name:en" v="Karabatzaki"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="381872759" visible="true" version="6" changeset="136476831" timestamp="2023-05-24T01:14:43Z" user="nikospag" uid="609559">
+  <nd ref="355307731"/>
+  <nd ref="355308356"/>
+  <nd ref="355306786"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="30"/>
+  <tag k="name" v="Καραμπατζάκη"/>
+  <tag k="name:el" v="Καραμπατζάκη"/>
+  <tag k="name:en" v="Karabatzaki"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="476314270" visible="true" version="18" changeset="136476831" timestamp="2023-05-24T01:14:43Z" user="nikospag" uid="609559">
+  <nd ref="4699231297"/>
+  <nd ref="8464881275"/>
+  <nd ref="5576292403"/>
+  <nd ref="5576292404"/>
+  <nd ref="8464881274"/>
+  <nd ref="355340759"/>
+  <nd ref="5576075256"/>
+  <nd ref="7054279394"/>
+  <nd ref="354806074"/>
+  <nd ref="7054279393"/>
+  <nd ref="4699230373"/>
+  <nd ref="354806112"/>
+  <nd ref="5559918738"/>
+  <nd ref="4699230375"/>
+  <nd ref="4699230377"/>
+  <nd ref="355340761"/>
+  <nd ref="428628740"/>
+  <nd ref="1946666663"/>
+  <nd ref="354806265"/>
+  <nd ref="354806454"/>
+  <nd ref="355309044"/>
+  <nd ref="354806327"/>
+  <nd ref="355483404"/>
+  <nd ref="355257667"/>
+  <nd ref="8542154853"/>
+  <nd ref="355483424"/>
+  <nd ref="354806405"/>
+  <nd ref="355340551"/>
+  <nd ref="355483439"/>
+  <nd ref="355307728"/>
+  <nd ref="355484224"/>
+  <nd ref="355484177"/>
+  <nd ref="5263900652"/>
+  <nd ref="5576075261"/>
+  <nd ref="5576111011"/>
+  <nd ref="5576111002"/>
+  <nd ref="355484386"/>
+  <nd ref="355484412"/>
+  <nd ref="5821489758"/>
+  <nd ref="355484244"/>
+  <nd ref="355484928"/>
+  <nd ref="5821489754"/>
+  <nd ref="355484929"/>
+  <nd ref="5821489755"/>
+  <nd ref="5821489757"/>
+  <nd ref="5559949570"/>
+  <nd ref="7643101008"/>
+  <nd ref="6645115144"/>
+  <nd ref="355484931"/>
+  <nd ref="6403091606"/>
+  <nd ref="355484932"/>
+  <nd ref="355340000"/>
+  <tag k="access" v="yes"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="foot" v="yes"/>
+  <tag k="highway" v="residential"/>
+  <tag k="int_name" v="Aristeidou Zahou"/>
+  <tag k="lanes" v="1"/>
+  <tag k="lit" v="yes"/>
+  <tag k="maxspeed" v="30"/>
+  <tag k="name" v="Αριστείδου Ζάχου"/>
+  <tag k="name:el" v="Αριστείδου Ζάχου"/>
+  <tag k="name:en" v="Arist. Zakhou"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="sidewalk" v="right"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="turn:lanes:backward" v="left;right"/>
+ </way>
+ <way id="579722946" visible="true" version="10" changeset="112495355" timestamp="2021-10-14T09:39:31Z" user="user_9221753" uid="9221753">
+  <nd ref="355307781"/>
+  <nd ref="8477474153"/>
+  <nd ref="5560576671"/>
+  <nd ref="355308259"/>
+  <nd ref="8462312165"/>
+  <nd ref="5560576670"/>
+  <nd ref="355485022"/>
+  <nd ref="355307954"/>
+  <nd ref="5560576669"/>
+  <nd ref="8455863929"/>
+  <nd ref="3145926491"/>
+  <nd ref="3145916890"/>
+  <nd ref="355307952"/>
+  <nd ref="8078189755"/>
+  <nd ref="1946666680"/>
+  <nd ref="8078189756"/>
+  <nd ref="1946666677"/>
+  <nd ref="7646016816"/>
+  <nd ref="1946666673"/>
+  <nd ref="355306637"/>
+  <nd ref="5551443607"/>
+  <nd ref="9171420826"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="Θείρων"/>
+ </way>
+ <way id="579722947" visible="true" version="7" changeset="100228897" timestamp="2021-03-01T20:16:26Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="355306642"/>
+  <nd ref="355306640"/>
+  <nd ref="7054604545"/>
+  <nd ref="355306637"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Κηφισίας"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="580273671" visible="true" version="4" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="8462312197"/>
+  <nd ref="5555385222"/>
+  <nd ref="5555385224"/>
+  <nd ref="5555385225"/>
+  <nd ref="5555369600"/>
+  <nd ref="5555369599"/>
+  <nd ref="5555385226"/>
+  <nd ref="8462312196"/>
+  <nd ref="8462312197"/>
+  <tag k="amenity" v="community_centre"/>
+  <tag k="name" v="Πολιτιστικό Κέντρο 'Μεταξουργείο'"/>
+ </way>
+ <way id="580273672" visible="true" version="1" changeset="58122769" timestamp="2018-04-16T00:27:57Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="5555385227"/>
+  <nd ref="5555385228"/>
+  <nd ref="5555385229"/>
+  <nd ref="5555385230"/>
+  <nd ref="5555385231"/>
+  <nd ref="5555385232"/>
+  <nd ref="5555385233"/>
+  <nd ref="5555385234"/>
+  <nd ref="5555385227"/>
+  <tag k="amenity" v="library"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Βιβλιοθήκη Νέας Ιωνίας"/>
+ </way>
+ <way id="580273673" visible="true" version="1" changeset="58122769" timestamp="2018-04-16T00:27:58Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="5555385235"/>
+  <nd ref="5555385236"/>
+  <nd ref="5555385237"/>
+  <nd ref="5555385238"/>
+  <nd ref="5555385239"/>
+  <nd ref="5555385240"/>
+  <nd ref="5555385241"/>
+  <nd ref="5555385242"/>
+  <nd ref="5555385235"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="582650488" visible="true" version="5" changeset="162761535" timestamp="2025-02-21T01:00:26Z" user="nikospag" uid="609559">
+  <nd ref="354806264"/>
+  <nd ref="355309251"/>
+  <nd ref="355308683"/>
+  <nd ref="354806265"/>
+  <tag k="bicycle" v="no"/>
+  <tag k="foot" v="yes"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Δημάρχου Γεωργιάδου"/>
+  <tag k="name:el" v="Δημάρχου Γεωργιάδου"/>
+  <tag k="name:en" v="Dimarxou Georgiadou"/>
+  <tag k="sidewalk" v="both"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="595262429" visible="true" version="10" changeset="101662851" timestamp="2021-03-24T16:55:46Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="427828621"/>
+  <nd ref="427828623"/>
+  <nd ref="5673903091"/>
+  <nd ref="8078136989"/>
+  <nd ref="8557744980"/>
+  <nd ref="8557744981"/>
+  <nd ref="5673903092"/>
+  <nd ref="5673903093"/>
+  <nd ref="5673903094"/>
+  <nd ref="6634119327"/>
+  <nd ref="6634119328"/>
+  <nd ref="8078026478"/>
+  <nd ref="6636954846"/>
+  <nd ref="6636954845"/>
+  <nd ref="6636954844"/>
+  <nd ref="6636954843"/>
+  <nd ref="6636954842"/>
+  <nd ref="6636954841"/>
+  <nd ref="6636954840"/>
+  <nd ref="8078026479"/>
+  <nd ref="7645985601"/>
+  <nd ref="8078136994"/>
+  <nd ref="3987149374"/>
+  <nd ref="3987149375"/>
+  <nd ref="3987149376"/>
+  <nd ref="5673903100"/>
+  <nd ref="6159857296"/>
+  <nd ref="5673903101"/>
+  <nd ref="5673903102"/>
+  <nd ref="5673903103"/>
+  <nd ref="6056225622"/>
+  <nd ref="427828621"/>
+  <tag k="landuse" v="residential"/>
+ </way>
+ <way id="643580222" visible="true" version="15" changeset="133269930" timestamp="2023-03-03T20:50:28Z" user="geraki" uid="16821">
+  <nd ref="6056225633"/>
+  <nd ref="6056225069"/>
+  <nd ref="6056225587"/>
+  <nd ref="6056225590"/>
+  <nd ref="5673903024"/>
+  <nd ref="5673903023"/>
+  <nd ref="5673903022"/>
+  <nd ref="6056225592"/>
+  <nd ref="6056225593"/>
+  <nd ref="6058709989"/>
+  <nd ref="6058709991"/>
+  <nd ref="6058709990"/>
+  <nd ref="6056225594"/>
+  <nd ref="9720166725"/>
+  <nd ref="6058681337"/>
+  <nd ref="6058709998"/>
+  <nd ref="6056225076"/>
+  <nd ref="6056225077"/>
+  <nd ref="6056225078"/>
+  <nd ref="6056225079"/>
+  <nd ref="6056225080"/>
+  <nd ref="6056225595"/>
+  <nd ref="6056225081"/>
+  <nd ref="6056225082"/>
+  <nd ref="6056225596"/>
+  <nd ref="6056225083"/>
+  <nd ref="6056225084"/>
+  <nd ref="6056225585"/>
+  <nd ref="6056225597"/>
+  <nd ref="6056225586"/>
+  <nd ref="6056225598"/>
+  <nd ref="6056225600"/>
+  <nd ref="6056225601"/>
+  <nd ref="5673903043"/>
+  <nd ref="5673903044"/>
+  <nd ref="6056225602"/>
+  <nd ref="6056225603"/>
+  <nd ref="6056225604"/>
+  <nd ref="7061691701"/>
+  <nd ref="6056225606"/>
+  <nd ref="6056225607"/>
+  <nd ref="6056225608"/>
+  <nd ref="6056225609"/>
+  <nd ref="6056225610"/>
+  <nd ref="6056225611"/>
+  <nd ref="6056225612"/>
+  <nd ref="6056225613"/>
+  <nd ref="6056225614"/>
+  <nd ref="6056225615"/>
+  <nd ref="6056225616"/>
+  <nd ref="6056225617"/>
+  <nd ref="7054279392"/>
+  <nd ref="6056225618"/>
+  <nd ref="7054279391"/>
+  <nd ref="6056225619"/>
+  <nd ref="6056225620"/>
+  <nd ref="8479242711"/>
+  <nd ref="8479242710"/>
+  <nd ref="6056225632"/>
+  <nd ref="6056225623"/>
+  <nd ref="6056225624"/>
+  <nd ref="6056225625"/>
+  <nd ref="6056225633"/>
+  <tag k="name" v="Οξυγόνο"/>
+  <tag k="place" v="neighbourhood"/>
+ </way>
+ <way id="755188777" visible="true" version="2" changeset="123770086" timestamp="2022-07-18T15:48:14Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="7054520409"/>
+  <nd ref="7054520410"/>
+  <nd ref="7054520411"/>
+  <nd ref="7054520412"/>
+  <nd ref="7054520413"/>
+  <nd ref="7054520415"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="name" v="Προμηθέως"/>
+ </way>
+ <way id="755188778" visible="true" version="2" changeset="78372823" timestamp="2019-12-13T12:38:28Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="7054520416"/>
+  <nd ref="7054520417"/>
+  <nd ref="7054520419"/>
+  <nd ref="7054520420"/>
+  <nd ref="7054520422"/>
+  <nd ref="7054526047"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="name" v="Αλ. Δημόπουλου"/>
+ </way>
+ <way id="755190381" visible="true" version="1" changeset="78372823" timestamp="2019-12-13T12:38:28Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="7054526046"/>
+  <nd ref="7054526040"/>
+  <nd ref="7054526041"/>
+  <nd ref="7054526042"/>
+  <nd ref="7054526043"/>
+  <nd ref="7054526044"/>
+  <nd ref="7054526045"/>
+  <tag k="highway" v="pedestrian"/>
+  <tag k="name" v="Ατταλείας"/>
+ </way>
+ <way id="755190382" visible="true" version="1" changeset="78372823" timestamp="2019-12-13T12:38:28Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="7054526047"/>
+  <nd ref="7054526048"/>
+  <tag k="highway" v="steps"/>
+ </way>
+ <way id="755197845" visible="true" version="1" changeset="78374533" timestamp="2019-12-13T13:12:58Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="7054604545"/>
+  <nd ref="7054604546"/>
+  <tag k="highway" v="service"/>
+  <tag k="name" v="Αγίου Στεφάνου"/>
+  <tag k="service" v="alley"/>
+ </way>
+ <way id="876399441" visible="true" version="5" changeset="100557778" timestamp="2021-03-07T00:11:44Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="7054604553"/>
+  <nd ref="8156613812"/>
+  <nd ref="8156613813"/>
+  <nd ref="8156613814"/>
+  <nd ref="7050511098"/>
+  <nd ref="7050511099"/>
+  <nd ref="8156613815"/>
+  <nd ref="8156613816"/>
+  <nd ref="8156632917"/>
+  <nd ref="8493212545"/>
+  <nd ref="8156632918"/>
+  <nd ref="8156632919"/>
+  <nd ref="8156632920"/>
+  <nd ref="7050528352"/>
+  <nd ref="7050528353"/>
+  <nd ref="7050528354"/>
+  <nd ref="8493212546"/>
+  <nd ref="8493212547"/>
+  <nd ref="8156632921"/>
+  <nd ref="8156632922"/>
+  <nd ref="8156632923"/>
+  <nd ref="8156632924"/>
+  <nd ref="8156632925"/>
+  <nd ref="8156632926"/>
+  <nd ref="8156632927"/>
+  <nd ref="8156632928"/>
+  <nd ref="8156632956"/>
+  <nd ref="8156632929"/>
+  <nd ref="8156632955"/>
+  <nd ref="8156632930"/>
+  <nd ref="8156632931"/>
+  <nd ref="8156632932"/>
+  <nd ref="8156632933"/>
+  <nd ref="8156632934"/>
+  <nd ref="8156632935"/>
+  <nd ref="8156632950"/>
+  <nd ref="8156632951"/>
+  <nd ref="8156632952"/>
+  <nd ref="7050511104"/>
+  <nd ref="7050511105"/>
+  <nd ref="8156632953"/>
+  <nd ref="8156632954"/>
+  <nd ref="8156632936"/>
+  <nd ref="8156632939"/>
+  <nd ref="8156632940"/>
+  <nd ref="8462312163"/>
+  <nd ref="8156632941"/>
+  <nd ref="8156632942"/>
+  <nd ref="8156632943"/>
+  <nd ref="8462664341"/>
+  <nd ref="8156632944"/>
+  <nd ref="8462664342"/>
+  <nd ref="8156632945"/>
+  <nd ref="8156632946"/>
+  <nd ref="8156632947"/>
+  <nd ref="8156632948"/>
+  <nd ref="8156632949"/>
+  <nd ref="7054604554"/>
+  <nd ref="7054604553"/>
+  <tag k="landuse" v="residential"/>
+ </way>
+ <way id="876399442" visible="true" version="4" changeset="100285804" timestamp="2021-03-02T14:11:16Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="8156632973"/>
+  <nd ref="8156632958"/>
+  <nd ref="8479242437"/>
+  <nd ref="8156632959"/>
+  <nd ref="8156632960"/>
+  <nd ref="8479242438"/>
+  <nd ref="8479242439"/>
+  <nd ref="8156632961"/>
+  <nd ref="8156632963"/>
+  <nd ref="8156632964"/>
+  <nd ref="8156632965"/>
+  <nd ref="8156632966"/>
+  <nd ref="8156632967"/>
+  <nd ref="8156632968"/>
+  <nd ref="8156632969"/>
+  <nd ref="8479242440"/>
+  <nd ref="8156632970"/>
+  <nd ref="8156632971"/>
+  <nd ref="8156632972"/>
+  <nd ref="8156632973"/>
+  <tag k="landuse" v="residential"/>
+ </way>
+ <way id="911365453" visible="true" version="4" changeset="111966514" timestamp="2021-10-01T14:22:16Z" user="ForEspresso" uid="10493069">
+  <nd ref="8462312171"/>
+  <nd ref="8462312194"/>
+  <nd ref="8462312195"/>
+  <nd ref="8462312172"/>
+  <nd ref="8462312173"/>
+  <nd ref="8462312216"/>
+  <nd ref="8462312215"/>
+  <nd ref="8462312214"/>
+  <nd ref="8462312213"/>
+  <nd ref="8462312212"/>
+  <nd ref="8462312211"/>
+  <nd ref="8462312174"/>
+  <nd ref="8462312175"/>
+  <nd ref="8462312176"/>
+  <nd ref="8462312177"/>
+  <nd ref="8462312178"/>
+  <nd ref="8462312179"/>
+  <nd ref="8462312180"/>
+  <nd ref="8462312181"/>
+  <nd ref="8464881291"/>
+  <nd ref="8462312182"/>
+  <nd ref="8462312184"/>
+  <nd ref="9137873839"/>
+  <nd ref="8462312186"/>
+  <nd ref="8464881306"/>
+  <nd ref="8462312188"/>
+  <nd ref="8462312189"/>
+  <nd ref="8462312190"/>
+  <nd ref="8462312191"/>
+  <nd ref="8462312193"/>
+  <nd ref="8462312192"/>
+  <nd ref="8462312171"/>
+  <tag k="landuse" v="residential"/>
+ </way>
+ <way id="911365455" visible="true" version="1" changeset="100075341" timestamp="2021-02-26T21:21:58Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="8462316917"/>
+  <nd ref="5555385226"/>
+  <nd ref="8462312196"/>
+  <nd ref="8462312197"/>
+  <nd ref="5555385222"/>
+  <nd ref="8462316918"/>
+  <nd ref="8462316917"/>
+  <tag k="landuse" v="residential"/>
+ </way>
+ <way id="992668881" visible="true" version="1" changeset="112495355" timestamp="2021-10-14T09:39:31Z" user="user_9221753" uid="9221753">
+  <nd ref="9171420827"/>
+  <nd ref="9171420828"/>
+  <tag k="highway" v="service"/>
+  <tag k="lanes" v="1"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="992668882" visible="true" version="2" changeset="124348479" timestamp="2022-08-01T14:08:53Z" user="user_9221753" uid="9221753">
+  <nd ref="9171420825"/>
+  <nd ref="9171420827"/>
+  <tag k="highway" v="service"/>
+  <tag k="lanes" v="1"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="992668883" visible="true" version="2" changeset="124348479" timestamp="2022-08-01T14:08:53Z" user="user_9221753" uid="9221753">
+  <nd ref="9171420828"/>
+  <nd ref="9924804361"/>
+  <nd ref="9171420826"/>
+  <tag k="highway" v="service"/>
+  <tag k="lanes" v="1"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="992668884" visible="true" version="2" changeset="132259919" timestamp="2023-02-08T14:36:57Z" user="sheldonelectric" uid="936280">
+  <nd ref="9171420825"/>
+  <nd ref="355259775"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="int_name" v="Anapafseos"/>
+  <tag k="lanes" v="2"/>
+  <tag k="name" v="Αναπαύσεως"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="992668885" visible="true" version="2" changeset="132259919" timestamp="2023-02-08T14:36:57Z" user="sheldonelectric" uid="936280">
+  <nd ref="355259775"/>
+  <nd ref="355307941"/>
+  <nd ref="7054520415"/>
+  <nd ref="7054526048"/>
+  <nd ref="7054526045"/>
+  <nd ref="355259919"/>
+  <nd ref="355258556"/>
+  <nd ref="355305520"/>
+  <nd ref="355308156"/>
+  <nd ref="355485096"/>
+  <nd ref="354798101"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="int_name" v="Anapafseos"/>
+  <tag k="lanes" v="2"/>
+  <tag k="name" v="Αναπαύσεως"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="992668886" visible="true" version="1" changeset="112495355" timestamp="2021-10-14T09:39:31Z" user="user_9221753" uid="9221753">
+  <nd ref="9171420826"/>
+  <nd ref="355307941"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="Θείρων"/>
+ </way>
+ <way id="1030301941" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068">
+  <nd ref="355340759"/>
+  <nd ref="9497492521"/>
+  <nd ref="9497492522"/>
+  <nd ref="9497492523"/>
+  <nd ref="9497492524"/>
+  <nd ref="9497492525"/>
+  <nd ref="9497492532"/>
+  <tag k="highway" v="cycleway"/>
+  <tag k="smoothness" v="excellent"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="width" v="1"/>
+ </way>
+ <way id="1030301943" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068">
+  <nd ref="9497492529"/>
+  <nd ref="9497492528"/>
+  <nd ref="9497492530"/>
+  <nd ref="9497492531"/>
+  <tag k="highway" v="cycleway"/>
+ </way>
+ <way id="1030301944" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068">
+  <nd ref="9497492532"/>
+  <nd ref="9497492533"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="highway" v="cycleway"/>
+  <tag k="layer" v="1"/>
+ </way>
+ <way id="1030301945" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068">
+  <nd ref="354806454"/>
+  <nd ref="9497492532"/>
+  <tag k="highway" v="cycleway"/>
+ </way>
+ <way id="1030301946" visible="true" version="1" changeset="117276949" timestamp="2022-02-11T08:20:33Z" user="konkyriakou" uid="13925068">
+  <nd ref="9497492532"/>
+  <nd ref="9497492526"/>
+  <nd ref="9497492527"/>
+  <nd ref="8542154853"/>
+  <tag k="highway" v="cycleway"/>
+  <tag k="smoothness" v="excellent"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="width" v="1"/>
+ </way>
+ <way id="1030301947" visible="true" version="5" changeset="136476831" timestamp="2023-05-24T01:14:43Z" user="nikospag" uid="609559">
+  <nd ref="9497492533"/>
+  <nd ref="3145916889"/>
+  <nd ref="355308405"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="30"/>
+  <tag k="name" v="Καραμπατζάκη"/>
+  <tag k="name:el" v="Καραμπατζάκη"/>
+  <tag k="name:en" v="Karabatzaki"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="1030301948" visible="true" version="5" changeset="136476831" timestamp="2023-05-24T01:14:43Z" user="nikospag" uid="609559">
+  <nd ref="9497492531"/>
+  <nd ref="9497492533"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="30"/>
+  <tag k="motor_vehicle" v="yes"/>
+  <tag k="name" v="Καραμπατζάκη"/>
+  <tag k="name:el" v="Καραμπατζάκη"/>
+  <tag k="name:en" v="Karabatzaki"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="1076214152" visible="true" version="1" changeset="123254740" timestamp="2022-07-06T00:34:33Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="8557744992"/>
+  <nd ref="8557744983"/>
+  <tag k="addr:interpolation" v="odd"/>
+ </way>
+ <way id="1076214153" visible="true" version="1" changeset="123254740" timestamp="2022-07-06T00:34:33Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="9868674788"/>
+  <nd ref="9868674789"/>
+  <tag k="addr:interpolation" v="odd"/>
+ </way>
+ <way id="1076214154" visible="true" version="1" changeset="123254740" timestamp="2022-07-06T00:34:33Z" user="Σεραφειμ" uid="2230609">
+  <nd ref="8557744987"/>
+  <nd ref="8557744989"/>
+  <tag k="addr:interpolation" v="even"/>
+ </way>
+ <relation id="5956423" visible="true" version="58" changeset="149770440" timestamp="2024-04-09T10:31:20Z" user="borovac" uid="10222347">
+  <member type="node" ref="3994650116" role=""/>
+  <member type="node" ref="3998056280" role=""/>
+  <member type="node" ref="553100363" role=""/>
+  <member type="node" ref="7057384334" role=""/>
+  <member type="node" ref="7061766217" role=""/>
+  <member type="node" ref="7061766218" role=""/>
+  <member type="node" ref="7061766219" role=""/>
+  <member type="node" ref="7061736727" role=""/>
+  <member type="node" ref="1138682255" role=""/>
+  <member type="node" ref="7049969665" role=""/>
+  <member type="node" ref="7054604556" role=""/>
+  <member type="node" ref="7054773588" role=""/>
+  <member type="node" ref="7061905943" role=""/>
+  <member type="node" ref="7061980922" role=""/>
+  <member type="node" ref="7068193510" role=""/>
+  <member type="node" ref="7055246779" role=""/>
+  <member type="node" ref="7068193511" role=""/>
+  <member type="node" ref="8490656545" role=""/>
+  <member type="node" ref="7068255484" role=""/>
+  <member type="node" ref="7061980925" role=""/>
+  <member type="node" ref="8477456973" role=""/>
+  <member type="node" ref="4391193963" role=""/>
+  <member type="node" ref="3997135626" role=""/>
+  <member type="node" ref="7061736728" role=""/>
+  <member type="node" ref="7061828988" role=""/>
+  <member type="node" ref="5621525592" role=""/>
+  <member type="node" ref="553100364" role=""/>
+  <member type="way" ref="1152382327" role=""/>
+  <member type="way" ref="1152382326" role=""/>
+  <member type="way" ref="1152382325" role=""/>
+  <member type="way" ref="912553417" role=""/>
+  <member type="way" ref="400470374" role=""/>
+  <member type="way" ref="399258251" role=""/>
+  <member type="way" ref="1271141249" role=""/>
+  <member type="way" ref="400470371" role=""/>
+  <member type="way" ref="1206370889" role=""/>
+  <member type="way" ref="582657498" role=""/>
+  <member type="way" ref="913994715" role=""/>
+  <member type="way" ref="26249703" role=""/>
+  <member type="way" ref="583385650" role=""/>
+  <member type="way" ref="381872754" role=""/>
+  <member type="way" ref="381872755" role=""/>
+  <member type="way" ref="706785188" role=""/>
+  <member type="way" ref="440460897" role=""/>
+  <member type="way" ref="992668885" role=""/>
+  <member type="way" ref="992668884" role=""/>
+  <member type="way" ref="37058610" role=""/>
+  <member type="way" ref="583350862" role=""/>
+  <member type="way" ref="583264208" role=""/>
+  <member type="way" ref="31712034" role=""/>
+  <member type="way" ref="756752705" role=""/>
+  <member type="way" ref="1150303049" role=""/>
+  <member type="way" ref="1058164194" role=""/>
+  <member type="way" ref="480888770" role=""/>
+  <member type="way" ref="36861408" role=""/>
+  <member type="way" ref="914849298" role=""/>
+  <member type="way" ref="36803061" role=""/>
+  <member type="way" ref="40786463" role=""/>
+  <member type="way" ref="693003007" role=""/>
+  <member type="way" ref="31712383" role=""/>
+  <member type="way" ref="476340903" role=""/>
+  <member type="way" ref="1050832416" role=""/>
+  <member type="way" ref="1235140764" role=""/>
+  <member type="way" ref="583336407" role=""/>
+  <member type="way" ref="583338365" role=""/>
+  <member type="way" ref="756781249" role=""/>
+  <member type="way" ref="1044774523" role=""/>
+  <member type="way" ref="756781245" role=""/>
+  <member type="way" ref="891692816" role=""/>
+  <member type="way" ref="891692815" role=""/>
+  <member type="way" ref="1058028179" role=""/>
+  <member type="way" ref="582238159" role=""/>
+  <member type="way" ref="756781244" role=""/>
+  <member type="node" ref="11467189131" role=""/>
+  <tag k="name" v="Bus 2: Αφετηρία → Αμπελόκηποι/Πανεπιστήμιο"/>
+  <tag k="operator" v="KTEL Volou"/>
+  <tag k="ref" v="2"/>
+  <tag k="route" v="bus"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="12475421" visible="true" version="17" changeset="144816967" timestamp="2023-12-06T07:28:53Z" user="user_9221753" uid="9221753">
+  <member type="node" ref="5621525592" role=""/>
+  <member type="node" ref="7054786061" role=""/>
+  <member type="node" ref="7068193508" role=""/>
+  <member type="node" ref="8547210551" role=""/>
+  <member type="node" ref="10727546501" role=""/>
+  <member type="node" ref="7068193504" role=""/>
+  <member type="node" ref="7068193505" role=""/>
+  <member type="node" ref="7055246778" role=""/>
+  <member type="node" ref="7068193509" role=""/>
+  <member type="node" ref="7061980923" role=""/>
+  <member type="node" ref="7061905944" role=""/>
+  <member type="node" ref="7054773589" role=""/>
+  <member type="node" ref="4425083896" role=""/>
+  <member type="node" ref="7061907351" role=""/>
+  <member type="node" ref="7061980926" role=""/>
+  <member type="node" ref="7049944813" role=""/>
+  <member type="node" ref="8494340777" role=""/>
+  <member type="node" ref="8494340776" role=""/>
+  <member type="node" ref="8494340775" role=""/>
+  <member type="node" ref="8494340774" role=""/>
+  <member type="node" ref="7049965789" role=""/>
+  <member type="node" ref="7049969666" role=""/>
+  <member type="node" ref="1138681632" role=""/>
+  <member type="node" ref="7049980456" role=""/>
+  <member type="node" ref="4394259654" role=""/>
+  <member type="node" ref="7061587536" role=""/>
+  <member type="node" ref="5574257653" role=""/>
+  <member type="node" ref="8490707649" role=""/>
+  <member type="node" ref="4391193963" role=""/>
+  <member type="way" ref="920582840" role=""/>
+  <member type="way" ref="913994716" role=""/>
+  <member type="way" ref="912553417" role=""/>
+  <member type="way" ref="43335210" role=""/>
+  <member type="way" ref="400470361" role=""/>
+  <member type="way" ref="400470360" role=""/>
+  <member type="way" ref="399258255" role=""/>
+  <member type="way" ref="1206370889" role=""/>
+  <member type="way" ref="582657498" role=""/>
+  <member type="way" ref="913994715" role=""/>
+  <member type="way" ref="26249703" role=""/>
+  <member type="way" ref="583385650" role=""/>
+  <member type="way" ref="756765036" role=""/>
+  <member type="way" ref="381872744" role=""/>
+  <member type="way" ref="756765034" role=""/>
+  <member type="way" ref="706785188" role=""/>
+  <member type="way" ref="440460897" role=""/>
+  <member type="way" ref="992668885" role=""/>
+  <member type="way" ref="992668884" role=""/>
+  <member type="way" ref="37058610" role=""/>
+  <member type="way" ref="583350862" role=""/>
+  <member type="way" ref="583264208" role=""/>
+  <member type="way" ref="756752706" role=""/>
+  <member type="way" ref="262612184" role=""/>
+  <member type="way" ref="818743950" role=""/>
+  <member type="way" ref="542470929" role=""/>
+  <member type="way" ref="914828652" role=""/>
+  <member type="way" ref="643432387" role=""/>
+  <member type="way" ref="26249231" role=""/>
+  <member type="way" ref="692842853" role=""/>
+  <member type="way" ref="851343035" role=""/>
+  <member type="way" ref="692842851" role=""/>
+  <member type="way" ref="692842848" role=""/>
+  <member type="way" ref="476340896" role=""/>
+  <member type="way" ref="476340899" role=""/>
+  <member type="way" ref="1057768003" role=""/>
+  <member type="way" ref="692837516" role=""/>
+  <member type="way" ref="583338365" role=""/>
+  <member type="way" ref="756781249" role=""/>
+  <member type="way" ref="1044774523" role=""/>
+  <member type="way" ref="756781247" role=""/>
+  <member type="way" ref="851343037" role=""/>
+  <member type="way" ref="851343036" role=""/>
+  <member type="way" ref="914040385" role=""/>
+  <member type="way" ref="582238159" role=""/>
+  <member type="way" ref="756781246" role=""/>
+  <member type="way" ref="31745206" role=""/>
+  <member type="way" ref="756781251" role=""/>
+  <member type="way" ref="217803992" role=""/>
+  <tag k="name" v="Bus 2: Αμπελόκηποι/Πανεπιστήμιο → Αφετηρία"/>
+  <tag k="ref" v="2"/>
+  <tag k="route" v="bus"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="13326235" visible="true" version="1" changeset="112495355" timestamp="2021-10-14T09:39:31Z" user="user_9221753" uid="9221753">
+  <member type="way" ref="992668884" role="from"/>
+  <member type="node" ref="9171420825" role="via"/>
+  <member type="way" ref="992668882" role="to"/>
+  <tag k="restriction" v="no_left_turn"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+ <relation id="13326236" visible="true" version="1" changeset="112495355" timestamp="2021-10-14T09:39:31Z" user="user_9221753" uid="9221753">
+  <member type="way" ref="992668883" role="from"/>
+  <member type="node" ref="9171420826" role="via"/>
+  <member type="way" ref="992668886" role="to"/>
+  <tag k="restriction" v="no_left_turn"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+ <relation id="14119119" visible="true" version="25" changeset="154915038" timestamp="2024-08-07T02:36:30Z" user="ika-chan!" uid="4763179">
+  <member type="node" ref="7061731931" role=""/>
+  <member type="node" ref="7061809782" role=""/>
+  <member type="node" ref="7061809783" role=""/>
+  <member type="node" ref="7061809784" role=""/>
+  <member type="node" ref="7061828988" role=""/>
+  <member type="node" ref="7061766217" role=""/>
+  <member type="node" ref="7061766218" role=""/>
+  <member type="node" ref="7061736727" role=""/>
+  <member type="node" ref="7061736728" role=""/>
+  <member type="node" ref="7061766219" role=""/>
+  <member type="node" ref="7061730756" role=""/>
+  <member type="node" ref="8464549598" role=""/>
+  <member type="node" ref="8464549597" role=""/>
+  <member type="node" ref="8464549595" role=""/>
+  <member type="node" ref="8462851788" role=""/>
+  <member type="node" ref="3994650116" role=""/>
+  <member type="node" ref="4391193963" role=""/>
+  <member type="node" ref="7049969665" role=""/>
+  <member type="node" ref="1138682255" role=""/>
+  <member type="node" ref="8500892861" role=""/>
+  <member type="node" ref="10699713951" role=""/>
+  <member type="node" ref="10699713959" role=""/>
+  <member type="way" ref="756781244" role=""/>
+  <member type="way" ref="582238159" role=""/>
+  <member type="way" ref="1058028179" role=""/>
+  <member type="way" ref="891692815" role=""/>
+  <member type="way" ref="891692816" role=""/>
+  <member type="way" ref="756781245" role=""/>
+  <member type="way" ref="1044774523" role=""/>
+  <member type="way" ref="756781249" role=""/>
+  <member type="way" ref="583338365" role=""/>
+  <member type="way" ref="583336407" role=""/>
+  <member type="way" ref="1235140764" role=""/>
+  <member type="way" ref="1050832416" role=""/>
+  <member type="way" ref="476340903" role=""/>
+  <member type="way" ref="31712383" role=""/>
+  <member type="way" ref="693003007" role=""/>
+  <member type="way" ref="40786463" role=""/>
+  <member type="way" ref="756783039" role=""/>
+  <member type="way" ref="582380623" role=""/>
+  <member type="way" ref="746884497" role=""/>
+  <member type="way" ref="746884499" role=""/>
+  <member type="way" ref="660126106" role=""/>
+  <member type="way" ref="992657725" role=""/>
+  <member type="way" ref="992657724" role=""/>
+  <member type="way" ref="992657727" role=""/>
+  <member type="way" ref="992657728" role=""/>
+  <member type="way" ref="992657729" role=""/>
+  <member type="way" ref="992657730" role=""/>
+  <member type="way" ref="911620203" role=""/>
+  <member type="way" ref="914878301" role=""/>
+  <member type="way" ref="36867644" role=""/>
+  <member type="way" ref="1058570608" role=""/>
+  <member type="way" ref="677301860" role=""/>
+  <member type="way" ref="1058570602" role=""/>
+  <member type="way" ref="1058570599" role=""/>
+  <member type="way" ref="1058570610" role=""/>
+  <member type="way" ref="1058570605" role=""/>
+  <member type="way" ref="1058570600" role=""/>
+  <member type="way" ref="581651578" role=""/>
+  <member type="way" ref="573478392" role=""/>
+  <member type="way" ref="31796877" role=""/>
+  <member type="way" ref="992658965" role=""/>
+  <member type="way" ref="992658966" role=""/>
+  <member type="way" ref="992658967" role=""/>
+  <member type="way" ref="51495999" role=""/>
+  <member type="way" ref="1049713345" role=""/>
+  <member type="way" ref="1049713346" role=""/>
+  <member type="way" ref="31751574" role=""/>
+  <member type="way" ref="480888763" role=""/>
+  <member type="way" ref="1139287249" role=""/>
+  <member type="way" ref="1041945334" role=""/>
+  <member type="way" ref="1041945332" role=""/>
+  <member type="way" ref="1041945333" role=""/>
+  <member type="way" ref="1058164194" role=""/>
+  <member type="way" ref="1150303049" role=""/>
+  <member type="way" ref="756752705" role=""/>
+  <member type="way" ref="31712034" role=""/>
+  <member type="way" ref="583264208" role=""/>
+  <member type="way" ref="583350862" role=""/>
+  <member type="way" ref="37058610" role=""/>
+  <member type="way" ref="992668884" role=""/>
+  <member type="way" ref="992668885" role=""/>
+  <member type="way" ref="916062600" role=""/>
+  <member type="way" ref="381872737" role=""/>
+  <member type="way" ref="381872743" role=""/>
+  <member type="way" ref="381872748" role=""/>
+  <member type="way" ref="381872745" role=""/>
+  <member type="way" ref="381872728" role=""/>
+  <member type="way" ref="915146404" role=""/>
+  <member type="way" ref="1058409938" role=""/>
+  <member type="way" ref="31745873" role=""/>
+  <member type="way" ref="26249091" role=""/>
+  <member type="way" ref="1041479832" role=""/>
+  <member type="way" ref="579546104" role=""/>
+  <member type="way" ref="992668889" role=""/>
+  <member type="way" ref="992668891" role=""/>
+  <member type="way" ref="915146397" role=""/>
+  <member type="way" ref="26249200" role=""/>
+  <member type="way" ref="1058409939" role=""/>
+  <member type="way" ref="940015706" role=""/>
+  <member type="way" ref="755536669" role=""/>
+  <member type="way" ref="814582814" role=""/>
+  <member type="way" ref="117956582" role=""/>
+  <member type="way" ref="117956584" role=""/>
+  <member type="way" ref="958515091" role=""/>
+  <member type="way" ref="189735118" role=""/>
+  <member type="way" ref="958512788" role=""/>
+  <member type="way" ref="399815366" role=""/>
+  <member type="way" ref="51563596" role=""/>
+  <member type="way" ref="26248596" role=""/>
+  <member type="way" ref="51563645" role=""/>
+  <member type="way" ref="31748514" role=""/>
+  <member type="way" ref="399815381" role=""/>
+  <member type="way" ref="31748511" role=""/>
+  <member type="node" ref="8465061610" role=""/>
+  <member type="node" ref="8492181865" role=""/>
+  <member type="node" ref="11467189131" role=""/>
+  <member type="node" ref="7061731930" role=""/>
+  <member type="node" ref="8508595521" role=""/>
+  <member type="node" ref="11467227845" role=""/>
+  <member type="node" ref="3998071875" role=""/>
+  <member type="node" ref="442099117" role=""/>
+  <member type="node" ref="8462851787" role=""/>
+  <member type="node" ref="3998056280" role=""/>
+  <member type="node" ref="3997135626" role=""/>
+  <member type="node" ref="7057384336" role=""/>
+  <member type="node" ref="8500892860" role=""/>
+  <member type="node" ref="11467218967" role=""/>
+  <member type="node" ref="9725662335" role=""/>
+  <tag k="name" v="Bus 11: Αφετηρία → Νέο Κοιμητήριο (ΠΕΡΙΦΕΡΕΙΑΚΑ)"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="11"/>
+  <tag k="route" v="bus"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="15543134" visible="true" version="10" changeset="154915038" timestamp="2024-08-07T02:36:30Z" user="ika-chan!" uid="4763179">
+  <member type="node" ref="10699713951" role=""/>
+  <member type="node" ref="10699713967" role=""/>
+  <member type="node" ref="10699713969" role=""/>
+  <member type="node" ref="11467218968" role=""/>
+  <member type="node" ref="7062003554" role=""/>
+  <member type="way" ref="31748511" role=""/>
+  <member type="way" ref="399815381" role=""/>
+  <member type="way" ref="399815373" role=""/>
+  <member type="way" ref="399815376" role=""/>
+  <member type="way" ref="399815380" role=""/>
+  <member type="way" ref="399815377" role=""/>
+  <member type="way" ref="1018612923" role=""/>
+  <member type="way" ref="1018612920" role=""/>
+  <member type="way" ref="992672220" role=""/>
+  <member type="way" ref="399815383" role=""/>
+  <member type="way" ref="51563366" role=""/>
+  <member type="way" ref="958512789" role=""/>
+  <member type="way" ref="978907002" role=""/>
+  <member type="way" ref="399815367" role=""/>
+  <member type="way" ref="223714854" role=""/>
+  <member type="way" ref="117956583" role=""/>
+  <member type="way" ref="814582815" role=""/>
+  <member type="way" ref="958512790" role=""/>
+  <member type="way" ref="117956581" role=""/>
+  <member type="way" ref="971713598" role=""/>
+  <member type="way" ref="958512791" role=""/>
+  <member type="way" ref="912244550" role=""/>
+  <member type="way" ref="971714438" role=""/>
+  <member type="way" ref="912244549" role=""/>
+  <member type="way" ref="971713597" role=""/>
+  <member type="way" ref="755549250" role=""/>
+  <member type="way" ref="915146397" role=""/>
+  <member type="way" ref="992668891" role=""/>
+  <member type="way" ref="992668889" role=""/>
+  <member type="way" ref="579546104" role=""/>
+  <member type="way" ref="1041479832" role=""/>
+  <member type="way" ref="26249091" role=""/>
+  <member type="way" ref="911662756" role=""/>
+  <member type="way" ref="911664250" role=""/>
+  <member type="way" ref="480888755" role=""/>
+  <member type="way" ref="911687781" role=""/>
+  <member type="way" ref="409061745" role=""/>
+  <member type="way" ref="453737423" role=""/>
+  <member type="way" ref="381872737" role=""/>
+  <member type="way" ref="916062600" role=""/>
+  <member type="way" ref="992668885" role=""/>
+  <member type="way" ref="992668884" role=""/>
+  <member type="way" ref="37058610" role=""/>
+  <member type="way" ref="583350862" role=""/>
+  <member type="way" ref="583264208" role=""/>
+  <member type="way" ref="756752706" role=""/>
+  <member type="way" ref="262612184" role=""/>
+  <member type="way" ref="818743950" role=""/>
+  <member type="way" ref="920582838" role=""/>
+  <member type="way" ref="480888765" role=""/>
+  <member type="way" ref="1041945337" role=""/>
+  <member type="way" ref="1041945336" role=""/>
+  <member type="way" ref="1139287248" role=""/>
+  <member type="way" ref="31751574" role=""/>
+  <member type="way" ref="1049713346" role=""/>
+  <member type="way" ref="1049713345" role=""/>
+  <member type="way" ref="51495999" role=""/>
+  <member type="way" ref="992658967" role=""/>
+  <member type="way" ref="992658966" role=""/>
+  <member type="way" ref="992658965" role=""/>
+  <member type="way" ref="31796877" role=""/>
+  <member type="way" ref="573478392" role=""/>
+  <member type="way" ref="581651578" role=""/>
+  <member type="way" ref="1058084859" role=""/>
+  <member type="way" ref="1058570606" role=""/>
+  <member type="way" ref="1058570601" role=""/>
+  <member type="way" ref="677301860" role=""/>
+  <member type="way" ref="1058570608" role=""/>
+  <member type="way" ref="36867644" role=""/>
+  <member type="way" ref="914878301" role=""/>
+  <member type="way" ref="911620203" role=""/>
+  <member type="way" ref="992657730" role=""/>
+  <member type="way" ref="992657729" role=""/>
+  <member type="way" ref="992657728" role=""/>
+  <member type="way" ref="992657727" role=""/>
+  <member type="way" ref="992657724" role=""/>
+  <member type="way" ref="992657725" role=""/>
+  <member type="way" ref="660126106" role=""/>
+  <member type="way" ref="746884499" role=""/>
+  <member type="way" ref="746884497" role=""/>
+  <member type="way" ref="756776433" role=""/>
+  <member type="way" ref="1139540286" role=""/>
+  <member type="way" ref="643432387" role=""/>
+  <member type="way" ref="26249231" role=""/>
+  <member type="way" ref="692842853" role=""/>
+  <member type="way" ref="851343035" role=""/>
+  <member type="way" ref="692842851" role=""/>
+  <member type="way" ref="692842848" role=""/>
+  <member type="way" ref="476340896" role=""/>
+  <member type="way" ref="476340899" role=""/>
+  <member type="way" ref="1057768003" role=""/>
+  <member type="way" ref="692837516" role=""/>
+  <member type="way" ref="583338365" role=""/>
+  <member type="way" ref="756781249" role=""/>
+  <member type="way" ref="1044774523" role=""/>
+  <member type="way" ref="756781247" role=""/>
+  <member type="way" ref="851343037" role=""/>
+  <member type="way" ref="851343036" role=""/>
+  <member type="way" ref="914040385" role=""/>
+  <member type="way" ref="582238159" role=""/>
+  <member type="way" ref="756781246" role=""/>
+  <member type="way" ref="31745206" role=""/>
+  <member type="way" ref="217803992" role=""/>
+  <member type="node" ref="8464921819" role=""/>
+  <member type="node" ref="8464881308" role=""/>
+  <tag k="name" v="Bus 11: Νέο Κοιμητήριο → Αφετηρία (ΠΕΡΙΦΕΡΕΙΑΚΑ)"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="route" v="bus"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="16301666" visible="true" version="1" changeset="140970866" timestamp="2023-09-08T06:49:39Z" user="geraki" uid="16821">
+  <member type="way" ref="36836376" role=""/>
+  <member type="way" ref="400325367" role=""/>
+  <member type="way" ref="400325368" role=""/>
+  <member type="way" ref="210650353" role=""/>
+  <member type="node" ref="2207303407" role="mouth"/>
+  <tag k="alt_name" v="Κραυσίδων"/>
+  <tag k="name" v="Κραυσίδωνας"/>
+  <tag k="name:el" v="Κραυσίδωνας"/>
+  <tag k="name:en" v="Krafsidonas"/>
+  <tag k="type" v="waterway"/>
+ </relation>
+</osm>

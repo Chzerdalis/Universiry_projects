@@ -1,0 +1,8 @@
+w_real[0] = 16'h7FFF; w_imag[0] = 16'h0000;
+w_real[1] = 16'h7641; w_imag[1] = 16'hCF05;
+w_real[2] = 16'h5A82; w_imag[2] = 16'hA57E;
+w_real[3] = 16'h30FB; w_imag[3] = 16'h89BF;
+w_real[4] = 16'h0000; w_imag[4] = 16'h8000;
+w_real[5] = 16'hCF05; w_imag[5] = 16'h89BF;
+w_real[6] = 16'hA57E; w_imag[6] = 16'hA57E;
+w_real[7] = 16'h89BF; w_imag[7] = 16'hCF05;

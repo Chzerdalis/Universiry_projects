@@ -1,0 +1,20 @@
+**** module/scope: butterfly_radix4
+     Flip-Flops   : 1120
+     Logic Gates  : 800
+     ADDER[32]: 8 units
+     ADDER[48]: 3 units
+     LPM[4]: 12 unaccounted
+     LPM[8]: 11 unaccounted
+     LPM[27]: 24 unaccounted
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** TOTALS
+     Flip-Flops   : 1120
+     Logic Gates  : 800
+     ADDER[32]: 8 units
+     ADDER[48]: 3 units
+     LPM[4]: 12 unaccounted
+     LPM[8]: 11 unaccounted
+     LPM[27]: 24 unaccounted
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted

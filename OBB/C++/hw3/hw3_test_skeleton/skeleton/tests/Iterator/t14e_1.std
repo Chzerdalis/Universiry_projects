@@ -1,0 +1,5 @@
+--> Size: 5, New capacity: 16
+--> Size: 9, New capacity: 32
+it1 == it2
+it1++ == it2
+it1 == ++it2

@@ -1,0 +1,2 @@
+compile with gcc -Wall -g ask1.c -o ask1
+run ./ask1 "filename"

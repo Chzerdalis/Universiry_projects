@@ -1,0 +1,8 @@
+kl.c: In function ‘main’:
+kl.c:6:5: warning: implicit declaration of function ‘print’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+    6 |     print("%s ", argv[1]);
+      |     ^~~~~
+      |     printf
+/usr/bin/ld: /tmp/ccJplCYm.o: in function `main':
+/home/chris/Desktop/prj4/kl.c:6: undefined reference to `print'
+collect2: error: ld returned 1 exit status

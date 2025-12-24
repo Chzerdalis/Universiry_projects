@@ -1,0 +1,228 @@
+// This will apply the sobel filter and return the PSNR between the golden sobel and the produced sobel
+// sobelized image
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+#include <errno.h>
+#include <stdint.h>
+
+#define SIZE	4096
+#define INPUT_FILE	"input.grey"
+#define OUTPUT_FILE	"output_sobel.grey"
+#define GOLDEN_FILE	"golden.grey"
+
+int LUT_H[1024];
+int LUT_M[8];
+int LUT_L[8];
+
+/* The horizontal and vertical operators to be used in the sobel filter */
+char horiz_operator[3][3] = {{-1, 0, 1}, 
+                             {-2, 0, 2}, 
+                             {-1, 0, 1}};
+char vert_operator[3][3] = {{1, 2, 1}, 
+                            {0, 0, 0}, 
+                            {-1, -2, -1}};
+
+double sobel(unsigned char *input, unsigned char *output, unsigned char *golden);
+int convolution2D(int posy, int posx, const unsigned char *input, char operator[][3]);
+
+/* The arrays holding the input image, the output image and the output used *
+ * as golden standard. The luminosity (intensity) of each pixel in the      *
+ * grayscale image is represented by a value between 0 and 255 (an unsigned *
+ * character). The arrays (and the files) contain these values in row-major *
+ * order (element after element within each row and row after row. 			*/
+unsigned char input[SIZE*SIZE], output[SIZE*SIZE], golden[SIZE*SIZE];
+
+
+/* The main computational function of the program. The input, output and *
+ * golden arguments are pointers to the arrays used to store the input   *
+ * image, the output produced by the algorithm and the output used as    *
+ * golden standard for the comparisons.									 */
+double sobel(unsigned char *input, unsigned char *output, unsigned char *golden)
+{
+	double PSNR = 0, t, t1;
+	int res_conv_horiz, res_conv_vert, res_conv_horiz1, res_conv_vert1;
+	int row_up, row, row_down;
+	int up, mid, down;
+	int i, j;
+	unsigned int p, p1;
+	int res, res1;
+	struct timespec  tv1, tv2;
+	FILE *f_in, *f_out, *f_golden;
+
+	/* The first and last row of the output array, as well as the first  *
+     * and last element of each column are not going to be filled by the *
+     * algorithm, therefore make sure to initialize them with 0s.		 */
+	memset(output, 0, SIZE*sizeof(unsigned char));
+	memset(&output[SIZE*(SIZE-1)], 0, SIZE*sizeof(unsigned char));
+	for (i = 1; i < SIZE-1; i++) {
+		output[i*SIZE] = 0;
+		output[i*SIZE + SIZE - 1] = 0;
+	}
+
+	/* Open the input, output, golden files, read the input and golden    *
+     * and store them to the corresponding arrays.						  */
+	f_in = fopen(INPUT_FILE, "r");
+	if (f_in == NULL) {
+		printf("File " INPUT_FILE " not found\n");
+		exit(1);
+	}
+  
+	f_out = fopen(OUTPUT_FILE, "wb");
+	if (f_out == NULL) {
+		printf("File " OUTPUT_FILE " could not be created\n");
+		fclose(f_in);
+		exit(1);
+	}  
+  
+	f_golden = fopen(GOLDEN_FILE, "r");
+	if (f_golden == NULL) {
+		printf("File " GOLDEN_FILE " not found\n");
+		fclose(f_in);
+		fclose(f_out);
+		exit(1);
+	}    
+
+	fread(input, sizeof(unsigned char), SIZE*SIZE, f_in);
+	fread(golden, sizeof(unsigned char), SIZE*SIZE, f_golden);
+	fclose(f_in);
+	fclose(f_golden);
+  
+	row_up = -SIZE;
+	row = 0;
+	row_down = SIZE;
+
+	/* This is the main computation. Get the starting time. */
+	clock_gettime(CLOCK_MONOTONIC_RAW, &tv1);
+	/* For each pixel of the output image */
+	for (i=1; i<SIZE-1; i+=1 ) {
+		//Calculate the row indices only one time per row
+		row_up += SIZE;
+		row += SIZE;
+		row_down += SIZE;
+
+		for (j=1; j<SIZE-1; j+=2) {
+			up = row_up + j;
+			mid = row + j;
+			down = row_down + j;
+
+			//Values needed for j
+			int a = input[up - 1];   // index_1
+			int b = input[up];       // index_2
+			int c = input[up + 1];   // index_3
+
+			int d = input[mid - 1];  // index_4
+			int e = input[mid];      // index_5
+			int f = input[mid + 1];  // index_6
+
+			int g = input[down - 1]; // index_7
+			int h = input[down];     // index_8
+			int k = input[down + 1]; // index_9
+
+			//values needed for j+1
+			// int a1 = input[up];       // index_2
+			// int b1 = input[up + 1];   // index_3
+			int c1 = input[up + 2];   	 // index_10
+			// int d1 = input[mid];      // index_5
+			// int e1 = input[mid + 1];  // index_6
+			int f1 = input[mid + 2];  	 // index_11
+			// int g1 = input[down];     // index_8
+			// int h1 = input[down + 1]; // index_9
+			int k1 = input[down + 2]; 	 // index_12
+
+
+			res_conv_horiz = -a + c - (d << 1) + (f << 1) - g + k;
+			res_conv_vert = a + (b << 1) + c - g - (h << 1) - k;
+
+			res_conv_horiz1 = -b + c1 - (e << 1) + (f1 << 1) - h + k1;
+			res_conv_vert1 = b + (c << 1) + c1 - h - (k << 1) - k1;
+
+			p = res_conv_horiz*res_conv_horiz + res_conv_vert*res_conv_vert;
+			p1 = res_conv_horiz1*res_conv_horiz1 + res_conv_vert1*res_conv_vert1;
+
+			//res = (int)sqrt(p); 
+			int H = (p >> 6);           
+			int M = (p >> 3) & 0x7;     
+			int L = p & 0x7;            
+			
+			res = LUT_H[H] + LUT_M[M] + LUT_L[L];
+
+			res1 = (int)sqrt(p1);
+			// int H1 = (p1 >> 6);           
+			// int M1 = (p1 >> 3) & 0x7;	 
+			// int L1 = p1 & 0x7;			
+			// int res1 = LUT_H[H1] + LUT_M[M1] + LUT_L[L1];
+
+			/* If the resulting value is greater than 255, clip it *
+			 * to 255.											   */
+			if (res > 255 && res1 > 255) {
+				output[mid] = 255;
+				output[mid+1] = 255;      
+			} else if (res1 <= 255 && res > 255) {
+				output[mid + 1] = (unsigned char)res1;
+				output[mid] = 255;
+			} else if (res <= 255 && res1 > 255) {
+				output[mid] = (unsigned char)res;
+				output[mid + 1] = 255;
+			}else {
+				output[mid] = (unsigned char)res;
+				output[mid + 1] = (unsigned char)res1;
+			}
+
+			/* Now run through the output and the golden output to calculate *
+	 		* the MSE and then the PSNR. (fused loop)*/
+			t = output[mid] - golden[mid];
+			t1 = output[mid + 1] - golden[mid + 1];
+			PSNR += t*t + t1*t1;
+		}
+	}
+	PSNR /= (double)(SIZE*SIZE);
+	PSNR = 10*log10(65536/PSNR);
+
+	/* This is the end of the main computation. Take the end time,  *
+	 * calculate the duration of the computation and report it. 	*/
+	clock_gettime(CLOCK_MONOTONIC_RAW, &tv2);
+
+	printf ("Total time = %10g seconds\n",
+			(double) (tv2.tv_nsec - tv1.tv_nsec) / 1000000000.0 +
+			(double) (tv2.tv_sec - tv1.tv_sec));
+
+  
+	/* Write the output file */
+	fwrite(output, sizeof(unsigned char), SIZE*SIZE, f_out);
+	fclose(f_out);
+  
+	return PSNR;
+}
+
+
+void init_sqrt_LUTs() {
+    for (int h = 0; h < 1024; h++) {
+        int p_val = h << 6; 
+        LUT_H[h] = (int)sqrt((double)p_val);
+    }
+
+    for (int m = 0; m < 8; m++) {
+        int p_val = m << 3;
+        LUT_M[m] = (int)(sqrt((double)p_val) - sqrt((double)(p_val & ~7)));
+    }
+
+    for (int l = 0; l < 8; l++) {
+        LUT_L[l] = (int)(sqrt((double)l) - sqrt((double)(l & ~1)));
+    }
+}
+
+
+int main(int argc, char* argv[])
+{
+	double PSNR;
+	init_sqrt_LUTs();
+	PSNR = sobel(input, output, golden);
+	printf("PSNR of original Sobel and computed Sobel image: %g\n", PSNR);
+	printf("A visualization of the sobel filter can be found at " OUTPUT_FILE ", or you can run 'make image' to get the jpg\n");
+
+	return 0;
+}
+

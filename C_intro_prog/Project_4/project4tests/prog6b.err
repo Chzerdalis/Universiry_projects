@@ -1,0 +1,4 @@
+prog6b.c: In function ‘main’:
+prog6b.c:7:6: warning: unused variable ‘sig’ [-Wunused-variable]
+    7 |  int sig;
+      |      ^~~

@@ -1,0 +1,47 @@
+'study' added!
+'group' added!
+'have' added!
+'become' added!
+--> Size: 5, New capacity: 16
+'rite' added!
+'of' added!
+'passage' added!
+'at' added!
+--> Size: 9, New capacity: 32
+'programs' added!
+'students' added!
+'practice' added!
+'working' added!
+'in' added!
+'teams' added!
+'employees' added!
+'can' added!
+--> Size: 17, New capacity: 64
+'transofrm' added!
+'the' added!
+'original' added!
+'outcome' added!
+'' failed!
+ ###### HASH TABLE ######
+ 2. -working-
+ 3. -the-
+ 5. -have-
+ 6. -passage-
+12. -become-
+13. -programs-
+14. -group-
+19. -can-
+21. -rite-
+22. -of-
+23. -at-
+24. -in-
+27. -teams-
+29. -outcome-
+44. -practice-
+52. -employees-
+54. -original-
+58. -study-
+59. -students-
+61. -transofrm-
+ --- CAPACITY: 64, SIZE: 20 ---
+

@@ -1,0 +1,257 @@
+'when' added!
+19. -when-
+ --- CAPACITY: 32, SIZE: 1 ---
+
+'arrived' added!
+14. -arrived-
+19. -when-
+ --- CAPACITY: 32, SIZE: 2 ---
+
+'was' added!
+12. -was-
+14. -arrived-
+19. -when-
+ --- CAPACITY: 32, SIZE: 3 ---
+
+'on' added!
+12. -was-
+14. -arrived-
+19. -when-
+30. -on-
+ --- CAPACITY: 32, SIZE: 4 ---
+
+'original' added!
+12. -was-
+14. -arrived-
+19. -when-
+22. -original-
+30. -on-
+ --- CAPACITY: 32, SIZE: 5 ---
+
+'about' added!
+12. -was-
+14. -arrived-
+19. -when-
+22. -original-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 6 ---
+
+'she' added!
+ 1. -she-
+12. -was-
+14. -arrived-
+19. -when-
+22. -original-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 7 ---
+
+'was' failed!
+ 1. -she-
+12. -was-
+14. -arrived-
+19. -when-
+22. -original-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 7 ---
+
+'assigned' added!
+ 1. -she-
+12. -was-
+14. -arrived-
+15. -assigned-
+19. -when-
+22. -original-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 8 ---
+
+'to' added!
+ 1. -she-
+ 4. -to-
+12. -was-
+14. -arrived-
+15. -assigned-
+19. -when-
+22. -original-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 9 ---
+
+'at' added!
+ 1. -she-
+ 4. -to-
+12. -was-
+14. -arrived-
+15. -assigned-
+19. -when-
+22. -original-
+23. -at-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 10 ---
+
+'study' added!
+ 1. -she-
+ 4. -to-
+12. -was-
+14. -arrived-
+15. -assigned-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 11 ---
+
+'at' failed!
+ 1. -she-
+ 4. -to-
+12. -was-
+14. -arrived-
+15. -assigned-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 11 ---
+
+'group' added!
+ 1. -she-
+ 4. -to-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 12 ---
+
+'carefully' added!
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 13 ---
+
+'arrived' failed!
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 13 ---
+
+'learning' added!
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 14 ---
+
+'about' failed!
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 14 ---
+
+'group' failed!
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 14 ---
+
+'bees' added!
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 15 ---
+
+'' failed!
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 15 ---
+

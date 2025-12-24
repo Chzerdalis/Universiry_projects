@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Nov 29 00:39:52 2025
+# Process ID         : 28335
+# Current directory  : /home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16
+# Command line       : vivado
+# Log file           : /home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/vivado.log
+# Journal file       : /home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/vivado.jou
+# Running On         : christodoulos-zerdalis-IdeaPad-3-15IIL05
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+# CPU Frequency      : 3299.844 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 20507 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 24802 MB
+# Available Virtual  : 20341 MB
+#-----------------------------------------------------------
+start_gui
+create_project test {/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/test} -part xc7z020clg484-1
+set_property board_part xilinx.com:zc702:part0:1.4 [current_project]
+set_property simulator_language Verilog [current_project]
+add_files -norecurse {{/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/f_input_rev_16.vh} {/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/f_twiddle_16.vh} {/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/f_correct_16.vh}}
+add_files -norecurse {{/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/stage_unit.v} {/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/butterfly.v} {/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/fft_16.v} {/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/delay_buffer.v}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/test_fft_16.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source test_fft_16_top.tcl
+close_sim
+launch_simulation
+source test_fft_16_top.tcl

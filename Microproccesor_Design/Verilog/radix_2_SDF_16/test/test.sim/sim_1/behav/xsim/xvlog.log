@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/butterfly.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module butterfly
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/delay_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DelayBuffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/fft_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fft_16_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/stage_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SdfUnit2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/test_fft_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_fft_16_top

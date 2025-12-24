@@ -1,0 +1,16 @@
+input_real[0] = 32'sd0;
+input_real[1] = 32'sd32493;
+input_real[2] = -32'sd21082;
+input_real[3] = 32'sd4081;
+input_real[4] = 32'sd26728;
+input_real[5] = -32'sd32767;
+input_real[6] = -32'sd5765;
+input_real[7] = 32'sd25164;
+input_real[8] = -32'sd25164;
+input_real[9] = 32'sd5765;
+input_real[10] = 32'sd32767;
+input_real[11] = -32'sd26728;
+input_real[12] = -32'sd4081;
+input_real[13] = 32'sd21082;
+input_real[14] = -32'sd32493;
+input_real[15] = 32'sd0;

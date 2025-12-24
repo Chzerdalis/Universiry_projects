@@ -1,0 +1,1957 @@
+initializing semaphores...
+
+ready...
+
+Blue:
+Red:
+[1;31mattempt for red
+[0m[Car p 1]
+[1;31mred got in
+[0mCars in brige [1] prodr
+[1;34mattempt for blue
+[0m[Car p 2]
+[1;34mblue got in
+[0mCars in brige [2] prodb
+Consumer got cpu 
+[Car c 1]
+ONE got out
+Cars in brige [1] cons
+[1;31mattempt for red
+[0m[Car p 2]
+[1;31mred got in
+[0mCars in brige [2] prodr
+[1;34mattempt for blue
+[0m[Car p 3]
+[1;34mblue got in
+[0mCars in brige [3] prodb
+[1;31mattempt for red
+[0m[Car p 4]
+[1;31mred got in
+[0mCars in brige [4] prodr
+[1;34mattempt for blue
+[0m[Car p 5]
+[1;34mblue got in
+[0mCars in brige [5] prodb
+Consumer got cpu 
+[Car c 4]
+ONE got out
+Cars in brige [4] cons
+[1;31mattempt for red
+[0m[Car p 5]
+[1;31mred got in
+[0mCars in brige [5] prodr
+[1;34mattempt for blue
+[0m[Car p 6]
+[1;34mblue got in
+[0mCars in brige [6] prodb
+[1;31mattempt for red
+[0m[Car p 7]
+[1;31mred got in
+[0mCars in brige [7] prodr
+[1;34mattempt for blue
+[0m[Car p 8]
+[1;34mblue got in
+[0mCars in brige [8] prodb
+Consumer got cpu 
+[Car c 7]
+ONE got out
+Cars in brige [7] cons
+[1;31mattempt for red
+[0m[Car p 8]
+[1;31mred got in
+[0mCars in brige [8] prodr
+[1;34mattempt for blue
+[0m[Car p 9]
+[1;34mblue got in
+[0mCars in brige [9] prodb
+Consumer got cpu 
+[Car c 8]
+ONE got out
+Cars in brige [8] cons
+[1;31mattempt for red
+[0m[Car p 9]
+[1;31mred got in
+[0mCars in brige [9] prodr
+[1;34mattempt for blue
+[0m[Car p 10]
+[1;34mblue got in
+[0mCars in brige [10] prodb
+[1;31mattempt for red
+[0m[Car p 11]
+[1;31mred got in
+[0mCars in brige [11] prodr
+[1;34mattempt for blue
+[0m[Car p 12]
+[1;34mblue got in
+[0mCars in brige [12] prodb
+Consumer got cpu 
+[Car c 11]
+ONE got out
+Cars in brige [11] cons
+[1;31mattempt for red
+[0m[Car p 12]
+[1;31mred got in
+[0mCars in brige [12] prodr
+[1;34mattempt for blue
+[0m[Car p 13]
+[1;34mblue got in
+[0mCars in brige [13] prodb
+[1;34mattempt for blue
+[0m[Car p 14]
+[1;34mblue got in
+[0mCars in brige [14] prodb
+[1;31mattempt for red
+[0m[Car p 15]
+[1;31mred got in
+[0mCars in brige [15] prodr
+Consumer got cpu 
+[Car c 14]
+ONE got out
+Cars in brige [14] cons
+[1;31mattempt for red
+[0m[Car p 15]
+[1;31mred got in
+[0mCars in brige [15] prodr
+[1;34mattempt for blue
+[0m[Car p 16]
+[1;34mblue got in
+[0mCars in brige [16] prodb
+Consumer got cpu 
+[Car c 15]
+ONE got out
+Cars in brige [15] cons
+[1;34mattempt for blue
+[0m[Car p 16]
+[1;34mblue got in
+[0mCars in brige [16] prodb
+[1;31mattempt for red
+[0m[Car p 17]
+[1;31mred got in
+[0mCars in brige [17] prodr
+[1;31mattempt for red
+[0m[Car p 18]
+[1;31mred got in
+[0mCars in brige [18] prodr
+[1;34mattempt for blue
+[0m[Car p 19]
+[1;34mblue got in
+[0mCars in brige [19] prodb
+Consumer got cpu 
+[Car c 18]
+ONE got out
+Cars in brige [18] cons
+[1;31mattempt for red
+[0m[Car p 19]
+[1;31mred got in
+[0mCars in brige [19] prodr
+[1;34mattempt for blue
+[0m[Car p 20]
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 21]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 22]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 21]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 22]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 23]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 24]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 23]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;34mattempt for blue
+[0m[Car p 24]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 25]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 26]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 25]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;34mattempt for blue
+[0m[Car p 26]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 27]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 28]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 29]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 28]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 29]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 30]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 31]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 32]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 31]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 32]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 33]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 34]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 35]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 34]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 35]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 36]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 35]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mattempt for red
+[0m[Car p 36]
+[32mBLOCKS full
+[0m[1;31mred got in
+[0mCars in brige [20] prodr
+[1;34mattempt for blue
+[0m[Car p 37]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 38]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 39]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 38]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 39]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 40]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 41]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 42]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 41]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 42]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 43]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 44]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 45]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 44]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;34mattempt for blue
+[0m[Car p 45]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 46]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 45]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 46]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 47]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 48]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 49]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 48]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;34mattempt for blue
+[0m[Car p 49]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 50]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 51]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 52]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 51]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 52]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 53]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 54]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 53]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;34mattempt for blue
+[0m[Car p 54]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 55]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 56]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 55]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;34mattempt for blue
+[0m[Car p 56]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 57]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 58]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 59]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 58]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 59]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 60]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 61]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 62]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 61]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 62]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 63]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 64]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 65]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 64]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 65]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 66]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 65]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 66]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 67]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 68]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 69]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 68]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 69]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 70]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 71]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 72]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 71]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 72]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 73]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 72]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 73]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 74]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 75]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 76]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 75]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;34mattempt for blue
+[0m[Car p 76]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 77]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 78]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 79]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 78]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 79]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 80]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 81]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 82]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 81]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 82]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 83]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 82]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 83]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 84]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 85]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 86]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 85]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 86]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 87]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 88]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 89]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 88]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 89]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 90]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 91]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 92]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 91]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;34mattempt for blue
+[0m[Car p 92]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 93]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 92]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;34mattempt for blue
+[0m[Car p 93]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 94]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 95]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 96]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 95]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 96]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 97]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 98]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 99]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 98]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 99]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 100]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 101]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 100]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;34mattempt for blue
+[0m[Car p 101]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 102]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 103]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 102]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 103]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 104]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 105]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 106]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 105]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 106]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 107]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 108]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 109]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 108]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;34mattempt for blue
+[0m[Car p 109]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 110]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 111]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 112]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 111]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;34mattempt for blue
+[0m[Car p 112]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 113]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 112]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 113]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 114]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 115]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 116]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 115]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 116]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 117]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 118]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 119]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 118]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 119]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 120]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 121]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 122]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 121]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 122]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 123]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 122]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 123]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 124]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 125]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 126]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 125]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 126]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 127]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 128]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 129]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 128]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 129]
+[1;34mattempt for blue
+[0m[Car p 130]
+[32mBLOCKS full
+[0m[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 131]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 132]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 131]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;31mattempt for red
+[0m[Car p 132]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 133]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 132]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 133]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 134]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 135]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 136]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 135]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+[1;34mattempt for blue
+[0m[Car p 136]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 137]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 138]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 139]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 138]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 139]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 140]
+[32mBLOCKS full
+[0m[1;31mattempt for red
+[0m[Car p 141]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 142]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 141]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+[1;31mattempt for red
+[0m[Car p 142]
+[32mBLOCKS full
+[0m[1;34mattempt for blue
+[0m[Car p 143]
+[32mBLOCKS full
+[0mConsumer got cpu 
+[Car c 142]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 141]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 140]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 139]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 138]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 137]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 136]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 135]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 134]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 133]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 132]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 131]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 130]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 129]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 128]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 127]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 126]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 125]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 124]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 123]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 122]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 121]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 120]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 119]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 118]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 117]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 116]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 115]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 114]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 113]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 112]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 111]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 110]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 109]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 108]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 107]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 106]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 105]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 104]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 103]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 102]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 101]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 100]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 99]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 98]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 97]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 96]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 95]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 94]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 93]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 92]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 91]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 90]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 89]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 88]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 87]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 86]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 85]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 84]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 83]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 82]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 81]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 80]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 79]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 78]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 77]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 76]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 75]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 74]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 73]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 72]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 71]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 70]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 69]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 68]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 67]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 66]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 65]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 64]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 63]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 62]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 61]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 60]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 59]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 58]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 57]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 56]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 55]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 54]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 53]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 52]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 51]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 50]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 49]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 48]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 47]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 46]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 45]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 44]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 43]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 42]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 41]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 40]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 39]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 38]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 37]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 36]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 35]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 34]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 33]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 32]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 31]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 30]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 29]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 28]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 27]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 26]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 25]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 24]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 23]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 22]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 21]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;31mred got in
+[0mCars in brige [20] prodr
+Consumer got cpu 
+[Car c 20]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+[1;34mblue got in
+[0mCars in brige [20] prodb
+Consumer got cpu 
+[Car c 19]
+[32mUNBLOCKS full
+[0mONE got out
+Cars in brige [19] cons
+Consumer got cpu 
+[Car c 18]
+ONE got out
+Cars in brige [18] cons
+Consumer got cpu 
+[Car c 17]
+ONE got out
+Cars in brige [17] cons
+Consumer got cpu 
+[Car c 16]
+ONE got out
+Cars in brige [16] cons
+Consumer got cpu 
+[Car c 15]
+ONE got out
+Cars in brige [15] cons
+Consumer got cpu 
+[Car c 14]
+ONE got out
+Cars in brige [14] cons
+Consumer got cpu 
+[Car c 13]
+ONE got out
+Cars in brige [13] cons
+Consumer got cpu 
+[Car c 12]
+ONE got out
+Cars in brige [12] cons
+Consumer got cpu 
+[Car c 11]
+ONE got out
+Cars in brige [11] cons
+Consumer got cpu 
+[Car c 10]
+ONE got out
+Cars in brige [10] cons
+Consumer got cpu 
+[Car c 9]
+ONE got out
+Cars in brige [9] cons
+Consumer got cpu 
+[Car c 8]
+ONE got out
+Cars in brige [8] cons
+Consumer got cpu 
+[Car c 7]
+ONE got out
+Cars in brige [7] cons
+Consumer got cpu 
+[Car c 6]
+ONE got out
+Cars in brige [6] cons
+Consumer got cpu 
+[Car c 5]
+ONE got out
+Cars in brige [5] cons
+Consumer got cpu 
+[Car c 4]
+ONE got out
+Cars in brige [4] cons
+Consumer got cpu 
+[Car c 3]
+ONE got out
+Cars in brige [3] cons
+Consumer got cpu 
+[Car c 2]
+ONE got out
+Cars in brige [2] cons
+Consumer got cpu 
+[Car c 1]
+ONE got out
+Cars in brige [1] cons
+Consumer got cpu 
+[Car c 0]
+ONE got out
+Cars in brige [0] cons
+Blue:
+Red:
+Semaphore successfully destroyed
+Semaphore successfully destroyed
+Semaphore successfully destroyed
+Semaphore successfully destroyed

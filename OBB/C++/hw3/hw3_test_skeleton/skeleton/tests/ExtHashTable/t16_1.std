@@ -1,0 +1,55 @@
+'when' added!
+'arrived' added!
+'on' added!
+'original' added!
+--> Size: 5, New capacity: 16
+'she' added!
+'was' added!
+'assigned' added!
+'to' added!
+--> Size: 9, New capacity: 32
+'at' added!
+'study' added!
+'group' added!
+'carefully' added!
+'learning' added!
+'about' added!
+'bees' added!
+'' failed!
+ ###### HASH TABLE ######
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 15 ---
+
+'when' removed!
+'arrived' removed!
+'on' removed!
+'original' removed!
+'assigned' removed!
+'study' removed!
+'carefully' removed!
+'about' removed!
+'' removed!
+ ###### HASH TABLE ######
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+12. -was-
+16. -group-
+17. -learning-
+23. -at-
+ --- CAPACITY: 32, SIZE: 7 ---
+

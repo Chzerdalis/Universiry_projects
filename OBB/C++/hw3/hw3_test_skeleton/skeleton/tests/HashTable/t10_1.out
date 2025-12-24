@@ -1,0 +1,166 @@
+gthanos: 119427539
+adding for i: 0, c:50
+hashCode: 119427539, hashPos: 39
+gthanos: 4263861896878
+adding for i: 0, c:50
+hashCode: 4263861896878, hashPos: 28
+gthanos: 109406
+adding for i: 0, c:50
+hashCode: 109406, hashPos: 6
+gthanos: 141303745750902
+adding for i: 0, c:50
+hashCode: 141303745750902, hashPos: 2
+gthanos: 3614657
+adding for i: 0, c:50
+hashCode: 3614657, hashPos: 7
+gthanos: 3618796
+adding for i: 0, c:50
+hashCode: 3618796, hashPos: 46
+gthanos: 140708772671215
+adding for i: 0, c:50
+hashCode: 140708772671215, hashPos: 15
+gthanos: 109572
+adding for i: 0, c:50
+hashCode: 109572, hashPos: 22
+gthanos: 108950
+adding for i: 0, c:50
+hashCode: 108950, hashPos: 0
+gthanos: 3936813562
+adding for i: 0, c:50
+hashCode: 3936813562, hashPos: 12
+gthanos: 3922504654
+adding for i: 0, c:50
+hashCode: 3922504654, hashPos: 4
+gthanos: 4645433734477096
+adding for i: 1, c:50
+hashCode: 4645433734477096, hashPos: 47
+gthanos: 141158801475025
+adding for i: 0, c:50
+hashCode: 141158801475025, hashPos: 25
+gthanos: 3914814140
+adding for i: 0, c:50
+hashCode: 3914814140, hashPos: 40
+gthanos: 118669600
+adding for i: 1, c:50
+hashCode: 118669600, hashPos: 1
+ ###### HASH TABLE ######
+ 0. -at-
+ 1. -bees-
+ 2. -original-
+ 4. -group-
+ 6. -on-
+ 7. -she-
+12. -study-
+15. -assigned-
+22. -to-
+25. -learning-
+28. -arrived-
+39. -when-
+40. -about-
+46. -was-
+47. -carefully-
+ --- CAPACITY: 50, SIZE: 15 ---
+
+ ###### Removing words ######
+gthanos: 119427539
+gthanos: 4263861896878
+gthanos: 109406
+gthanos: 141303745750902
+gthanos: 140708772671215
+gthanos: 3936813562
+gthanos: 4645433734477096
+gthanos: 3914814140
+gthanos: 97
+ ###### HASH TABLE ######
+ 0. -at-
+ 1. -bees-
+ 4. -group-
+ 7. -she-
+22. -to-
+25. -learning-
+46. -was-
+ --- CAPACITY: 50, SIZE: 7 ---
+
+ ###### Adding words ######
+gthanos: 3936813562
+adding for i: 0, c:50
+hashCode: 3936813562, hashPos: 12
+gthanos: 118881413
+adding for i: 0, c:50
+hashCode: 118881413, hashPos: 13
+gthanos: 129231121868
+adding for i: 0, c:50
+hashCode: 129231121868, hashPos: 18
+gthanos: 119249429
+adding for i: 0, c:50
+hashCode: 119249429, hashPos: 29
+gthanos: 109398
+adding for i: 0, c:50
+hashCode: 109398, hashPos: 48
+gthanos: 4282570137221
+adding for i: 0, c:50
+hashCode: 4282570137221, hashPos: 21
+gthanos: 141346599315916
+adding for i: 0, c:50
+hashCode: 141346599315916, hashPos: 16
+gthanos: 141477268382587
+adding for i: 0, c:50
+hashCode: 141477268382587, hashPos: 37
+gthanos: 141346046756972
+adding for i: 1, c:50
+hashCode: 141346046756972, hashPos: 23
+gthanos: 4292156844034
+adding for i: 0, c:50
+hashCode: 4292156844034, hashPos: 34
+gthanos: 109208
+adding for i: 0, c:50
+hashCode: 109208, hashPos: 8
+gthanos: 3937438939
+adding for i: 0, c:50
+hashCode: 3937438939, hashPos: 39
+gthanos: 4648755674850292
+adding for i: 0, c:50
+hashCode: 4648755674850292, hashPos: 42
+gthanos: 3597011
+adding for i: 0, c:50
+hashCode: 3597011, hashPos: 11
+gthanos: 4670045606975869
+adding for i: 0, c:50
+hashCode: 4670045606975869, hashPos: 19
+gthanos: 3615746
+adding for i: 1, c:50
+hashCode: 3615746, hashPos: 47
+gthanos: 141303745750902
+adding for i: 0, c:50
+hashCode: 141303745750902, hashPos: 2
+gthanos: 4282062003485
+adding for i: 0, c:50
+hashCode: 4282062003485, hashPos: 35
+ ###### HASH TABLE ######
+ 0. -at-
+ 1. -bees-
+ 2. -original-
+ 4. -group-
+ 7. -she-
+ 8. -in-
+11. -can-
+12. -study-
+13. -have-
+16. -programs-
+18. -become-
+19. -transofrm-
+21. -passage-
+22. -to-
+23. -practice-
+25. -learning-
+29. -rite-
+34. -working-
+35. -outcome-
+37. -students-
+39. -teams-
+42. -employees-
+46. -was-
+47. -the-
+48. -of-
+ --- CAPACITY: 50, SIZE: 25 ---
+

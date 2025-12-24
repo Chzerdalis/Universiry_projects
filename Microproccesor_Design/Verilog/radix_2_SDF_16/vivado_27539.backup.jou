@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Nov 29 00:35:58 2025
+# Process ID         : 27539
+# Current directory  : /home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16
+# Command line       : vivado
+# Log file           : /home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/vivado.log
+# Journal file       : /home/christodoulos-zerdalis/Desktop/8th_semester/Microproccesor Design/Project_Pipelinned-FFT_03531_03466/Verilog/radix_2_SDF_16/vivado.jou
+# Running On         : christodoulos-zerdalis-IdeaPad-3-15IIL05
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+# CPU Frequency      : 2058.934 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 20507 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 24802 MB
+# Available Virtual  : 20649 MB
+#-----------------------------------------------------------
+start_gui
+xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]

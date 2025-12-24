@@ -1,0 +1,115 @@
+gthanos: 119427539
+adding for i: 0, c:10
+hashCode: 119427539, hashPos: 9
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 1 ---
+
+gthanos: 4263861896878
+adding for i: 0, c:10
+hashCode: 4263861896878, hashPos: 8
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 2 ---
+
+gthanos: 3618796
+adding for i: 0, c:10
+hashCode: 3618796, hashPos: 6
+ 6. -was-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 3 ---
+
+gthanos: 109406
+adding for i: 1, c:10
+hashCode: 109406, hashPos: 7
+ 6. -was-
+ 7. -on-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 4 ---
+
+gthanos: 141303745750902
+adding for i: 0, c:10
+hashCode: 141303745750902, hashPos: 2
+ 2. -original-
+ 6. -was-
+ 7. -on-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 5 ---
+
+gthanos: 3914814140
+adding for i: 0, c:10
+hashCode: 3914814140, hashPos: 0
+ 0. -about-
+ 2. -original-
+ 6. -was-
+ 7. -on-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 6 ---
+
+gthanos: 3614657
+adding for i: 4, c:10
+hashCode: 3614657, hashPos: 1
+ 0. -about-
+ 1. -she-
+ 2. -original-
+ 6. -was-
+ 7. -on-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 7 ---
+
+ 0. -about-
+ 1. -she-
+ 2. -original-
+ 6. -was-
+ 7. -on-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 7 ---
+
+gthanos: 140708772671215
+adding for i: 0, c:10
+hashCode: 140708772671215, hashPos: 5
+ 0. -about-
+ 1. -she-
+ 2. -original-
+ 5. -assigned-
+ 6. -was-
+ 7. -on-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 8 ---
+
+gthanos: 109572
+adding for i: 1, c:10
+hashCode: 109572, hashPos: 3
+ 0. -about-
+ 1. -she-
+ 2. -original-
+ 3. -to-
+ 5. -assigned-
+ 6. -was-
+ 7. -on-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 9 ---
+
+gthanos: 108950
+adding for i: 4, c:10
+hashCode: 108950, hashPos: 4
+ 0. -about-
+ 1. -she-
+ 2. -original-
+ 3. -to-
+ 4. -at-
+ 5. -assigned-
+ 6. -was-
+ 7. -on-
+ 8. -arrived-
+ 9. -when-
+ --- CAPACITY: 10, SIZE: 10 ---
+
+HashTableException occured!

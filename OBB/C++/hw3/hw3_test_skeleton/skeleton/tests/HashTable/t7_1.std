@@ -1,0 +1,64 @@
+'when' added!
+'arrived' added!
+'was' added!
+'on' added!
+'original' added!
+'about' added!
+'she' added!
+'was' failed!
+'assigned' added!
+'to' added!
+'at' added!
+'study' added!
+'at' failed!
+'group' added!
+'carefully' added!
+'arrived' failed!
+'learning' added!
+'about' failed!
+'group' failed!
+'bees' added!
+'' failed!
+ ###### HASH TABLE ######
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 15 ---
+
+ ###### START REMOVALS ######
+'when' removed!
+'arrived' removed!
+'was' removed!
+'on' removed!
+'original' removed!
+'about' removed!
+'she' removed!
+'was' removed!
+'assigned' removed!
+'to' removed!
+'at' removed!
+'study' removed!
+'at' removed!
+'group' removed!
+'carefully' removed!
+'arrived' removed!
+'learning' removed!
+'about' removed!
+'group' removed!
+'bees' removed!
+'' removed!
+ ###### HASH TABLE ######
+ --- CAPACITY: 32, SIZE: 0 ---
+

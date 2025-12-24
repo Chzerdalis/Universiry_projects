@@ -1,0 +1,21 @@
+prog2b.c: In function ‘main’:
+prog2b.c:3:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+    3 |  printf("hello";
+      |  ^~~~~~
+prog2b.c:3:2: warning: incompatible implicit declaration of built-in function ‘printf’
+prog2b.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | int main () {
+prog2b.c:3:16: error: expected ‘)’ before ‘;’ token
+    3 |  printf("hello";
+      |                ^
+      |                )
+prog2b.c:4:11: error: expected ‘;’ before ‘}’ token
+    4 |  return 0;
+      |           ^
+      |           ;
+    5 | }
+      | ~          
+prog2b.c:2:6: warning: unused variable ‘x’ [-Wunused-variable]
+    2 |  int x;
+      |      ^

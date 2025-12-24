@@ -1,0 +1,117 @@
+'when' added!
+'arrived' added!
+'on' added!
+'original' added!
+--> Size: 5, New capacity: 16
+'she' added!
+'was' added!
+'assigned' added!
+'to' added!
+--> Size: 9, New capacity: 32
+'at' added!
+'study' added!
+'group' added!
+'carefully' added!
+'learning' added!
+'about' added!
+'bees' added!
+'' failed!
+ ###### HASH TABLE 1 ######
+ 0. -bees-
+ 1. -she-
+ 4. -to-
+ 8. -carefully-
+12. -was-
+14. -arrived-
+15. -assigned-
+16. -group-
+17. -learning-
+19. -when-
+22. -original-
+23. -at-
+26. -study-
+28. -about-
+30. -on-
+ --- CAPACITY: 32, SIZE: 15 ---
+
+'study' added!
+'group' added!
+'have' added!
+'become' added!
+--> Size: 5, New capacity: 16
+'rite' added!
+'of' added!
+'passage' added!
+'at' added!
+--> Size: 9, New capacity: 32
+'programs' added!
+'students' added!
+'practice' added!
+'working' added!
+'in' added!
+'teams' added!
+'employees' added!
+'can' added!
+--> Size: 17, New capacity: 64
+'transofrm' added!
+'the' added!
+'original' added!
+'outcome' added!
+'' failed!
+ ###### HASH TABLE 2 ######
+ 2. -working-
+ 3. -the-
+ 5. -have-
+ 6. -passage-
+12. -become-
+13. -programs-
+14. -group-
+19. -can-
+21. -rite-
+22. -of-
+23. -at-
+24. -in-
+27. -teams-
+29. -outcome-
+44. -practice-
+52. -employees-
+54. -original-
+58. -study-
+59. -students-
+61. -transofrm-
+ --- CAPACITY: 64, SIZE: 20 ---
+
+ ###### HASH TABLE 2+=1 ######
+ 1. -she-
+ 2. -working-
+ 3. -the-
+ 4. -to-
+ 5. -have-
+ 6. -passage-
+12. -become-
+13. -programs-
+14. -group-
+17. -learning-
+19. -can-
+20. -when-
+21. -rite-
+22. -of-
+23. -at-
+24. -in-
+27. -teams-
+29. -outcome-
+30. -on-
+32. -bees-
+40. -carefully-
+44. -practice-
+45. -was-
+46. -arrived-
+47. -assigned-
+52. -employees-
+54. -original-
+58. -study-
+59. -students-
+60. -about-
+61. -transofrm-
+ --- CAPACITY: 64, SIZE: 31 ---
+

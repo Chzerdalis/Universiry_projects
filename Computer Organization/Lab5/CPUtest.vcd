@@ -1,0 +1,2444 @@
+$date
+	Fri Nov 14 14:02:18 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module cpu_tb $end
+$var reg 1 ! clock $end
+$var reg 1 " reset $end
+$var integer 32 # i [31:0] $end
+$scope module cpu0 $end
+$var wire 1 ! clock $end
+$var wire 1 " reset $end
+$var wire 1 $ zero $end
+$var wire 32 % rdB [31:0] $end
+$var wire 32 & WriteData [31:0] $end
+$var wire 5 ' WriteAddress [4:0] $end
+$var wire 1 ( RegWrite $end
+$var wire 1 ) RegDst $end
+$var wire 32 * NewPC [31:0] $end
+$var wire 1 + NeqBranch $end
+$var wire 1 , MemWrite $end
+$var wire 1 - MemToReg $end
+$var wire 1 . MemRead $end
+$var wire 32 / MemData [31:0] $end
+$var wire 32 0 Instruction [31:0] $end
+$var wire 32 1 ExtOffset [31:0] $end
+$var wire 1 2 EqBranch $end
+$var wire 32 3 AluInB [31:0] $end
+$var wire 32 4 AluInA [31:0] $end
+$var wire 32 5 ALUout [31:0] $end
+$var wire 2 6 ALUcntrl [1:0] $end
+$var wire 1 7 ALUSrc $end
+$var wire 4 8 ALUOp [3:0] $end
+$var reg 32 9 PC [31:0] $end
+$scope module ALU $end
+$var wire 32 : inB [31:0] $end
+$var wire 1 $ zero $end
+$var wire 4 ; op [3:0] $end
+$var wire 32 < inA [31:0] $end
+$var reg 32 = out [31:0] $end
+$upscope $end
+$scope module ALU_CONTROL $end
+$var wire 6 > func [5:0] $end
+$var wire 2 ? ALUcntrl [1:0] $end
+$var reg 4 @ ALUOp [3:0] $end
+$upscope $end
+$scope module CONTROL $end
+$var wire 6 A opcode [5:0] $end
+$var reg 1 7 ALUSrc $end
+$var reg 2 B ALUcntrl [1:0] $end
+$var reg 1 C Branch $end
+$var reg 1 2 EqBranch $end
+$var reg 1 . MemRead $end
+$var reg 1 - MemToReg $end
+$var reg 1 , MemWrite $end
+$var reg 1 + NeqBranch $end
+$var reg 1 ) RegDst $end
+$var reg 1 ( RegWrite $end
+$upscope $end
+$scope module DATA_MEMORY $end
+$var wire 32 D addr [31:0] $end
+$var wire 1 ! clock $end
+$var wire 1 . ren $end
+$var wire 1 " reset $end
+$var wire 1 , wen $end
+$var wire 32 E dout [31:0] $end
+$var wire 32 F din [31:0] $end
+$upscope $end
+$scope module cpu_IMem $end
+$var wire 32 G addr [31:0] $end
+$var wire 1 H clock $end
+$var wire 32 I din [31:0] $end
+$var wire 1 J ren $end
+$var wire 1 " reset $end
+$var wire 1 K wen $end
+$var wire 32 L dout [31:0] $end
+$upscope $end
+$scope module cpu_regs $end
+$var wire 1 ! clock $end
+$var wire 5 M raA [4:0] $end
+$var wire 5 N raB [4:0] $end
+$var wire 32 O rdA [31:0] $end
+$var wire 32 P rdB [31:0] $end
+$var wire 1 " reset $end
+$var wire 5 Q wa [4:0] $end
+$var wire 32 R wd [31:0] $end
+$var wire 1 ( wen $end
+$var integer 32 S i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 T \data[0] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 U \data[1] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 V \data[2] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 W \data[3] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 X \data[4] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 Y \data[5] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 Z \data[6] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 [ \data[7] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 \ \data[8] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 ] \data[9] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 ^ \data[10] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 _ \data[11] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 ` \data[12] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 a \data[13] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 b \data[14] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 c \data[15] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 d \data[16] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 e \data[17] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 f \data[18] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 g \data[19] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 h \data[20] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 i \data[21] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 j \data[22] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 k \data[23] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 l \data[24] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 m \data[25] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 n \data[26] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 o \data[27] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 p \data[28] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 q \data[29] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 r \data[30] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module cpu_regs $end
+$var reg 32 s \data[31] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 t \data[0] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 u \data[1] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 v \data[2] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 w \data[3] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 x \data[4] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 y \data[5] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 z \data[6] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 { \data[7] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 | \data[8] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 } \data[9] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 ~ \data[10] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 !" \data[11] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 "" \data[12] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 #" \data[13] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 $" \data[14] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 %" \data[15] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 &" \data[16] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 '" \data[17] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 (" \data[18] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 )" \data[19] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 *" \data[20] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 +" \data[21] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 ," \data[22] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 -" \data[23] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 ." \data[24] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 /" \data[25] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 0" \data[26] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 1" \data[27] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 2" \data[28] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 3" \data[29] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 4" \data[30] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 5" \data[31] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 6" \data[32] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 7" \data[33] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 8" \data[34] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 9" \data[35] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 :" \data[36] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 ;" \data[37] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 <" \data[38] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 =" \data[39] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 >" \data[40] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 ?" \data[41] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 @" \data[42] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 A" \data[43] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 B" \data[44] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 C" \data[45] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 D" \data[46] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 E" \data[47] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 F" \data[48] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 G" \data[49] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 H" \data[50] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 I" \data[51] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 J" \data[52] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 K" \data[53] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 L" \data[54] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 M" \data[55] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 N" \data[56] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 O" \data[57] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 P" \data[58] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 Q" \data[59] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 R" \data[60] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 S" \data[61] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 T" \data[62] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 U" \data[63] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 V" \data[64] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 W" \data[65] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 X" \data[66] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 Y" \data[67] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 Z" \data[68] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 [" \data[69] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 \" \data[70] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 ]" \data[71] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 ^" \data[72] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 _" \data[73] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 `" \data[74] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 a" \data[75] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 b" \data[76] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 c" \data[77] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 d" \data[78] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 e" \data[79] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 f" \data[80] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 g" \data[81] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 h" \data[82] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 i" \data[83] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 j" \data[84] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 k" \data[85] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 l" \data[86] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 m" \data[87] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 n" \data[88] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 o" \data[89] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 p" \data[90] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 q" \data[91] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 r" \data[92] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 s" \data[93] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 t" \data[94] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 u" \data[95] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 v" \data[96] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 w" \data[97] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 x" \data[98] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module cpu_tb $end
+$scope module cpu0 $end
+$scope module DATA_MEMORY $end
+$var reg 32 y" \data[99] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx y"
+bx x"
+bx w"
+bx v"
+bx u"
+bx t"
+bx s"
+bx r"
+bx q"
+bx p"
+bx o"
+bx n"
+bx m"
+bx l"
+bx k"
+bx j"
+bx i"
+bx h"
+bx g"
+bx f"
+bx e"
+bx d"
+bx c"
+bx b"
+bx a"
+bx `"
+bx _"
+bx ^"
+bx ]"
+bx \"
+bx ["
+bx Z"
+bx Y"
+bx X"
+bx W"
+bx V"
+bx U"
+bx T"
+bx S"
+bx R"
+bx Q"
+bx P"
+bx O"
+bx N"
+bx M"
+bx L"
+bx K"
+bx J"
+bx I"
+bx H"
+bx G"
+bx F"
+bx E"
+bx D"
+bx C"
+bx B"
+bx A"
+bx @"
+bx ?"
+bx >"
+bx ="
+bx <"
+bx ;"
+bx :"
+bx 9"
+bx 8"
+bx 7"
+bx 6"
+bx 5"
+bx 4"
+bx 3"
+bx 2"
+bx 1"
+bx 0"
+bx /"
+bx ."
+bx -"
+bx ,"
+bx +"
+bx *"
+bx )"
+bx ("
+bx '"
+bx &"
+bx %"
+bx $"
+bx #"
+bx ""
+bx !"
+bx ~
+bx }
+bx |
+bx {
+bx z
+bx y
+bx x
+bx w
+bx v
+bx u
+bx t
+b0 s
+b0 r
+b0 q
+b0 p
+b0 o
+b0 n
+b0 m
+b0 l
+b0 k
+b0 j
+b0 i
+b0 h
+b0 g
+b0 f
+b0 e
+b0 d
+b0 c
+b0 b
+b0 a
+b0 `
+b0 _
+b0 ^
+b0 ]
+b0 \
+b0 [
+b0 Z
+b0 Y
+b0 X
+b0 W
+b0 V
+b0 U
+b0 T
+b100000 S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+0K
+1J
+b0 I
+1H
+b11111111111111111111111111111100 G
+bx F
+bx E
+bx D
+xC
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+b11111111111111111111111111111100 9
+bx 8
+x7
+bx 6
+bx 5
+bx 4
+bx 3
+x2
+bx 1
+bx 0
+bx /
+x.
+x-
+x,
+x+
+b0 *
+x)
+x(
+bx '
+bx &
+bx %
+x$
+b1100100 #
+0"
+0!
+$end
+#5000
+1!
+#10000
+b0 s
+b0 r
+b0 q
+b0 p
+b0 o
+b0 n
+b0 m
+b0 l
+b0 k
+b0 j
+b0 i
+b0 h
+b0 g
+b0 f
+b0 e
+b0 d
+b0 c
+b0 b
+b0 a
+b0 `
+b0 _
+b0 ^
+b0 ]
+b0 \
+b0 [
+b0 Z
+b0 Y
+b0 X
+b0 W
+b0 V
+b0 U
+b0 T
+b100000 S
+0!
+#15000
+1!
+#20000
+b0 s
+b0 r
+b0 q
+b0 p
+b0 o
+b0 n
+b0 m
+b0 l
+b0 k
+b0 j
+b0 i
+b0 h
+b0 g
+b0 f
+b0 e
+b0 d
+b0 c
+b0 b
+b0 a
+b0 `
+b0 _
+b0 ^
+b0 ]
+b0 \
+b0 [
+b0 Z
+b0 Y
+b0 X
+b0 W
+b0 V
+b0 U
+b0 T
+b100000 S
+0!
+#25000
+1!
+#30000
+b0 s
+b0 r
+b0 q
+b0 p
+b0 o
+b0 n
+b0 m
+b0 l
+b0 k
+b0 j
+b0 i
+b0 h
+b0 g
+b0 f
+b0 e
+b0 d
+b0 c
+b0 b
+b0 a
+b0 `
+b0 _
+b0 ^
+b0 ]
+b0 \
+b0 [
+b0 Z
+b0 Y
+b0 X
+b0 W
+b0 V
+b0 U
+b0 T
+b100000 S
+0!
+#35000
+1!
+#40000
+b0 s
+b0 r
+b0 q
+b0 p
+b0 o
+b0 n
+b0 m
+b0 l
+b0 k
+b0 j
+b0 i
+b0 h
+b0 g
+b0 f
+b0 e
+b0 d
+b0 c
+b0 b
+b0 a
+b0 `
+b0 _
+b0 ^
+b0 ]
+b0 \
+b0 [
+b0 Z
+b0 Y
+b0 X
+b0 W
+b0 V
+b0 U
+b0 T
+b100000 S
+0!
+#45000
+1!
+#47500
+b11111 s
+b11110 r
+b11101 q
+b11100 p
+b11011 o
+b11010 n
+b11001 m
+b11000 l
+b10111 k
+b10110 j
+b10101 i
+b10100 h
+b10011 g
+b10010 f
+b10001 e
+b10000 d
+b1111 c
+b1110 b
+b1101 a
+b1100 `
+b1011 _
+b1010 ^
+b1001 ]
+b1000 \
+b111 [
+b110 Z
+b101 Y
+b100 X
+b11 W
+b10 V
+b1 U
+b0 T
+b100000 #
+1"
+#50000
+0!
+#55000
+b10010 &
+b10010 R
+0$
+b10010 5
+b10010 =
+b10010 D
+b10 8
+b10 ;
+b10 @
+b1001 3
+b1001 :
+b1010 '
+b1010 Q
+b10 6
+b10 ?
+b10 B
+02
+1(
+07
+0-
+0,
+0.
+1)
+0+
+b100000 >
+b101000000100000 1
+b1001 %
+b1001 F
+b1001 P
+b1001 N
+b1001 4
+b1001 <
+b1001 O
+b1001 M
+b0 A
+b1001010010101000000100000 0
+b1001010010101000000100000 L
+b100 *
+b0 9
+b0 G
+1!
+#60000
+b10010 ^
+0!
+#65000
+b1100 &
+b1100 R
+b100 3
+b100 :
+b1100 5
+b1100 =
+b1100 D
+b1001 '
+b1001 Q
+b100100000100000 1
+b100 %
+b100 F
+b100 P
+b100 N
+b1000 4
+b1000 <
+b1000 O
+b1000 M
+b1000001000100100000100000 0
+b1000001000100100000100000 L
+b1000 *
+b100 9
+b100 G
+1!
+#70000
+b1100 ]
+0!
+#75000
+bx &
+bx R
+b101 3
+b101 :
+b10000 5
+b10000 =
+b10000 D
+b0x00x '
+b0x00x Q
+b0 6
+b0 ?
+b0 B
+1,
+17
+x-
+x)
+0(
+b101 >
+b101 1
+b1100 %
+b1100 F
+b1100 P
+b1001 N
+b1011 4
+b1011 <
+b1011 O
+b1011 M
+b101011 A
+b10101101011010010000000000000101 0
+b10101101011010010000000000000101 L
+b1100 *
+b1000 9
+b1000 G
+1!
+#80000
+b1100 x
+0!
+#85000
+b1100 &
+b1100 R
+b1100 /
+b1100 E
+b10010 '
+b10010 Q
+0,
+1-
+1.
+0)
+1(
+b10010 %
+b10010 F
+b10010 P
+b10010 N
+b100011 A
+b10001101011100100000000000000101 0
+b10001101011100100000000000000101 L
+b10000 *
+b1100 9
+b1100 G
+1!
+#90000
+b1100 f
+b1100 %
+b1100 F
+b1100 P
+0!
+#95000
+bx /
+bx E
+b1 &
+b1 R
+b111 8
+b111 ;
+b111 @
+b10011 3
+b10011 :
+b1 5
+b1 =
+b1 D
+b1001 '
+b1001 Q
+b10 6
+b10 ?
+b10 B
+07
+0-
+0.
+1)
+b101010 >
+b100100000101010 1
+b10011 %
+b10011 F
+b10011 P
+b10011 N
+b1000 4
+b1000 <
+b1000 O
+b1000 M
+b0 A
+b1000100110100100000101010 0
+b1000100110100100000101010 L
+b10100 *
+b10000 9
+b10000 G
+1!
+#100000
+b1 ]
+0!
+#105000
+b10001 &
+b10001 R
+b10001 5
+b10001 =
+b10001 D
+b10 8
+b10 ;
+b10 @
+b1 3
+b1 :
+b10000 '
+b10000 Q
+b0 6
+b0 ?
+b0 B
+17
+0)
+b1 >
+b1 1
+b10000 %
+b10000 F
+b10000 P
+b10000 N
+b10000 4
+b10000 <
+b10000 O
+b10000 M
+b1000 A
+b100010000100000000000000000001 0
+b100010000100000000000000000001 L
+b11000 *
+b10100 9
+b10100 G
+1!
+#110000
+b10010 &
+b10010 R
+b10010 5
+b10010 =
+b10010 D
+b10001 d
+b10001 4
+b10001 <
+b10001 O
+b10001 %
+b10001 F
+b10001 P
+0!
+#115000
+b1 &
+b1 R
+b110 8
+b110 ;
+b110 @
+b10001 3
+b10001 :
+b1 5
+b1 =
+b1 D
+b1 6
+b1 ?
+b1 B
+07
+0(
+1+
+b111010 >
+b11111111111111111111111111111010 1
+b10010 4
+b10010 <
+b10010 O
+b1010 M
+b101 A
+b10101010100001111111111111010 0
+b10101010100001111111111111010 L
+b100 *
+b11000 9
+b11000 G
+1!
+#120000
+0!
+#125000
+b1100 &
+b1100 R
+b10 8
+b10 ;
+b10 @
+b100 3
+b100 :
+b1100 5
+b1100 =
+b1100 D
+b1001 '
+b1001 Q
+b10 6
+b10 ?
+b10 B
+1(
+1)
+0+
+b100000 >
+b100100000100000 1
+b100 %
+b100 F
+b100 P
+b100 N
+b1000 4
+b1000 <
+b1000 O
+b1000 M
+b0 A
+b1000001000100100000100000 0
+b1000001000100100000100000 L
+b1000 *
+b100 9
+b100 G
+1!
+#130000
+b1100 ]
+0!
+#135000
+bx &
+bx R
+b101 3
+b101 :
+b10000 5
+b10000 =
+b10000 D
+b0x00x '
+b0x00x Q
+b0 6
+b0 ?
+b0 B
+1,
+17
+x-
+x)
+0(
+b101 >
+b101 1
+b1100 %
+b1100 F
+b1100 P
+b1001 N
+b1011 4
+b1011 <
+b1011 O
+b1011 M
+b101011 A
+b10101101011010010000000000000101 0
+b10101101011010010000000000000101 L
+b1100 *
+b1000 9
+b1000 G
+1!
+#140000
+b1100 x
+0!
+#145000
+b1100 &
+b1100 R
+b1100 /
+b1100 E
+b10010 '
+b10010 Q
+0,
+1-
+1.
+0)
+1(
+b10010 N
+b100011 A
+b10001101011100100000000000000101 0
+b10001101011100100000000000000101 L
+b10000 *
+b1100 9
+b1100 G
+1!
+#150000
+b1100 f
+0!
+#155000
+bx /
+bx E
+b1 &
+b1 R
+b111 8
+b111 ;
+b111 @
+b10011 3
+b10011 :
+b1 5
+b1 =
+b1 D
+b1001 '
+b1001 Q
+b10 6
+b10 ?
+b10 B
+07
+0-
+0.
+1)
+b101010 >
+b100100000101010 1
+b10011 %
+b10011 F
+b10011 P
+b10011 N
+b1000 4
+b1000 <
+b1000 O
+b1000 M
+b0 A
+b1000100110100100000101010 0
+b1000100110100100000101010 L
+b10100 *
+b10000 9
+b10000 G
+1!
+#160000
+b1 ]
+0!
+#165000
+b10010 &
+b10010 R
+b10010 5
+b10010 =
+b10010 D
+b10 8
+b10 ;
+b10 @
+b1 3
+b1 :
+b10000 '
+b10000 Q
+b0 6
+b0 ?
+b0 B
+17
+0)
+b1 >
+b1 1
+b10001 %
+b10001 F
+b10001 P
+b10000 N
+b10001 4
+b10001 <
+b10001 O
+b10000 M
+b1000 A
+b100010000100000000000000000001 0
+b100010000100000000000000000001 L
+b11000 *
+b10100 9
+b10100 G
+1!
+#170000
+b10011 &
+b10011 R
+b10011 5
+b10011 =
+b10011 D
+b10010 d
+b10010 4
+b10010 <
+b10010 O
+b10010 %
+b10010 F
+b10010 P
+0!
+#175000
+b0 &
+b0 R
+1$
+b0 5
+b0 =
+b0 D
+b110 8
+b110 ;
+b110 @
+b10010 3
+b10010 :
+b1 6
+b1 ?
+b1 B
+07
+0(
+1+
+b111010 >
+b11111111111111111111111111111010 1
+b1010 M
+b101 A
+b10101010100001111111111111010 0
+b10101010100001111111111111010 L
+b11100 *
+b11000 9
+b11000 G
+1!
+#180000
+0!
+#185000
+bx &
+bx R
+b10 8
+b10 ;
+b10 @
+b11111111111111111111111111111101 3
+b11111111111111111111111111111101 :
+0$
+b1000 5
+b1000 =
+b1000 D
+bx1xx1 '
+bx1xx1 Q
+b0 6
+b0 ?
+b0 B
+1,
+17
+x-
+x)
+0+
+b111101 >
+b11111111111111111111111111111101 1
+b1 %
+b1 F
+b1 P
+b1001 N
+b1011 4
+b1011 <
+b1011 O
+b1011 M
+b101011 A
+b10101101011010011111111111111101 0
+b10101101011010011111111111111101 L
+b100000 *
+b11100 9
+b11100 G
+1!
+#190000
+b1 v
+0!
+#195000
+1$
+b0 &
+b0 R
+b1001 '
+b1001 Q
+b11111111111111111111111111111111 3
+b11111111111111111111111111111111 :
+b0 5
+b0 =
+b0 D
+0,
+0-
+0)
+1(
+b111111 >
+b11111111111111111111111111111111 1
+b1 4
+b1 <
+b1 O
+b1001 M
+b1000 A
+b100001001010011111111111111111 0
+b100001001010011111111111111111 L
+b100100 *
+b100000 9
+b100000 G
+1!
+#200000
+b11111111111111111111111111111111 &
+b11111111111111111111111111111111 R
+0$
+b11111111111111111111111111111111 5
+b11111111111111111111111111111111 =
+b11111111111111111111111111111111 D
+b0 ]
+b0 4
+b0 <
+b0 O
+b0 %
+b0 F
+b0 P
+0!
+#205000
+b1111 &
+b1111 R
+b100 3
+b100 :
+b1111 5
+b1111 =
+b1111 D
+b1011 '
+b1011 Q
+b100 >
+b100 1
+b1011 %
+b1011 F
+b1011 P
+b1011 N
+b1011 4
+b1011 <
+b1011 O
+b1011 M
+b100001011010110000000000000100 0
+b100001011010110000000000000100 L
+b101000 *
+b100100 9
+b100100 G
+1!
+#210000
+b10011 &
+b10011 R
+b10011 5
+b10011 =
+b10011 D
+b1111 _
+b1111 4
+b1111 <
+b1111 O
+b1111 %
+b1111 F
+b1111 P
+0!
+#215000
+bx &
+bx R
+bx 3
+bx :
+x$
+bx 5
+bx =
+bx D
+bx '
+bx Q
+bx >
+bx 1
+bx %
+bx F
+bx P
+bx N
+bx 4
+bx <
+bx O
+bx M
+bx A
+bx 0
+bx L
+b101100 *
+b101000 9
+b101000 G
+1!
+#220000
+0!
+#225000
+b110000 *
+b101100 9
+b101100 G
+1!
+#230000
+0!
+#235000
+b110100 *
+b110000 9
+b110000 G
+1!
+#240000
+0!
+#245000
+b111000 *
+b110100 9
+b110100 G
+1!
+#250000
+0!
+#255000
+b111100 *
+b111000 9
+b111000 G
+1!
+#260000
+0!
+#265000
+b1000000 *
+b111100 9
+b111100 G
+1!
+#270000
+0!
+#275000
+b11111111111111111111111111110000 &
+b11111111111111111111111111110000 R
+0$
+b11111111111111111111111111110000 5
+b11111111111111111111111111110000 =
+b11111111111111111111111111110000 D
+b110 8
+b110 ;
+b110 @
+b11111 3
+b11111 :
+b11111 '
+b11111 Q
+b1 6
+b1 ?
+b1 B
+07
+0(
+1+
+b111100 >
+b11111111111111111111111111111100 1
+b11111 %
+b11111 F
+b11111 P
+b11111 N
+b1111 4
+b1111 <
+b1111 O
+b1011 M
+b101 A
+b10101011111111111111111111100 0
+b10101011111111111111111111100 L
+b110100 *
+b1000000 9
+b1000000 G
+1!
+#280000
+0!
+#285000
+bx &
+bx R
+bx 3
+bx :
+x$
+bx 5
+bx =
+bx D
+bx '
+bx Q
+bx >
+bx 1
+bx %
+bx F
+bx P
+bx N
+bx 4
+bx <
+bx O
+bx M
+bx A
+bx 0
+bx L
+bx *
+b110100 9
+b110100 G
+1!
+#290000
+0!
+#295000
+bx 9
+bx G
+1!
+#300000
+0!
+#305000
+1!
+#310000
+0!
+#315000
+1!
+#320000
+0!
+#325000
+1!
+#330000
+0!
+#335000
+1!
+#340000
+0!
+#345000
+1!
+#350000
+0!
+#355000
+1!
+#360000
+0!
+#365000
+1!
+#370000
+0!
+#375000
+1!
+#380000
+0!
+#385000
+1!
+#390000
+0!
+#395000
+1!
+#400000
+0!
+#405000
+1!
+#410000
+0!
+#415000
+1!
+#420000
+0!
+#425000
+1!
+#430000
+0!
+#435000
+1!
+#440000
+0!
+#445000
+1!
+#450000
+0!
+#455000
+1!
+#460000
+0!
+#465000
+1!
+#470000
+0!
+#475000
+1!
+#480000
+0!
+#485000
+1!
+#490000
+0!
+#495000
+1!
+#500000
+0!
+#505000
+1!
+#510000
+0!
+#515000
+1!
+#520000
+0!
+#525000
+1!
+#530000
+0!
+#535000
+1!
+#540000
+0!
+#545000
+1!
+#550000
+0!
+#555000
+1!
+#560000
+0!
+#565000
+1!
+#570000
+0!
+#575000
+1!
+#580000
+0!
+#585000
+1!
+#590000
+0!
+#595000
+1!
+#600000
+0!
+#605000
+1!
+#610000
+0!
+#615000
+1!
+#620000
+0!
+#625000
+1!
+#630000
+0!
+#635000
+1!
+#640000
+0!
+#645000
+1!
+#650000
+0!
+#655000
+1!
+#660000
+0!
+#665000
+1!
+#670000
+0!
+#675000
+1!
+#680000
+0!
+#685000
+1!
+#690000
+0!
+#695000
+1!
+#700000
+0!
+#705000
+1!
+#710000
+0!
+#715000
+1!
+#720000
+0!
+#725000
+1!
+#730000
+0!
+#735000
+1!
+#740000
+0!
+#745000
+1!
+#750000
+0!
+#755000
+1!
+#760000
+0!
+#765000
+1!
+#770000
+0!
+#775000
+1!
+#780000
+0!
+#785000
+1!
+#790000
+0!
+#795000
+1!
+#800000
+0!
+#805000
+1!
+#810000
+0!
+#815000
+1!
+#820000
+0!
+#825000
+1!
+#830000
+0!
+#835000
+1!
+#840000
+0!
+#845000
+1!
+#850000
+0!
+#855000
+1!
+#860000
+0!
+#865000
+1!
+#870000
+0!
+#875000
+1!
+#880000
+0!
+#885000
+1!
+#890000
+0!
+#895000
+1!
+#900000
+0!
+#905000
+1!
+#910000
+0!
+#915000
+1!
+#920000
+0!
+#925000
+1!
+#930000
+0!
+#935000
+1!
+#940000
+0!
+#945000
+1!
+#950000
+0!
+#955000
+1!
+#960000
+0!
+#965000
+1!
+#970000
+0!
+#975000
+1!
+#980000
+0!
+#985000
+1!
+#990000
+0!
+#995000
+1!
+#1000000
+0!
+#1005000
+1!
+#1010000
+0!
+#1015000
+1!
+#1020000
+0!
+#1025000
+1!
+#1030000
+0!
+#1035000
+1!
+#1040000
+0!
+#1045000
+1!
+#1047500
