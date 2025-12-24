@@ -1,0 +1,16 @@
+**** module/scope: Vsync
+     Flip-Flops   : 2
+     Logic Gates  : 532
+     EQUALITY[32]: 8 units
+     MUX[2]: 8 slices
+     LPM[5]: 3 unaccounted
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** TOTALS
+     Flip-Flops   : 2
+     Logic Gates  : 532
+     EQUALITY[32]: 8 units
+     MUX[2]: 8 slices
+     LPM[5]: 3 unaccounted
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted

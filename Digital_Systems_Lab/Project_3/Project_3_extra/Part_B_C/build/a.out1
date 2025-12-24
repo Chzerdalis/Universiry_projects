@@ -1,0 +1,12 @@
+**** module/scope: address_control
+     Flip-Flops   : 0
+     Logic Gates  : 29
+     MUX[2]: 14 slices
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** TOTALS
+     Flip-Flops   : 0
+     Logic Gates  : 29
+     MUX[2]: 14 slices
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted

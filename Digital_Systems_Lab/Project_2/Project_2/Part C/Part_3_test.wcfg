@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="receive_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="receive_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="306741000001fs"></ZoomEndTime>
+      <Cursor1Time time="106740000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="129"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/receive_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Tx_WR" type="logic">
+      <obj_property name="ElementShortName">Tx_WR</obj_property>
+      <obj_property name="ObjectShortName">Tx_WR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Tx_DATA" type="array">
+      <obj_property name="ElementShortName">Tx_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_DATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/bit_data" type="logic">
+      <obj_property name="ElementShortName">bit_data</obj_property>
+      <obj_property name="ObjectShortName">bit_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Rx_DATA" type="array">
+      <obj_property name="ElementShortName">Rx_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Rx_DATA[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re/next_Rx_DATA" type="array">
+      <obj_property name="ElementShortName">next_Rx_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">next_Rx_DATA[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re/count_ENABLE" type="logic">
+      <obj_property name="ElementShortName">count_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">count_ENABLE</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re/Rx_sample_ENABLE" type="logic">
+      <obj_property name="ElementShortName">Rx_sample_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">Rx_sample_ENABLE</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re/receive_counter" type="array">
+      <obj_property name="ElementShortName">receive_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">receive_counter[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Rx_FERROR" type="logic">
+      <obj_property name="ElementShortName">Rx_FERROR</obj_property>
+      <obj_property name="ObjectShortName">Rx_FERROR</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Rx_PERROR" type="logic">
+      <obj_property name="ElementShortName">Rx_PERROR</obj_property>
+      <obj_property name="ObjectShortName">Rx_PERROR</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Rx_VALID" type="logic">
+      <obj_property name="ElementShortName">Rx_VALID</obj_property>
+      <obj_property name="ObjectShortName">Rx_VALID</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_tr/sample_ENABLE" type="logic">
+      <obj_property name="ElementShortName">sample_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">sample_ENABLE</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Tx_BUSY" type="logic">
+      <obj_property name="ElementShortName">Tx_BUSY</obj_property>
+      <obj_property name="ObjectShortName">Tx_BUSY</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_tr/ENABLE_count" type="array">
+      <obj_property name="ElementShortName">ENABLE_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ENABLE_count[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_tr/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_tr/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_receiver_perror/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_receiver_perror/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_receiver_perror/count_ENABLE" type="logic">
+      <obj_property name="ElementShortName">count_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">count_ENABLE</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_receiver_perror/Rx_sample_ENABLE" type="logic">
+      <obj_property name="ElementShortName">Rx_sample_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">Rx_sample_ENABLE</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Rx_FERROR_p" type="logic">
+      <obj_property name="ElementShortName">Rx_FERROR_p</obj_property>
+      <obj_property name="ObjectShortName">Rx_FERROR_p</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Rx_PERROR_p" type="logic">
+      <obj_property name="ElementShortName">Rx_PERROR_p</obj_property>
+      <obj_property name="ObjectShortName">Rx_PERROR_p</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Rx_VALID_p" type="logic">
+      <obj_property name="ElementShortName">Rx_VALID_p</obj_property>
+      <obj_property name="ObjectShortName">Rx_VALID_p</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re_ferror/next_Rx_DATA" type="array">
+      <obj_property name="ElementShortName">next_Rx_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">next_Rx_DATA[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re_ferror/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re_ferror/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re_ferror/count_ENABLE" type="logic">
+      <obj_property name="ElementShortName">count_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">count_ENABLE</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re_ferror/Rx_sample_ENABLE" type="logic">
+      <obj_property name="ElementShortName">Rx_sample_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">Rx_sample_ENABLE</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/uart_re_ferror/receive_counter" type="array">
+      <obj_property name="ElementShortName">receive_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">receive_counter[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Rx_FERROR_f" type="logic">
+      <obj_property name="ElementShortName">Rx_FERROR_f</obj_property>
+      <obj_property name="ObjectShortName">Rx_FERROR_f</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Rx_PERROR_f" type="logic">
+      <obj_property name="ElementShortName">Rx_PERROR_f</obj_property>
+      <obj_property name="ObjectShortName">Rx_PERROR_f</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/receive_tb/Rx_VALID_f" type="logic">
+      <obj_property name="ElementShortName">Rx_VALID_f</obj_property>
+      <obj_property name="ObjectShortName">Rx_VALID_f</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

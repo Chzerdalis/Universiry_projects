@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4026115000001fs"></ZoomEndTime>
+      <Cursor1Time time="1501755000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="199"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/BB/reset_db" type="logic">
+      <obj_property name="ElementShortName">reset_db</obj_property>
+      <obj_property name="ObjectShortName">reset_db</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/Hsync" type="logic">
+      <obj_property name="ElementShortName">Hsync</obj_property>
+      <obj_property name="ObjectShortName">Hsync</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/BB/counter_1/H_counter" type="array">
+      <obj_property name="ElementShortName">H_counter[11:0]</obj_property>
+      <obj_property name="ObjectShortName">H_counter[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/BB/FSM_H/currentstate" type="array">
+      <obj_property name="ElementShortName">currentstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">currentstate[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/BB/FSM_H/nextstate" type="array">
+      <obj_property name="ElementShortName">nextstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nextstate[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/BB/FSM_H/H_pixel_disp" type="logic">
+      <obj_property name="ElementShortName">H_pixel_disp</obj_property>
+      <obj_property name="ObjectShortName">H_pixel_disp</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/Vsync" type="logic">
+      <obj_property name="ElementShortName">Vsync</obj_property>
+      <obj_property name="ObjectShortName">Vsync</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/BB/counter_5/Vpixel" type="array">
+      <obj_property name="ElementShortName">Vpixel[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Vpixel[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/BB/FSM_V/currentstate" type="array">
+      <obj_property name="ElementShortName">currentstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">currentstate[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/BB/FSM_V/nextstate" type="array">
+      <obj_property name="ElementShortName">nextstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nextstate[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/BB/FSM_V/V_pixel_disp" type="logic">
+      <obj_property name="ElementShortName">V_pixel_disp</obj_property>
+      <obj_property name="ObjectShortName">V_pixel_disp</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/VGA_BLUE" type="logic">
+      <obj_property name="ElementShortName">VGA_BLUE</obj_property>
+      <obj_property name="ObjectShortName">VGA_BLUE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/VGA_GREEN" type="logic">
+      <obj_property name="ElementShortName">VGA_GREEN</obj_property>
+      <obj_property name="ObjectShortName">VGA_GREEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/VGA_RED" type="logic">
+      <obj_property name="ElementShortName">VGA_RED</obj_property>
+      <obj_property name="ObjectShortName">VGA_RED</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/BB/vram/address" type="array">
+      <obj_property name="ElementShortName">address[13:0]</obj_property>
+      <obj_property name="ObjectShortName">address[13:0]</obj_property>
+   </wvobject>
+</wave_config>
