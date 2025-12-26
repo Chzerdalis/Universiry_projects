@@ -1,4 +1,4 @@
-This repository contains the hardware design and implementation files for the **ECE333 - Digital Systems Laboratory** course at the **University of Thessaly**. All projects are implemented in **Verilog HDL** and deployed on the **Nexys A7-100T FPGA**.
+This repository contains the hardware design and implementation files for the **Digital Systems Laboratory** course. All projects are implemented in **Verilog HDL** and deployed on the **Nexys A7-100T FPGA**.
 
 ---
 
@@ -36,9 +36,4 @@ The laboratory curriculum focuses on RTL design, simulation, and hardware verifi
 * **System Integration:** Raw binary sensor data is converted to BCD/ASCII and transmitted via the Lab 2 UART to a PC terminal (PuTTY).
 * **Data Processing:** Optional data averaging to minimize sensor noise for stable real-time display.
 
----
 
-## 📁 System Requirements
-* **Hardware:** Nexys A7-100T FPGA (Artix-7).
-* **Software:** Xilinx Vivado Design Suite.
-* **Terminal Setup (PuTTY):** 57600 baud, 8 data bits, 1 stop bit, Odd parity.

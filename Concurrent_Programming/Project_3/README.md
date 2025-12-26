@@ -34,8 +34,6 @@ This exercise simulates a narrow bridge that can only be crossed by one directio
 * **Coordination:** It uses the custom semaphores from Exercise 1 to track how many cars are currently on the bridge (`car_on_brige`) and ensures that if Blue cars are crossing, Red cars must wait, and vice versa.
 * **The Controller:** A consumer thread simulates the bridge's capacity management, signaling when cars "exit" so new ones can enter.
 
-
-
 ---
 
 ## 🎢 Exercise 4: The Roller Coaster Problem
@@ -47,12 +45,3 @@ This exercise models a synchronization barrier where a "Train" thread and multip
 * **Ride Execution:** Once full, the train thread "runs" (simulated by `sleep`), and the passengers must wait until the ride is finished before they can unblock and exit.
 * **Dynamic Arrival:** The program accepts user input to define specific time intervals and quantities for spawning new passenger threads.
 
----
-
-## 🧪 Technical Skills Demonstrated
-| Concept | Implementation in Project |
-| :--- | :--- |
-| **Mutual Exclusion** | Protecting shared counters like `boarded` or `car_counter` using `pthread_mutex_lock`. |
-| **Condition Signaling** | Waking up specific threads (like the Train or waiting cars) using `pthread_cond_signal`. |
-| **Resource Cleanup** | Ensuring all mutexes and condition variables are destroyed and memory is freed upon exit. |
-| **Signal Handling** | Using `SIGINT` to trigger a clean shutdown of the simulation. |

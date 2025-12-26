@@ -28,16 +28,4 @@ The study analyzed three distinct tests. Key observations include:
 | **CPL by Edge Removal** | CPL increases while edges are removed without a split, followed by a sudden drop when the graph disconnects. |
 | **Sub-graph Evolution** | In Test 3, sub-graphs often split unequally, leading to temporary CPL spikes in the larger sub-graph immediately after a division. |
 
-
-
----
-
-## 🚀 Execution Instructions
-
-1.  **File Configuration**: Before execution, you **must change the file path on line 14** of the execution script to match your local directory.
-2.  **Input Files**: Ensure you use the provided test files, as they are formatted specifically for the program's reader.
-3.  **Output**:
-    * The program generates **text-based performance data and statistics** via the console.
-    * **Note**: The program does not generate graphs. All visual charts in the documentation were created using **Excel**.
-
 ---

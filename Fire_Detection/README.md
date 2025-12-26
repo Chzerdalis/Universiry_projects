@@ -12,8 +12,6 @@ The system is composed of three primary modules:
 2.  **The AI Processing Server (Consumer/Producer):** A workstation that receives image frames, runs object detection for humans and fire, and publishes the results.
 3.  **The Notification Unit (Consumer):** A Raspberry Pi with an LED that provides visual alerts based on the detection results.
 
-
-
 ---
 
 ## 📂 Component Breakdown
@@ -31,7 +29,7 @@ The system is composed of three primary modules:
     * `best80.pt`: Custom-trained model for fire detection.
 * **Logic:**
     * Decodes the Base64 stream back into an image array.
-    * Runs inference for both fire and humans using **CUDA** (if available).
+    * Runs inference for both fire and humans.
     * Plays an audible **beep** via `sounddevice` if fire is detected.
     * Publishes a numeric status code (0-3) to the `human_detected` topic.
 
@@ -42,29 +40,3 @@ The system is composed of three primary modules:
     * **1 (Human):** Constant LED On.
     * **2 (Fire):** Slow blinking (0.1s intervals).
     * **3 (Both):** Rapid blinking (0.025s intervals).
-
----
-
-## 📡 MQTT Topic Structure
-
-| Topic | Payload | Description |
-| :--- | :--- | :--- |
-| `iot/team8/frames/#` | Base64 String | Raw image data from the camera. |
-| `iot/team8/human_detected` | Integer (0-3) | Status codes based on AI inference. |
-
----
-
-## 🛠️ Setup & Installation
-
-### Prerequisites
-* **Python 3.9+**
-* **MQTT Broker:** Currently configured for `194.177.207.38` on port `1883` (provided by the school).
-* **Environment Variables:** Create a `.env` file containing:
-    ```env
-    MQTT_PASSWORD=your_team8_password
-    ```
-
-### Dependencies
-Install the required libraries:
-```bash
-pip install paho-mqtt python-dotenv opencv-python ultralytics sounddevice numpy pillow gpiozero

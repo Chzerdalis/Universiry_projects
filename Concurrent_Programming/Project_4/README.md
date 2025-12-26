@@ -14,8 +14,6 @@ This exercise demonstrates a manual, cooperative multitasking model using the `u
 * **Consumer:** Writes data from the buffer to an output file.
 * **Switching:** The threads yield control only when the buffer is full or empty, respectively.
 
-
-
 ---
 
 ## 🧵 Exercise 2: Preemptive User-Level Thread Library
@@ -28,8 +26,6 @@ The core of the lab is a custom thread library that manages multiple execution c
 * **Critical Segments:** A `critical_segment` flag is used to protect the scheduler’s internal state, preventing context switches during sensitive operations.
 * **Thread Synchronization:** Implements custom semaphores (`mythreads_sem_down`, `mythreads_sem_up`) to manage shared resources.
 
-
-
 ---
 
 ## 📚 Exercise 3: Readers-Writers Problem
@@ -40,8 +36,6 @@ This exercise utilizes the thread library developed in Exercise 2 to solve the c
 * **The Readers:** Multiple threads can read a shared counter simultaneously.
 * **The Writer:** A single writer thread must wait for all readers to finish before it can update the counter.
 * **Coordination:** Uses the custom semaphore library (`mtx`, `wrt`) to manage access and prevent race conditions.
-
-
 
 ---
 

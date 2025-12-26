@@ -39,8 +39,6 @@ The SDF architecture is designed for resource efficiency and scalability.
 * **Critical Path:** Radix-4 achieved a significantly better critical path (~7 ns) compared to Radix-2 (~12.5–14 ns) by more effectively utilizing FPGA DSP blocks.
 * **Throughput:** The execution time for SDF is generalized by the formula $T_{SDF} = 2N - 2 + log N$, accounting for input streaming and pipeline delays.
 
-
-
 ### Accuracy
 * Hardware outputs were validated against theoretical results, showing an exact match in behavioral simulations.
 

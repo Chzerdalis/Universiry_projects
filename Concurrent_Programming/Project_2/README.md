@@ -33,8 +33,6 @@ A baseline sequential program used to demonstrate efficient algorithm design wit
 
 This is the main application of the lab, simulating a narrow bridge that can only be crossed by one direction of traffic (Red or Blue) at a time, with a limited capacity (`max_cars`).
 
-
-
 ### Key Components:
 * **Producer Threads:** `producer_red` and `producer_blue` represent cars arriving at the bridge. They must wait if cars from the opposite direction are currently crossing or if the bridge is full.
 * **Consumer Thread:** Acts as the bridge controller that "clears" cars after they have spent time on the bridge.
@@ -48,8 +46,4 @@ This is the main application of the lab, simulating a narrow bridge that can onl
 ---
 
 ## How to Run
-
-### Compilation
-To compile the bridge simulation (Exercise 3), you need to link the semaphore implementation and the pthread library:
-```bash
 gcc -o bridge ask3.c semaphore.c -lpthread

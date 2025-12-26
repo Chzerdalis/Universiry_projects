@@ -32,8 +32,6 @@ This exercise involves creating a custom inter-thread communication primitive th
     * Thread 1 reads from a file and writes to Pipe 1, while simultaneously reading from Pipe 2 to write to a copy.
     * Thread 2 reads from Pipe 1 and writes to Pipe 2.
 
-
-
 ---
 
 ## Exercise 3: Recursive External Merge Sort
@@ -45,16 +43,3 @@ This exercise implements a parallelized version of the Merge Sort algorithm desi
 * **Threshold Logic:** When a segment size is 64 integers or smaller, it is sorted in memory using `insertion_sort` and written back to the file.
 * **Parallelism:** For segments larger than 64, the program spawns two child threads (`pthread_create`) to sort each half concurrently.
 * **External Merging:** Once child threads finish, the parent thread merges the results using temporary files to maintain sorted order across the specific file range.
-
-
-
----
-
-## Technical Summary
-
-| Feature | Implementation Detail |
-| :--- | :--- |
-| **Concurrency** | `pthread` library (creation and termination) |
-| **I/O Operations** | Binary file handling with `fseek`, `fread`, and `fwrite` |
-| **Communication** | Custom circular buffers with blocking logic |
-| **Memory** | Dynamic allocation using `malloc` and `realloc` for thread metadata |
